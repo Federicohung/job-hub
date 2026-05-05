@@ -99,8 +99,56 @@ SPAIN_REGIONS = ['madrid', 'barcelona', 'valencia', 'sevilla', 'bilbao',
 
 
 def is_hispanic_relevant(text: str) -> bool:
+    """Check if any text field suggests Hispanic market relevance.
+    Strategy: location-based (strongest signal) + language mentions + region context."""
     t = text.lower()
-    return any(kw in t for kw in SPANISH_KEYWORDS)
+
+    # Location: direct LATAM/Spain city or country mention
+    location_signals = [
+        'mexico', 'méxico', 'colombia', 'argentina', 'chile', 'peru', 'perú',
+        'bogota', 'bogotá', 'buenos aires', 'santiago', 'lima',
+        'madrid', 'barcelona', 'valencia', 'sevilla', 'bilbao', 'malaga', 'málaga',
+        'costa rica', 'ecuador', 'venezuela', 'uruguay', 'panama', 'panamá',
+        'guadalajara', 'monterrey', 'medellin', 'medellín', 'caracas',
+        'montevideo', 'quito', 'guatemala', 'spain', 'españa', 'espana',
+        'sudamerica',
+    ]
+    has_location = any(loc in t for loc in location_signals)
+
+    # Language: explicit Spanish requirement
+    language_signals = [
+        'spanish', 'español', 'espanol', 'hispanic', 'hispano',
+        'bilingue', 'bilingüe', 'bilingual',
+        'spanish speaking', 'fluent spanish', 'hablar español',
+        'spanish required', 'spanish mandatory', 'español hablado',
+    ]
+    has_language = any(kw in t for kw in language_signals)
+
+    # Region context: LATAM in job scope
+    region_context = any(kw in t for kw in [
+        'latam', 'latin america', 'latinoamérica', 'latinoamerica',
+        'emea and latam', 'latam south', 'latam north', 'latam region',
+        'latin american', 'north america latam', 'mercado hispano',
+    ])
+
+    # Decision logic:
+    # 1. Location match (Spain/LATAM city) = always relevant
+    # 2. Region context (LATAM in scope) = relevant
+    # 3. Language mention + no specific non-Hispanic location = relevant
+    if has_location:
+        return True
+    if region_context:
+        return True
+    if has_language:
+        # Accept but exclude if clearly non-relevant (e.g. "Native English and Spanish" in a US-only job)
+        non_hispanic_only = any(loc in t for loc in [
+            'united states only', 'us-only', 'usa only', 'uk only',
+            'germany only', 'berlin only', 'london only',
+        ])
+        if not non_hispanic_only:
+            return True
+
+    return False
 
 
 def detect_location_priority(location_str: str, description: str = '', remote: bool = False) -> dict:
@@ -452,21 +500,51 @@ def run_pipeline():
     log.info('=== Job Hub Pipeline START ===')
     all_jobs = []
 
-    sources = [
+    # Phase 1: Free APIs (fast, no browser)
+    api_sources = [
         ('Remotive', scrape_remotive),
         ('Arbeitnow', scrape_arbeitnow),
         ('RemoteOK', scrape_remoteok),
         ('Torre', scrape_torre),
     ]
 
-    for name, fn in sources:
-        log.info(f'Scraping {name}...')
+    for name, fn in api_sources:
+        log.info(f'[API] {name}...')
         try:
             results = fn()
             all_jobs.extend(results)
-            log.info(f'{name}: {len(results)} jobs')
+            log.info(f'[API] {name}: {len(results)} jobs')
         except Exception as e:
-            log.error(f'{name} FAILED: {e}')
+            log.error(f'[API] {name} FAILED: {e}')
+
+    # Phase 2: Scraping Hispanic job boards (real Spanish jobs)
+    log.info('=== Phase 2: Scraping Hispanic Job Boards ===')
+    import importlib.util
+
+    _script_dir = os.path.dirname(os.path.abspath(__file__))
+    MAX_JOBS = 1000
+
+    try:
+        spec = importlib.util.spec_from_file_location("scrape_computrabajo", os.path.join(_script_dir, "scrape_computrabajo.py"))
+        mod = importlib.util.module_from_spec(spec)
+        spec.loader.exec_module(mod)
+        log.info(f'Scraping Computrabajo (max {MAX_JOBS})...')
+        ct_jobs = mod.scrape_computrabajo(max_jobs=MAX_JOBS)
+        all_jobs.extend(ct_jobs)
+        log.info(f'[Scrape] Computrabajo: {len(ct_jobs)} jobs')
+    except Exception as e:
+        log.error(f'[Scrape] Computrabajo FAILED: {e}')
+
+    try:
+        spec = importlib.util.spec_from_file_location("scrape_infojobs", os.path.join(_script_dir, "scrape_infojobs.py"))
+        mod = importlib.util.module_from_spec(spec)
+        spec.loader.exec_module(mod)
+        log.info('Scraping InfoJobs (Spain)...')
+        ij_jobs = mod.scrape_infojobs()
+        all_jobs.extend(ij_jobs)
+        log.info(f'[Scrape] InfoJobs: {len(ij_jobs)} jobs')
+    except Exception as e:
+        log.error(f'[Scrape] InfoJobs FAILED: {e}')
 
     before = len(all_jobs)
     all_jobs = deduplicate(all_jobs)
@@ -475,17 +553,20 @@ def run_pipeline():
     # Sort by tier (ascending = higher priority)
     all_jobs.sort(key=lambda j: (j['locationTier'], j['postedAt'] or ''), reverse=False)
 
-    # Validate URLs
-    log.info('Validating URLs...')
+    # Validate URLs (sample only — skip for bulk scrapers)
+    log.info('Validating URLs (sample)...')
     valid_jobs = []
-    for i, job in enumerate(all_jobs):
-        if validate_url(job['sourceUrl']):
-            job['urlValid'] = True
+    # Validate all API-sourced jobs, skip bulk scraper jobs (they have valid domain URLs)
+    for job in all_jobs:
+        if job['source'].startswith('computrabajo-') or job['source'] == 'infojobs':
+            job['urlValid'] = True  # Trust known domain URLs
             valid_jobs.append(job)
         else:
-            log.warning(f'Invalid URL: {job["title"]} @ {job["company"]}')
-        if i % 15 == 0 and i > 0:
-            time.sleep(1)
+            if validate_url(job['sourceUrl']):
+                job['urlValid'] = True
+                valid_jobs.append(job)
+            else:
+                log.warning(f'Invalid URL: {job["title"]} @ {job["company"]}')
 
     log.info(f'URL validation: {len(valid_jobs)}/{len(all_jobs)} valid')
 
