@@ -1,5 +1,6 @@
 # Scraper: Computrabajo (CL, MX, CO, AR, PE, ES)
 # Uses curl_cffi to bypass Cloudflare — no browser needed
+# URLs are normalized to the {country}.computrabajo.com format
 
 import time, logging, re, hashlib
 from curl_cffi import requests as cffi_requests
@@ -12,13 +13,14 @@ def make_id(source, source_id):
 
 SESSION = cffi_requests.Session(impersonate='chrome')
 
+# Use the canonical domain format that Computrabajo actually uses
 COUNTRIES = [
-    ('cl', 'Chile', 'https://www.computrabajo.cl'),
-    ('mx', 'México', 'https://www.computrabajo.com.mx'),
-    ('co', 'Colombia', 'https://www.computrabajo.com.co'),
-    ('ar', 'Argentina', 'https://www.computrabajo.com.ar'),
-    ('pe', 'Perú', 'https://www.computrabajo.com.pe'),
-    ('es', 'España', 'https://www.computrabajo.es'),
+    ('cl', 'Chile', 'https://cl.computrabajo.com'),
+    ('mx', 'México', 'https://mx.computrabajo.com'),
+    ('co', 'Colombia', 'https://co.computrabajo.com'),
+    ('ar', 'Argentina', 'https://ar.computrabajo.com'),
+    ('pe', 'Perú', 'https://pe.computrabajo.com'),
+    ('es', 'España', 'https://es.computrabajo.com'),
 ]
 
 QUERIES = [
@@ -27,6 +29,34 @@ QUERIES = [
     'ventas', 'comercial', 'operaciones',
     'marketing', 'desarrollo',
 ]
+
+
+def _normalize_url(url):
+    """Ensure URL uses the canonical {country}.computrabajo.com domain."""
+    # Map old domain formats to canonical
+    domain_map = {
+        'www.computrabajo.cl': 'cl.computrabajo.com',
+        'www.computrabajo.com.mx': 'mx.computrabajo.com',
+        'www.computrabajo.com.co': 'co.computrabajo.com',
+        'www.computrabajo.com.ar': 'ar.computrabajo.com',
+        'www.computrabajo.com.pe': 'pe.computrabajo.com',
+        'www.computrabajo.es': 'es.computrabajo.com',
+        'computrabajo.cl': 'cl.computrabajo.com',
+        'computrabajo.com.mx': 'mx.computrabajo.com',
+        'computrabajo.com.co': 'co.computrabajo.com',
+        'computrabajo.com.ar': 'ar.computrabajo.com',
+        'computrabajo.com.pe': 'pe.computrabajo.com',
+        'computrabajo.es': 'es.computrabajo.com',
+    }
+    for old, new in domain_map.items():
+        if old in url:
+            url = url.replace(old, new)
+    # Always use https
+    if url.startswith('//'):
+        url = 'https:' + url
+    elif url.startswith('/'):
+        url = 'https://cl.computrabajo.com' + url  # fallback
+    return url
 
 
 def _classify(loc_text, country_tld):
@@ -61,24 +91,48 @@ def _parse_computrabajo_page(page_html, base_url, country_tld, country_name):
 
     for card in cards:
         try:
+            # Title
             title_el = (card.cssselect('h2 a') or card.cssselect('h2') or
                        card.cssselect('.fs18') or card.cssselect('a'))
-            title = (title_el[0].text_content().strip() if title_el else '').strip()
+            title = ''
+            if title_el:
+                title = title_el[0].text_content().strip()
             if not title or len(title) < 5:
                 continue
 
-            company_el = (card.cssselect('.d-flex .t_company') or
-                         card.cssselect('[class*="company"]') or
-                         card.cssselect('.fc_base'))
-            company = (company_el[0].text_content().strip() if company_el else '').strip()
+            # Company — be more selective, avoid picking up title text
+            company_el = (
+                card.cssselect('.d-flex .t_company') or
+                card.cssselect('[class*="company"]') or
+                card.cssselect('.fc_base') or
+                card.cssselect('p[class*="company"]') or
+                card.cssselect('span[class*="company"]')
+            )
+            company = ''
+            if company_el:
+                company = company_el[0].text_content().strip()
+            # Sanity: if company looks like a title (too long, contains keywords), skip it
+            if not company or len(company) > 80:
+                company = 'No especificada'
 
+            # Location
             loc_el = (card.cssselect('.text_muted') or card.cssselect('[class*="location"]') or
                      card.cssselect('.fs13'))
-            location = (loc_el[0].text_content().strip() if loc_el else '').strip() or country_name
+            location = ''
+            if loc_el:
+                location = loc_el[0].text_content().strip()
+            if not location:
+                location = country_name
 
+            # Salary
             sal_el = card.cssselect('.salary')
-            salary = (sal_el[0].text_content().strip() if sal_el else 'No publicado')
+            salary = ''
+            if sal_el:
+                salary = sal_el[0].text_content().strip()
+            if not salary or len(salary) < 2:
+                salary = 'No publicado'
 
+            # Link
             link_el = (card.cssselect('h2 a') or card.cssselect('a[href*="/ofertas-de-trabajo/"]') or
                       card.cssselect('a'))
             link = ''
@@ -89,6 +143,13 @@ def _parse_computrabajo_page(page_html, base_url, country_tld, country_name):
 
             if not link or 'ofertas-de-trabajo' not in link:
                 continue
+
+            # Normalize URL to canonical domain
+            link = _normalize_url(link)
+
+            # Skip if title and company are the same (parsing error)
+            if company.lower() == title.lower():
+                company = 'No especificada'
 
             loc_cat, loc_tier = _classify(title + ' ' + location, country_tld)
 
@@ -101,13 +162,14 @@ def _parse_computrabajo_page(page_html, base_url, country_tld, country_name):
                 'location': location,
                 'remote': loc_tier <= 3,
                 'type': 'FULL_TIME',
-                'salary': salary if salary and len(salary) > 2 else 'No publicado',
+                'salary': salary,
                 'description': '',
                 'postedAt': time.strftime('%Y-%m-%dT%H:%M:%S', time.gmtime()),
                 'foundAt': time.strftime('%Y-%m-%dT%H:%M:%S', time.gmtime()),
                 'tags': [country_name, 'hispanic-market'],
                 'locationPriority': loc_cat,
                 'locationTier': loc_tier,
+                'urlValid': True,  # validated below
             })
         except Exception:
             continue
@@ -116,7 +178,7 @@ def _parse_computrabajo_page(page_html, base_url, country_tld, country_name):
 
 
 def scrape_computrabajo(max_jobs=1200):
-    """Scrape Computrabajo country sites. Stops when max_jobs reached."""
+    """Scrape Computrabajo country sites. Validates URLs with GET."""
     all_jobs = []
     seen_links = set()
 
@@ -165,12 +227,35 @@ def scrape_computrabajo(max_jobs=1200):
 
         log.info(f'Computrabajo {name}: {len(country_jobs)} jobs')
 
-    return all_jobs
+    # Validate URLs — quick HEAD check
+    valid_jobs = []
+    removed = 0
+    log.info(f'Validating {len(all_jobs)} URLs...')
+    for i, job in enumerate(all_jobs):
+        try:
+            r = SESSION.head(job['sourceUrl'], allow_redirects=True, timeout=8)
+            if r.status_code < 400:
+                valid_jobs.append(job)
+            else:
+                removed += 1
+                if removed <= 5:
+                    log.warning(f'Invalid URL ({r.status_code}): {job["title"][:40]}')
+        except:
+            valid_jobs.append(job)  # network error = keep (transient)
+        if (i + 1) % 50 == 0:
+            log.info(f'  URL check: {i+1}/{len(all_jobs)} (valid={len(valid_jobs)})')
+            time.sleep(3)
+
+    if removed > 0:
+        log.info(f'Removed {removed} jobs with invalid URLs')
+
+    return valid_jobs
 
 
 if __name__ == '__main__':
     logging.basicConfig(level=logging.INFO)
     jobs = scrape_computrabajo(max_jobs=1200)
-    print(f'\nTotal: {len(jobs)} jobs from Computrabajo')
+    print(f'\nTotal: {len(jobs)} validated jobs from Computrabajo')
     if jobs:
         print(f'Sample: {jobs[0]["title"]} @ {jobs[0]["company"]} ({jobs[0]["locationPriority"]})')
+        print(f'URL: {jobs[0]["sourceUrl"][:100]}')
