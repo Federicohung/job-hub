@@ -18,6 +18,9 @@ jobs:
         with:
           python-version: '3.12'
 
+      - name: Install dependencies
+        run: pip install curl_cffi cssselect lxml requests
+
       - name: Run scraper
         working-directory: scraper
         run: python scraper.py
