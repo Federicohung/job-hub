@@ -5,7 +5,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>🦞 Job Hub — Mercado Hispano</title>
 <style>
-:root{--bg:#0f172a;--surface:#1e293b;--surface2:#334155;--text:#f1f5f9;--muted:#94a3b8;--accent:#ef4444;--green:#22c55e;--blue:#3b82f6;--yellow:#eab308;--purple:#a855f7;--orange:#f97316;--radius:10px}
+:root{--bg:#0f172a;--surface:#1e293b;--surface2:#334155;--text:#f1f5f9;--muted:#94a3b8;--accent:#ef4444;--green:#22c55e;--blue:#3b82f6;--yellow:#eab308;--purple:#a855f7;--orange:#f97316;--cyan:#22d3ee;--radius:10px}
 *{margin:0;padding:0;box-sizing:border-box}
 body{font-family:-apple-system,'Segoe UI',sans-serif;background:var(--bg);color:var(--text);min-height:100vh}
 .header{background:linear-gradient(135deg,#1e293b,#0f172a);border-bottom:1px solid var(--surface2);padding:20px 32px;display:flex;align-items:center;justify-content:space-between;position:sticky;top:0;z-index:100}
@@ -15,6 +15,7 @@ body{font-family:-apple-system,'Segoe UI',sans-serif;background:var(--bg);color:
 .btn-primary{background:var(--accent);color:#fff}.btn-primary:hover{background:#dc2626}
 .btn-outline{background:transparent;color:var(--text);border:1px solid var(--surface2)}.btn-outline:hover{background:var(--surface2)}
 .btn-outline.active{background:var(--accent);color:#fff;border-color:var(--accent)}
+.btn-sync{background:var(--green);color:#fff;border:none}.btn-sync:hover{background:#16a34a}
 .badge{display:inline-block;padding:2px 8px;border-radius:20px;font-size:11px;font-weight:600;text-transform:uppercase}
 .badge-remote{background:#22c55e20;color:var(--green)}.badge-hybrid{background:#eab30820;color:var(--yellow)}.badge-onsite{background:#3b82f620;color:var(--blue)}
 
@@ -29,7 +30,7 @@ body{font-family:-apple-system,'Segoe UI',sans-serif;background:var(--bg);color:
 .stats{display:grid;grid-template-columns:repeat(auto-fit,minmax(120px,1fr));gap:10px;padding:20px 32px}
 .stat-card{background:var(--surface);border:1px solid var(--surface2);border-radius:var(--radius);padding:12px 14px;text-align:center}
 .stat-num{font-size:26px;font-weight:800}.stat-label{font-size:10px;color:var(--muted);text-transform:uppercase;letter-spacing:.5px;margin-top:2px}
-.stat-num.red{color:var(--accent)}.stat-num.green{color:var(--green)}.stat-num.blue{color:var(--blue)}.stat-num.yellow{color:var(--yellow)}.stat-num.purple{color:var(--purple)}.stat-num.orange{color:var(--orange)}
+.stat-num.red{color:var(--accent)}.stat-num.green{color:var(--green)}.stat-num.blue{color:var(--blue)}.stat-num.yellow{color:var(--yellow)}.stat-num.purple{color:var(--purple)}.stat-num.orange{color:var(--orange)}.stat-num.cyan{color:var(--cyan)}
 
 /* Toolbar */
 .toolbar{padding:8px 32px 4px;display:flex;gap:8px;flex-wrap:wrap;align-items:center}
@@ -50,6 +51,31 @@ select.filter-select:focus{border-color:var(--accent)}
 .job-salary{font-size:12px;color:var(--green);font-weight:500}
 .job-source{font-size:10px;color:var(--muted);background:var(--bg);padding:1px 6px;border-radius:4px}
 .job-actions{display:flex;flex-direction:column;align-items:end;gap:6px}
+
+/* Sync panel */
+.sync-panel{padding:20px 32px}
+.sync-status-card{background:var(--surface);border:1px solid var(--surface2);border-radius:var(--radius);padding:20px;margin-bottom:16px}
+.sync-header{display:flex;justify-content:space-between;align-items:center;margin-bottom:16px}
+.sync-title{font-size:16px;font-weight:700}
+.sync-progress-container{margin:16px 0}
+.sync-progress-bar{height:12px;background:var(--bg);border-radius:6px;overflow:hidden;position:relative}
+.sync-progress-fill{height:100%;border-radius:6px;transition:width 1s ease;background:linear-gradient(90deg,var(--green),var(--cyan))}
+.sync-progress-fill.running{animation:pulse 1.5s ease infinite}
+@keyframes pulse{0%,100%{opacity:1}50%{opacity:.7}}
+.sync-progress-text{text-align:center;font-size:12px;color:var(--muted);margin-top:6px}
+.sync-stats{display:grid;grid-template-columns:repeat(auto-fit,minmax(140px,1fr));gap:10px;margin-top:16px}
+.sync-stat{background:var(--bg);border-radius:8px;padding:10px 14px;text-align:center}
+.sync-stat-num{font-size:20px;font-weight:800}.sync-stat-label{font-size:10px;color:var(--muted);text-transform:uppercase;margin-top:2px}
+.sync-schedule{display:flex;gap:12px;flex-wrap:wrap;margin-top:12px}
+.sync-time{font-size:12px;padding:6px 12px;background:var(--bg);border-radius:6px;border:1px solid var(--surface2)}
+.sync-time strong{color:var(--text)}
+
+/* Sync history */
+.sync-history{margin-top:16px}
+.sync-history-title{font-size:13px;font-weight:700;color:var(--muted);margin-bottom:8px}
+.sync-history-item{display:flex;justify-content:space-between;align-items:center;padding:8px 12px;background:var(--bg);border-radius:6px;margin-bottom:4px;font-size:12px}
+.sync-history-time{color:var(--muted)}.sync-history-msg{color:var(--text)}
+.sync-history-badge{font-size:10px;padding:2px 8px;border-radius:10px;font-weight:600}
 
 /* Sources tab */
 .sources-grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(300px,1fr));gap:12px;padding:20px 32px}
@@ -83,7 +109,7 @@ select.filter-select:focus{border-color:var(--accent)}
 .spinner{display:inline-block;width:20px;height:20px;border:2px solid var(--surface2);border-top-color:var(--accent);border-radius:50%;animation:spin .8s linear infinite}
 @keyframes spin{to{transform:rotate(360deg)}}
 .empty{text-align:center;padding:60px 20px;color:var(--muted)}
-@media(max-width:600px){.header,.stats,.toolbar,.meta,.jobs-list,.webhook-box,.sources-grid,.sources-summary,.sources-pie{padding-left:14px;padding-right:14px}.stats{grid-template-columns:repeat(3,1fr)}.job-card{grid-template-columns:1fr}.sources-grid{grid-template-columns:1fr}.tab{padding:10px 14px;font-size:12px}}
+@media(max-width:600px){.header,.stats,.toolbar,.meta,.jobs-list,.webhook-box,.sources-grid,.sources-summary,.sources-pie,.sync-panel{padding-left:14px;padding-right:14px}.stats{grid-template-columns:repeat(3,1fr)}.job-card{grid-template-columns:1fr}.sources-grid{grid-template-columns:1fr}.tab{padding:10px 14px;font-size:12px}.sync-stats{grid-template-columns:repeat(2,1fr)}}
 </style>
 </head>
 <body>
@@ -92,12 +118,14 @@ select.filter-select:focus{border-color:var(--accent)}
   <h1>🦞 <span>Job Hub</span> — Mercado Hispano</h1>
   <div class="header-right">
     <span id="updated-label" style="font-size:11px;color:var(--muted)"></span>
-    <a class="btn btn-outline" href="https://github.com/Federicohung/job-hub/actions" target="_blank" style="font-size:12px;padding:6px 14px">⚙️ Renovar</a>
+    <a class="btn btn-sync" href="https://github.com/Federicohung/job-hub/actions/workflows/scrape.yml" target="_blank" style="font-size:12px;padding:6px 14px">🔄 Sync</a>
+    <a class="btn btn-outline" href="https://github.com/Federicohung/job-hub/actions" target="_blank" style="font-size:12px;padding:6px 14px">⚙️ Actions</a>
   </div>
 </div>
 
 <div class="tabs">
   <div class="tab active" data-tab="jobs" onclick="switchTab(this)">📋 Vacantes</div>
+  <div class="tab" data-tab="sync" onclick="switchTab(this)">🔄 Sync</div>
   <div class="tab" data-tab="sources" onclick="switchTab(this)">📡 Fuentes</div>
 </div>
 
@@ -130,6 +158,13 @@ select.filter-select:focus{border-color:var(--accent)}
   <div style="text-align:center;padding:16px" id="pagination"></div>
 </div>
 
+<!-- TAB: Sync -->
+<div class="tab-content" id="tab-sync">
+  <div class="sync-panel" id="sync-panel">
+    <div class="loading"><div class="spinner"></div><br>Cargando estado de sincronización...</div>
+  </div>
+</div>
+
 <!-- TAB: Fuentes -->
 <div class="tab-content" id="tab-sources">
   <div class="sources-summary" id="sources-summary"></div>
@@ -141,21 +176,16 @@ select.filter-select:focus{border-color:var(--accent)}
 
 <script>
 const DATA_URL='https://raw.githubusercontent.com/Federicohung/job-hub/master/scraper/data/jobs.json';
+const SYNC_URL='https://raw.githubusercontent.com/Federicohung/job-hub/master/scraper/data/sync_log.json';
+const HISTORY_URL='https://raw.githubusercontent.com/Federicohung/job-hub/master/scraper/data/sync_history.json';
 let allJobs=[],filtered=[],curCat='all',curPage=1;const PP=60;
 
-// Source metadata for display
 const SOURCE_META={
   'remotive':{name:'Remotive',type:'API',icon:'🔌',color:'#3b82f6'},
   'arbeitnow':{name:'Arbeitnow',type:'API',icon:'🔌',color:'#8b5cf6'},
   'remoteok':{name:'RemoteOK',type:'API',icon:'🔌',color:'#06b6d4'},
   'torre':{name:'Torre',type:'API',icon:'🔌',color:'#f59e0b'},
   'linkedin':{name:'LinkedIn',type:'Scraping',icon:'🤖',color:'#0a66c2'},
-  'indeed-cl':{name:'Indeed Chile',type:'Scraping',icon:'🤖',color:'#2557a7'},
-  'indeed-es':{name:'Indeed España',type:'Scraping',icon:'🤖',color:'#2557a7'},
-  'indeed-mx':{name:'Indeed México',type:'Scraping',icon:'🤖',color:'#2557a7'},
-  'indeed-co':{name:'Indeed Colombia',type:'Scraping',icon:'🤖',color:'#2557a7'},
-  'indeed-ar':{name:'Indeed Argentina',type:'Scraping',icon:'🤖',color:'#2557a7'},
-  'indeed-pe':{name:'Indeed Perú',type:'Scraping',icon:'🤖',color:'#2557a7'},
   'computrabajo-cl':{name:'Computrabajo Chile',type:'Scraping',icon:'🤖',color:'#ef4444'},
   'computrabajo-mx':{name:'Computrabajo México',type:'Scraping',icon:'🤖',color:'#22c55e'},
   'computrabajo-co':{name:'Computrabajo Colombia',type:'Scraping',icon:'🤖',color:'#f59e0b'},
@@ -177,12 +207,17 @@ const SOURCE_META={
   'bumeran-co':{name:'Bumeran Colombia',type:'Scraping',icon:'🤖',color:'#10b981'},
   'bumeran-mx':{name:'Bumeran México',type:'Scraping',icon:'🤖',color:'#10b981'},
   'bumeran-cl':{name:'Bumeran Chile',type:'Scraping',icon:'🤖',color:'#10b981'},
+  'indeed-cl':{name:'Indeed Chile',type:'Scraping',icon:'🤖',color:'#2557a7'},
+  'indeed-es':{name:'Indeed España',type:'Scraping',icon:'🤖',color:'#2557a7'},
+  'indeed-mx':{name:'Indeed México',type:'Scraping',icon:'🤖',color:'#2557a7'},
+  'indeed-co':{name:'Indeed Colombia',type:'Scraping',icon:'🤖',color:'#2557a7'},
+  'indeed-ar':{name:'Indeed Argentina',type:'Scraping',icon:'🤖',color:'#2557a7'},
+  'indeed-pe':{name:'Indeed Perú',type:'Scraping',icon:'🤖',color:'#2557a7'},
 };
 
 function getSourceMeta(src){
   const m=SOURCE_META[src];
   if(m)return m;
-  // Fallback for unknown sources
   if(src.startsWith('computrabajo-'))return{name:'Computrabajo '+src.split('-')[1].toUpperCase(),type:'Scraping',icon:'🤖',color:'#ef4444'};
   if(src.startsWith('getonboard'))return{name:'GetOnBoard '+(src.split('-')[1]||'').toUpperCase(),type:'Scraping',icon:'🤖',color:'#22d3ee'};
   if(src.startsWith('laborum'))return{name:'Laborum '+src.split('-')[1].toUpperCase(),type:'Scraping',icon:'🤖',color:'#a855f7'};
@@ -200,20 +235,142 @@ function switchTab(el){
 
 async function load(){
   try{
-    const r=await fetch(DATA_URL+'?t='+Date.now());
-    const d=await r.json();
-    allJobs=d.jobs||[];
-    renderStats(d.breakdown||{});
-    renderSources(d);
-    document.getElementById('updated-label').textContent=d.updatedAt?'✅ '+new Date(d.updatedAt).toLocaleString('es-CL'):'';
+    const [r,d]=await Promise.all([
+      fetch(DATA_URL+'?t='+Date.now()),
+      fetch(SYNC_URL+'?t='+Date.now())
+    ]);
+    const data=await r.json();
+    allJobs=data.jobs||[];
+    renderStats(data.breakdown||{});
+    renderSources(data);
+    document.getElementById('updated-label').textContent=data.updatedAt?'✅ '+new Date(data.updatedAt).toLocaleString('es-CL'):'';
     document.getElementById('webhook-url').textContent=DATA_URL;
     const sources=[...new Set(allJobs.map(j=>j.source))].sort();
     const sel=document.getElementById('source-filter');
     sel.innerHTML='<option value="">📁 Todas las fuentes</option>'+sources.map(s=>`<option value="${s}">${getSourceMeta(s).icon} ${getSourceMeta(s).name}</option>`).join('');
     applyFilters();
+
+    // Render sync panel
+    let syncData=null;
+    try{syncData=await d.json()}catch(e){}
+    renderSync(syncData);
+
+    // Load sync history
+    try{
+      const h=await fetch(HISTORY_URL+'?t='+Date.now());
+      const hist=await h.json();
+      renderSyncHistory(hist);
+    }catch(e){}
   }catch(e){document.getElementById('jobs-list').innerHTML='<div class="empty">Error cargando datos.</div>'}
 }
 
+// ── Sync Tab ──
+function renderSync(syncData){
+  const panel=document.getElementById('sync-panel');
+  if(!syncData){
+    panel.innerHTML=`
+      <div class="sync-status-card">
+        <div class="sync-header"><div class="sync-title">🔄 Sincronización</div></div>
+        <div style="color:var(--muted);font-size:13px;margin:12px 0">No hay datos de sincronización aún. Se registrará después del primer sync.</div>
+        <div class="sync-progress-container">
+          <div class="sync-progress-bar"><div class="sync-progress-fill" style="width:0%;background:var(--surface2)"></div></div>
+          <div class="sync-progress-text">Esperando primer sync...</div>
+        </div>
+        <div class="sync-schedule">
+          <div class="sync-time">🕐 <strong>Batch 1:</strong> 08:00 UTC (05:00 CL)</div>
+          <div class="sync-time">🕐 <strong>Batch 2:</strong> 20:00 UTC (17:00 CL)</div>
+          <div class="sync-time">📦 <strong>Lote:</strong> 1,500 jobs/batch</div>
+          <div class="sync-time">🗑️ <strong>Expiración:</strong> 30 días</div>
+        </div>
+        <div style="margin-top:16px">
+          <a class="btn btn-sync" href="https://github.com/Federicohung/job-hub/actions/workflows/scrape.yml" target="_blank">🔄 Sincronizar Manualmente</a>
+        </div>
+      </div>`;
+    return;
+  }
+
+  const isRunning=syncData.status==='running';
+  const pct=syncData.progress||0;
+  const msg=syncData.message||'';
+  const lastSync=syncData.lastSync?new Date(syncData.lastSync).toLocaleString('es-CL'):'Nunca';
+
+  panel.innerHTML=`
+    <div class="sync-status-card">
+      <div class="sync-header">
+        <div class="sync-title">${isRunning?'⏳ Sincronizando...':'✅ Sincronización'}</div>
+        <a class="btn ${isRunning?'btn-outline':'btn-sync'}" href="https://github.com/Federicohung/job-hub/actions/workflows/scrape.yml" target="_blank" ${isRunning?'':''}style="font-size:12px">
+          ${isRunning?'⏳ En progreso':'🔄 Sync Manual'}
+        </a>
+      </div>
+
+      <div class="sync-progress-container">
+        <div class="sync-progress-bar">
+          <div class="sync-progress-fill ${isRunning?'running':''}" style="width:${pct}%"></div>
+        </div>
+        <div class="sync-progress-text">${pct}% — ${msg}</div>
+      </div>
+
+      <div class="sync-stats">
+        <div class="sync-stat">
+          <div class="sync-stat-num green">${syncData.totalInDb||0}</div>
+          <div class="sync-stat-label">📊 Total en DB</div>
+        </div>
+        <div class="sync-stat">
+          <div class="sync-stat-num cyan">${syncData.added||0}</div>
+          <div class="sync-stat-label">➕ Nuevos</div>
+        </div>
+        <div class="sync-stat">
+          <div class="sync-stat-num blue">${syncData.updated||0}</div>
+          <div class="sync-stat-label">🔄 Actualizados</div>
+        </div>
+        <div class="sync-stat">
+          <div class="sync-stat-num yellow">${syncData.removed||0}</div>
+          <div class="sync-stat-label">🗑️ Expirados</div>
+        </div>
+        <div class="sync-stat">
+          <div class="sync-stat-num purple">${syncData.deduped||0}</div>
+          <div class="sync-stat-label">🔁 Duplicados</div>
+        </div>
+        <div class="sync-stat">
+          <div class="sync-stat-num orange">${syncData.processed||0}</div>
+          <div class="sync-stat-label">📦 Procesados</div>
+        </div>
+      </div>
+
+      <div class="sync-schedule">
+        <div class="sync-time">🕐 <strong>Batch 1:</strong> 08:00 UTC (05:00 CL)</div>
+        <div class="sync-time">🕐 <strong>Batch 2:</strong> 20:00 UTC (17:00 CL)</div>
+        <div class="sync-time">📦 <strong>Lote:</strong> ${syncData.batchSize||1500} jobs/batch</div>
+        <div class="sync-time">🗑️ <strong>Expiración:</strong> ${syncData.maxAgeDays||30} días</div>
+        <div class="sync-time">📅 <strong>Último sync:</strong> ${lastSync}</div>
+        <div class="sync-time">🆔 <strong>Sync ID:</strong> ${syncData.syncId||'—'}</div>
+      </div>
+    </div>
+    <div id="sync-history-container"></div>`;
+}
+
+function renderSyncHistory(history){
+  if(!Array.isArray(history)||!history.length)return;
+  const container=document.getElementById('sync-history-container');
+  if(!container)return;
+  const recent=history.slice(-10).reverse();
+  container.innerHTML=`
+    <div class="sync-history">
+      <div class="sync-history-title">📜 Últimas sincronizaciones</div>
+      ${recent.map(h=>{
+        const time=h.lastSync?new Date(h.lastSync).toLocaleString('es-CL'):'?';
+        const msg=h.message||'—';
+        const ok=h.status==='complete';
+        return `<div class="sync-history-item">
+          <span class="sync-history-time">${time}</span>
+          <span class="sync-history-msg">${msg}</span>
+          <span class="sync-history-badge" style="background:${ok?'#22c55e20':'#ef444420'};color:${ok?'var(--green)':'var(--accent)'}">${ok?'✅':'⚠️'}</span>
+        </div>`;
+      }).join('')}
+    </div>`;
+}
+
+// ── Stats ──
 function renderStats(bd){
   const t=Object.values(bd).reduce((a,b)=>a+b,0);
   document.getElementById('stats').innerHTML=`
@@ -223,15 +380,11 @@ function renderStats(bd){
     <div class="stat-card"><div class="stat-num yellow">${(bd['onsite-latam']||0)+(bd['onsite-spain']||0)}</div><div class="stat-label">📍 Presencial</div></div>`;
 }
 
+// ── Sources Tab ──
 function renderSources(d){
   const jobs=d.jobs||[];
   const sourcesList=d.sources||[];
-  
-  // Count per source
-  const sourceCounts={};
-  const sourceRemote={};
-  const sourceCategories={};
-  const sourceLatest={};
+  const sourceCounts={},sourceRemote={},sourceCategories={},sourceLatest={};
   jobs.forEach(j=>{
     const s=j.source||'unknown';
     sourceCounts[s]=(sourceCounts[s]||0)+1;
@@ -245,39 +398,31 @@ function renderSources(d){
 
   const total=jobs.length;
   const topSource=Math.max(...Object.values(sourceCounts),1);
-  
-  // Summary cards
   const apiSources=sourcesList.filter(s=>(SOURCE_META[s]||{}).type==='API');
   const scrapeSources=sourcesList.filter(s=>(SOURCE_META[s]||{}).type==='Scraping');
   const totalRemote=jobs.filter(j=>j.remote).length;
   const sourcesWithJobs=sourcesList.filter(s=>(sourceCounts[s]||0)>0).length;
-  
+
   document.getElementById('sources-summary').innerHTML=`
-    <div class="stat-card"><div class="stat-num purple">${sourcesList.length}</div><div class="stat-label">📡 Fuentes Configuradas</div></div>
-    <div class="stat-card"><div class="stat-num green">${sourcesWithJobs}</div><div class="stat-label">✅ Fuentes Activas</div></div>
+    <div class="stat-card"><div class="stat-num purple">${sourcesList.length}</div><div class="stat-label">📡 Fuentes</div></div>
+    <div class="stat-card"><div class="stat-num green">${sourcesWithJobs}</div><div class="stat-label">✅ Activas</div></div>
     <div class="stat-card"><div class="stat-num blue">${apiSources.length}</div><div class="stat-label">🔌 APIs</div></div>
     <div class="stat-card"><div class="stat-num orange">${scrapeSources.length}</div><div class="stat-label">🤖 Scrapers</div></div>
-    <div class="stat-card"><div class="stat-num red">${total}</div><div class="stat-label">📊 Total Jobs</div></div>
-    <div class="stat-card"><div class="stat-num green">${totalRemote}</div><div class="stat-label">🌐 Remote Jobs</div></div>
-  `;
+    <div class="stat-card"><div class="stat-num red">${total}</div><div class="stat-label">📊 Jobs</div></div>
+    <div class="stat-card"><div class="stat-num green">${totalRemote}</div><div class="stat-label">🌐 Remote</div></div>`;
 
-  // Pie chart (top 8 sources)
   const sortedSources=Object.entries(sourceCounts).sort((a,b)=>b[1]-a[1]);
   const top8=sortedSources.slice(0,8);
   const othersCount=sortedSources.slice(8).reduce((a,b)=>a+b[1],0);
   const pieItems=top8.map(([s,c])=>({label:getSourceMeta(s).name,count:c,color:getSourceMeta(s).color,pct:((c/total)*100).toFixed(1)}));
   if(othersCount>0)pieItems.push({label:'Otros',count:othersCount,color:'#94a3b8',pct:((othersCount/total)*100).toFixed(1)});
-  
-  // Build pie as conic-gradient
+
   let gradParts=[];let cumPct=0;
   pieItems.forEach(item=>{gradParts.push(`${item.color} ${cumPct}% ${cumPct+parseFloat(item.pct)}%`);cumPct+=parseFloat(item.pct)});
-  
   document.getElementById('sources-pie').innerHTML=`
     <div class="pie-chart" style="background:conic-gradient(${gradParts.join(',')});box-shadow:0 0 0 4px var(--surface),0 0 0 6px var(--surface2)"></div>
-    <div class="pie-legend">${pieItems.map(i=>`<div class="pie-legend-item"><div class="pie-dot" style="background:${i.color}"></div><span>${i.label} <strong>${i.count}</strong> (${i.pct}%)</span></div>`).join('')}</div>
-  `;
+    <div class="pie-legend">${pieItems.map(i=>`<div class="pie-legend-item"><div class="pie-dot" style="background:${i.color}"></div><span>${i.label} <strong>${i.count}</strong> (${i.pct}%)</span></div>`).join('')}</div>`;
 
-  // Source cards
   const allSources=sourcesList.length>0?sourcesList:sortedSources.map(([s])=>s);
   document.getElementById('sources-grid').innerHTML=allSources.map(s=>{
     const m=getSourceMeta(s);
@@ -286,37 +431,30 @@ function renderSources(d){
     const cats=sourceCategories[s]||{};
     const pct=((count/topSource)*100).toFixed(0);
     const lastDate=sourceLatest[s]?new Date(sourceLatest[s]).toLocaleDateString('es-CL',{month:'short',day:'numeric'}):'N/A';
-    
-    // Status
     let statusClass='status-off',statusText='Sin datos';
     if(count>50){statusClass='status-ok';statusText='🟢 Excelente';}
     else if(count>10){statusClass='status-ok';statusText='🟢 Activa';}
     else if(count>0){statusClass='status-warn';statusText='🟡 Baja';}
-    
-    // Breakdown bars
     const catBars=Object.entries(cats).sort((a,b)=>b[1]-a[1]).map(([cat,n])=>{
       const catColors={'remote-spanish':'#ef4444','remote-latam':'#22c55e','remote-spain':'#3b82f6','remote-global':'#8b5cf6','hybrid-latam':'#eab308','hybrid-spain':'#f97316','onsite-latam':'#94a3b8','onsite-spain':'#64748b','other':'#475569'};
       return `<div class="source-detail"><span style="color:${catColors[cat]||'#94a3b8'}">${cat}</span> <span>${n}</span></div>`;
     }).join('');
-
     return `<div class="source-card">
-      <div class="source-card-header">
-        <div class="source-name">${m.icon} ${m.name}</div>
-        <span class="source-status ${statusClass}">${statusText}</span>
-      </div>
+      <div class="source-card-header"><div class="source-name">${m.icon} ${m.name}</div><span class="source-status ${statusClass}">${statusText}</span></div>
       <div class="source-count">${count}</div>
       <div class="source-bar"><div class="source-bar-fill" style="width:${pct}%;background:${m.color}"></div></div>
       <div class="source-details">
         <div class="source-detail">Tipo <span>${m.type}</span></div>
         <div class="source-detail">Remotos <span>${remote}</span></div>
         <div class="source-detail">Presencial <span>${count-remote}</span></div>
-        <div class="source-detail">Último dato <span>${lastDate}</span></div>
+        <div class="source-detail">Último <span>${lastDate}</span></div>
       </div>
       ${catBars?`<div style="margin-top:10px">${catBars}</div>`:''}
     </div>`;
   }).join('');
 }
 
+// ── Jobs Tab ──
 function setCat(btn){
   document.querySelectorAll('.toolbar .btn-outline[data-cat]').forEach(b=>b.classList.remove('active'));
   btn.classList.add('active');curCat=btn.dataset.cat;curPage=1;applyFilters();

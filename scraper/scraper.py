@@ -1,7 +1,7 @@
 # Job Hub — Scraping Engine
 # Prioriza: remoto español > remoto LATAM > remoto España > híbrido LATAM/ES > presencial LATAM/ES
-# Fuentes: Remotive API, Arbeitnow API, RemoteOK API (gratis, sin API key)
-# Output: data/jobs.json normalizado
+# Fuentes: Remotive API, Arbeitnow API, RemoteOK API, Scrapers hispanos, LinkedIn, Indeed
+# Output: data/raw_scrape.json → sync.py merges into data/jobs.json (persistent DB)
 
 import json, hashlib, re, time, logging, html, os
 from datetime import datetime, timezone, timedelta
@@ -14,7 +14,7 @@ log = logging.getLogger('job-hub')
 
 # Output path: relative to script location, then one level up for repo root
 _SCRIPT_DIR = os.path.dirname(os.path.abspath(__file__))
-DATA_FILE = os.path.join(_SCRIPT_DIR, 'data', 'jobs.json')
+DATA_FILE = os.path.join(_SCRIPT_DIR, 'data', 'raw_scrape.json')
 
 # ─── Lightweight HTTP client (no deps) ───
 
