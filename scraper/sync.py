@@ -34,17 +34,22 @@ def save_json(path, data):
 
 
 def parse_date(date_str):
-    """Parse various date formats to datetime."""
+    """Parse various date formats to datetime (always UTC)."""
     if not date_str:
         return None
     try:
-        # ISO format
         s = date_str.replace('Z', '+00:00')
-        return datetime.fromisoformat(s)
+        dt = datetime.fromisoformat(s)
+        if dt.tzinfo is None:
+            dt = dt.replace(tzinfo=timezone.utc)
+        return dt
     except:
         pass
     try:
-        return datetime.strptime(date_str[:19], '%Y-%m-%dT%H:%M:%S').replace(tzinfo=timezone.utc)
+        dt = datetime.strptime(date_str[:19], '%Y-%m-%dT%H:%M:%S')
+        if dt.tzinfo is None:
+            dt = dt.replace(tzinfo=timezone.utc)
+        return dt
     except:
         pass
     try:
