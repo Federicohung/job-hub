@@ -205,6 +205,43 @@ def sync(raw_file=None, db_file=None, batch_size=BATCH_SIZE, max_age_days=MAX_AG
 
     log.info(f'[SYNC {sync_id}] Expiry check: -{removed} removed (>{max_age_days}d), {kept_old} kept')
 
+    # ── Phase 4.5: FINAL DEDUP — zero tolerance for duplicates ──
+    log.info(f'[SYNC {sync_id}] Phase 4.5: Final dedup pass on {len(merged)} jobs...')
+    update_sync_progress(80, 'Deduplicación final (cero duplicados)...', sync_id)
+
+    seen_keys = {}
+    final_jobs = []
+    final_deduped = 0
+
+    for job in merged:
+        # Dedup by company:title — keep the one with best tier
+        dk = deduplicate_key(job)
+        if dk in seen_keys:
+            existing = seen_keys[dk]
+            if job.get('locationTier', 9) < existing.get('locationTier', 9):
+                # Replace with better tier
+                seen_keys[dk] = job
+                final_deduped += 1
+            else:
+                final_deduped += 1
+            continue
+        seen_keys[dk] = job
+
+        # Also dedup by sourceUrl if available
+        su = job.get('sourceUrl', '')
+        if su:
+            url_key = su.split('?')[0]  # Strip query params
+            if url_key in seen_keys:
+                final_deduped += 1
+                continue
+
+        final_jobs.append(job)
+
+    merged = final_jobs
+    if final_deduped > 0:
+        log.info(f'[SYNC {sync_id}] Final dedup removed {final_deduped} duplicates → {len(merged)} unique jobs')
+        deduped += final_deduped
+
     # ── Phase 5: Final sort and save ──
     log.info(f'[SYNC {sync_id}] Phase 5: Saving database...')
     update_sync_progress(85, 'Guardando base de datos...', sync_id)
