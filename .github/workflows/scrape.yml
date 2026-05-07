@@ -1,15 +1,16 @@
-name: Job Hub Scraper
+name: Job Hub Scraper & Sync
 
 on:
   schedule:
-    - cron: '0 8 */2 * *'
+    - cron: '0 8 * * *'   # Batch 1: 08:00 UTC (05:00 Santiago)
+    - cron: '0 20 * * *'  # Batch 2: 20:00 UTC (17:00 Santiago)
   workflow_dispatch:
 
 permissions:
   contents: write
 
 jobs:
-  scrape:
+  scrape-and-sync:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
@@ -21,18 +22,22 @@ jobs:
       - name: Install dependencies
         run: pip install curl_cffi cssselect lxml requests
 
-      - name: Run scraper
+      - name: Phase 1 — Scrape all sources
         working-directory: scraper
         run: python scraper.py
+
+      - name: Phase 2 — Sync to persistent database
+        working-directory: scraper
+        run: python sync.py
 
       - name: Commit updated data
         run: |
           git config user.name "job-hub-bot"
-          git config user.email "job-hub-bot@users.noreply.github.com"
-          git add scraper/data/jobs.json
+          git config user.email "job-hub-bot@users.noreply.github.io"
+          git add scraper/data/
           if git diff --cached --quiet; then
             echo "No changes to commit"
           else
-            git commit -m "🦞 job data update $(date -u +%Y-%m-%dT%H:%M:%SZ)"
+            git commit -m "🦞 sync $(date -u +%Y-%m-%dT%H:%M:%SZ)"
             git push
           fi
