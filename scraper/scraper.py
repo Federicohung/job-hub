@@ -546,6 +546,54 @@ def run_pipeline():
     except Exception as e:
         log.error(f'[Scrape] InfoJobs FAILED: {e}')
 
+    # GetOnBoard (Tech/LATAM)
+    try:
+        spec = importlib.util.spec_from_file_location("scrape_getonboard", os.path.join(_script_dir, "scrape_getonboard.py"))
+        mod = importlib.util.module_from_spec(spec)
+        spec.loader.exec_module(mod)
+        log.info('Scraping GetOnBoard...')
+        gob_jobs = mod.scrape_getonboard()
+        all_jobs.extend(gob_jobs)
+        log.info(f'[Scrape] GetOnBoard: {len(gob_jobs)} jobs')
+    except Exception as e:
+        log.error(f'[Scrape] GetOnBoard FAILED: {e}')
+
+    # Laborum (CL, PE, AR)
+    try:
+        spec = importlib.util.spec_from_file_location("scrape_laborum", os.path.join(_script_dir, "scrape_laborum.py"))
+        mod = importlib.util.module_from_spec(spec)
+        spec.loader.exec_module(mod)
+        log.info('Scraping Laborum...')
+        lb_jobs = mod.scrape_laborum()
+        all_jobs.extend(lb_jobs)
+        log.info(f'[Scrape] Laborum: {len(lb_jobs)} jobs')
+    except Exception as e:
+        log.error(f'[Scrape] Laborum FAILED: {e}')
+
+    # Bumeran (AR, PE, CO, MX, CL)
+    try:
+        spec = importlib.util.spec_from_file_location("scrape_bumeran", os.path.join(_script_dir, "scrape_bumeran.py"))
+        mod = importlib.util.module_from_spec(spec)
+        spec.loader.exec_module(mod)
+        log.info('Scraping Bumeran...')
+        bm_jobs = mod.scrape_bumeran()
+        all_jobs.extend(bm_jobs)
+        log.info(f'[Scrape] Bumeran: {len(bm_jobs)} jobs')
+    except Exception as e:
+        log.error(f'[Scrape] Bumeran FAILED: {e}')
+
+    # LinkedIn Public Search (best effort — may get blocked)
+    try:
+        spec = importlib.util.spec_from_file_location("scrape_linkedin", os.path.join(_script_dir, "scrape_linkedin.py"))
+        mod = importlib.util.module_from_spec(spec)
+        spec.loader.exec_module(mod)
+        log.info('Scraping LinkedIn (public)...')
+        li_jobs = mod.scrape_linkedin()
+        all_jobs.extend(li_jobs)
+        log.info(f'[Scrape] LinkedIn: {len(li_jobs)} jobs')
+    except Exception as e:
+        log.error(f'[Scrape] LinkedIn FAILED: {e}')
+
     before = len(all_jobs)
     all_jobs = deduplicate(all_jobs)
     log.info(f'Dedup: {before} → {len(all_jobs)}')
@@ -558,7 +606,7 @@ def run_pipeline():
     valid_jobs = []
     # Validate all API-sourced jobs, skip bulk scraper jobs (they have valid domain URLs)
     for job in all_jobs:
-        if job['source'].startswith('computrabajo-') or job['source'] == 'infojobs':
+        if job['source'].startswith('computrabajo-') or job['source'] == 'infojobs' or job['source'].startswith('getonboard') or job['source'].startswith('laborum') or job['source'].startswith('bumeran') or job['source'] == 'linkedin':
             job['urlValid'] = True  # Trust known domain URLs
             valid_jobs.append(job)
         else:

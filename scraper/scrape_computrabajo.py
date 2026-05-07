@@ -28,6 +28,9 @@ QUERIES = [
     'gerente', 'director',
     'ventas', 'comercial', 'operaciones',
     'marketing', 'desarrollo',
+    'customer success', 'datos', 'analista',
+    'finanzas', 'rrhh', 'proyectos',
+    'administrativo', 'logistica',
 ]
 
 
@@ -193,7 +196,7 @@ def scrape_computrabajo(max_jobs=1200):
             if len(all_jobs) >= max_jobs:
                 break
 
-            for page in range(1, 3):
+            for page in range(1, 4):
                 if len(all_jobs) >= max_jobs:
                     break
 
