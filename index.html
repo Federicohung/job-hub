@@ -150,6 +150,12 @@ const SOURCE_META={
   'remoteok':{name:'RemoteOK',type:'API',icon:'🔌',color:'#06b6d4'},
   'torre':{name:'Torre',type:'API',icon:'🔌',color:'#f59e0b'},
   'linkedin':{name:'LinkedIn',type:'Scraping',icon:'🤖',color:'#0a66c2'},
+  'indeed-cl':{name:'Indeed Chile',type:'Scraping',icon:'🤖',color:'#2557a7'},
+  'indeed-es':{name:'Indeed España',type:'Scraping',icon:'🤖',color:'#2557a7'},
+  'indeed-mx':{name:'Indeed México',type:'Scraping',icon:'🤖',color:'#2557a7'},
+  'indeed-co':{name:'Indeed Colombia',type:'Scraping',icon:'🤖',color:'#2557a7'},
+  'indeed-ar':{name:'Indeed Argentina',type:'Scraping',icon:'🤖',color:'#2557a7'},
+  'indeed-pe':{name:'Indeed Perú',type:'Scraping',icon:'🤖',color:'#2557a7'},
   'computrabajo-cl':{name:'Computrabajo Chile',type:'Scraping',icon:'🤖',color:'#ef4444'},
   'computrabajo-mx':{name:'Computrabajo México',type:'Scraping',icon:'🤖',color:'#22c55e'},
   'computrabajo-co':{name:'Computrabajo Colombia',type:'Scraping',icon:'🤖',color:'#f59e0b'},
@@ -181,6 +187,7 @@ function getSourceMeta(src){
   if(src.startsWith('getonboard'))return{name:'GetOnBoard '+(src.split('-')[1]||'').toUpperCase(),type:'Scraping',icon:'🤖',color:'#22d3ee'};
   if(src.startsWith('laborum'))return{name:'Laborum '+src.split('-')[1].toUpperCase(),type:'Scraping',icon:'🤖',color:'#a855f7'};
   if(src.startsWith('bumeran'))return{name:'Bumeran '+src.split('-')[1].toUpperCase(),type:'Scraping',icon:'🤖',color:'#10b981'};
+  if(src.startsWith('indeed-'))return{name:'Indeed '+src.split('-')[1].toUpperCase(),type:'Scraping',icon:'🤖',color:'#2557a7'};
   return{name:src,type:'?',icon:'❓',color:'#94a3b8'};
 }
 

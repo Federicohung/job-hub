@@ -594,6 +594,18 @@ def run_pipeline():
     except Exception as e:
         log.error(f'[Scrape] LinkedIn FAILED: {e}')
 
+    # Indeed Public Search (best effort — aggressive anti-bot)
+    try:
+        spec = importlib.util.spec_from_file_location("scrape_indeed", os.path.join(_script_dir, "scrape_indeed.py"))
+        mod = importlib.util.module_from_spec(spec)
+        spec.loader.exec_module(mod)
+        log.info('Scraping Indeed (public)...')
+        ij_jobs = mod.scrape_indeed()
+        all_jobs.extend(ij_jobs)
+        log.info(f'[Scrape] Indeed: {len(ij_jobs)} jobs')
+    except Exception as e:
+        log.error(f'[Scrape] Indeed FAILED: {e}')
+
     before = len(all_jobs)
     all_jobs = deduplicate(all_jobs)
     log.info(f'Dedup: {before} → {len(all_jobs)}')
@@ -606,7 +618,7 @@ def run_pipeline():
     valid_jobs = []
     # Validate all API-sourced jobs, skip bulk scraper jobs (they have valid domain URLs)
     for job in all_jobs:
-        if job['source'].startswith('computrabajo-') or job['source'] == 'infojobs' or job['source'].startswith('getonboard') or job['source'].startswith('laborum') or job['source'].startswith('bumeran') or job['source'] == 'linkedin':
+        if job['source'].startswith('computrabajo-') or job['source'] == 'infojobs' or job['source'].startswith('getonboard') or job['source'].startswith('laborum') or job['source'].startswith('bumeran') or job['source'] == 'linkedin' or job['source'].startswith('indeed-'):
             job['urlValid'] = True  # Trust known domain URLs
             valid_jobs.append(job)
         else:
