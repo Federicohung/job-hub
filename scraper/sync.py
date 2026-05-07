@@ -193,11 +193,18 @@ def sync(raw_file=None, db_file=None, batch_size=BATCH_SIZE, max_age_days=MAX_AG
         posted = parse_date(job.get('postedAt', ''))
         found = parse_date(job.get('foundAt', ''))
 
-        # Use the most recent of posted/found
+        # Use the most recent of posted/found (ensure timezone-aware)
         job_date = None
-        if posted and found:
-            job_date = max(posted, found)
-        else:
+        try:
+            if posted and found:
+                if posted.tzinfo is None: posted = posted.replace(tzinfo=timezone.utc)
+                if found.tzinfo is None: found = found.replace(tzinfo=timezone.utc)
+                job_date = max(posted, found)
+            else:
+                d = posted or found
+                if d and d.tzinfo is None: d = d.replace(tzinfo=timezone.utc)
+                job_date = d
+        except TypeError:
             job_date = posted or found
 
         if job_date and job_date < cutoff:
