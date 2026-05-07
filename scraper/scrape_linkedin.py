@@ -19,19 +19,11 @@ QUERIES = [
     ('remote spanish speaking', 'Remote Worldwide'),
     ('remote latam', 'Remote LATAM'),
     ('remote spain', 'Remote Spain'),
-    ('trabajo remoto español', 'Remoto Español'),
     ('spanish required remote', 'Remote Spanish Required'),
     ('bilingual spanish english remote', 'Remote Bilingual'),
     ('remoto latinoamerica', 'Remoto LatAm'),
-    ('remote chile', 'Remote Chile'),
-    ('remote colombia', 'Remote Colombia'),
-    ('remote mexico', 'Remote Mexico'),
-    ('remote argentina', 'Remote Argentina'),
-    ('director operaciones remote', 'Director Ops Remote'),
-    ('gerente comercial remote', 'Gerente Comercial Remote'),
     ('operations manager remote spanish', 'Ops Manager Spanish Remote'),
-    ('customer success manager remote latam', 'CSM Remote LATAM'),
-    ('sales manager remote spanish speaking', 'Sales Manager Spanish Remote'),
+    ('sales manager remote latam', 'Sales Manager LATAM Remote'),
 ]
 
 
@@ -138,7 +130,7 @@ def _parse_linkedin_jobs(page_html, query_label):
     return jobs
 
 
-def scrape_linkedin(max_jobs=300):
+def scrape_linkedin(max_jobs=200):
     """Scrape LinkedIn public job search. Best effort — may get blocked."""
     all_jobs = []
     seen_ids = set()

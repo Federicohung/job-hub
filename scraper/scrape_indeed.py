@@ -27,20 +27,13 @@ COUNTRIES = [
 # Queries targeting SPANISH LANGUAGE positions across all markets
 QUERIES = [
     'spanish required remote',
-    'spanish speaking remote',
-    'bilingual spanish english remote',
-    'trabajo remoto español',
-    'remote español',
-    'remoto español',
+    'remote latam',
+    'remote spain',
     'trabajo remoto',
-    'teletrabajo',
     'operations manager remoto',
-    'gerente comercial remoto',
-    'customer success español',
     'sales manager spanish',
-    'director operaciones remoto',
+    'customer success latam',
     'marketing remoto español',
-    'datos remoto español',
 ]
 
 
@@ -203,7 +196,7 @@ def _parse_indeed_page(page_html, base_url, country_tld, country_name, query_tex
     return jobs
 
 
-def scrape_indeed(max_jobs=400):
+def scrape_indeed(max_jobs=200):
     """Scrape Indeed public search across LATAM + Spain."""
     all_jobs = []
     seen_ids = set()
@@ -220,7 +213,7 @@ def scrape_indeed(max_jobs=400):
             if blocked or len(all_jobs) >= max_jobs:
                 break
 
-            for page_offset in [0, 10, 20]:
+            for page_offset in [0, 10]:
                 if blocked or len(all_jobs) >= max_jobs:
                     break
 

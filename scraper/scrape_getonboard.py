@@ -134,7 +134,7 @@ def _parse_page(page_html, base_url, country_tld, country_name):
     return jobs
 
 
-def scrape_getonboard(max_jobs=500):
+def scrape_getonboard(max_jobs=300):
     """Scrape GetOnBoard country sites."""
     all_jobs = []
     seen_links = set()

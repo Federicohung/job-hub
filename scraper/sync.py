@@ -16,7 +16,7 @@ SYNC_LOG = os.path.join(DATA_DIR, 'sync_log.json')
 HISTORY_FILE = os.path.join(DATA_DIR, 'sync_history.json')
 
 MAX_AGE_DAYS = 30
-BATCH_SIZE = 1500
+BATCH_SIZE = 500
 
 
 def load_json(path):

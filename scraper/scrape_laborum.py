@@ -121,7 +121,7 @@ def _parse_page(page_html, base_url, country_tld, country_name):
     return jobs
 
 
-def scrape_laborum(max_jobs=400):
+def scrape_laborum(max_jobs=200):
     """Scrape Laborum country sites."""
     all_jobs = []
     seen_links = set()

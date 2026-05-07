@@ -28,9 +28,7 @@ QUERIES = [
     'gerente', 'director',
     'ventas', 'comercial', 'operaciones',
     'marketing', 'desarrollo',
-    'customer success', 'datos', 'analista',
-    'finanzas', 'rrhh', 'proyectos',
-    'administrativo', 'logistica',
+    'customer success', 'datos',
 ]
 
 
@@ -180,7 +178,7 @@ def _parse_computrabajo_page(page_html, base_url, country_tld, country_name):
     return jobs
 
 
-def scrape_computrabajo(max_jobs=1200):
+def scrape_computrabajo(max_jobs=500):
     """Scrape Computrabajo country sites. Validates URLs with GET."""
     all_jobs = []
     seen_links = set()
@@ -196,7 +194,7 @@ def scrape_computrabajo(max_jobs=1200):
             if len(all_jobs) >= max_jobs:
                 break
 
-            for page in range(1, 4):
+            for page in range(1, 3):
                 if len(all_jobs) >= max_jobs:
                     break
 

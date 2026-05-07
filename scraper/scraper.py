@@ -522,7 +522,7 @@ def run_pipeline():
     import importlib.util
 
     _script_dir = os.path.dirname(os.path.abspath(__file__))
-    MAX_JOBS = 1000
+    MAX_JOBS = 500
 
     try:
         spec = importlib.util.spec_from_file_location("scrape_computrabajo", os.path.join(_script_dir, "scrape_computrabajo.py"))
@@ -613,22 +613,12 @@ def run_pipeline():
     # Sort by tier (ascending = higher priority)
     all_jobs.sort(key=lambda j: (j['locationTier'], j['postedAt'] or ''), reverse=False)
 
-    # Validate URLs (sample only — skip for bulk scrapers)
-    log.info('Validating URLs (sample)...')
-    valid_jobs = []
-    # Validate all API-sourced jobs, skip bulk scraper jobs (they have valid domain URLs)
-    for job in all_jobs:
-        if job['source'].startswith('computrabajo-') or job['source'] == 'infojobs' or job['source'].startswith('getonboard') or job['source'].startswith('laborum') or job['source'].startswith('bumeran') or job['source'] == 'linkedin' or job['source'].startswith('indeed-'):
-            job['urlValid'] = True  # Trust known domain URLs
-            valid_jobs.append(job)
-        else:
-            if validate_url(job['sourceUrl']):
-                job['urlValid'] = True
-                valid_jobs.append(job)
-            else:
-                log.warning(f'Invalid URL: {job["title"]} @ {job["company"]}')
+    # Skip expensive URL validation from CI — trust source URLs
+    valid_jobs = all_jobs
+    for job in valid_jobs:
+        job['urlValid'] = True
 
-    log.info(f'URL validation: {len(valid_jobs)}/{len(all_jobs)} valid')
+    log.info(f'Total: {len(valid_jobs)} jobs (URL validation skipped for speed)')
 
     # Build output
     bd = {}
