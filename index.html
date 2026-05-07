@@ -15,7 +15,9 @@ body{font-family:-apple-system,'Segoe UI',sans-serif;background:var(--bg);color:
 .btn-primary{background:var(--accent);color:#fff}.btn-primary:hover{background:#dc2626}
 .btn-outline{background:transparent;color:var(--text);border:1px solid var(--surface2)}.btn-outline:hover{background:var(--surface2)}
 .btn-outline.active{background:var(--accent);color:#fff;border-color:var(--accent)}
-.btn-sync{background:var(--green);color:#fff;border:none}.btn-sync:hover{background:#16a34a}
+.btn-sync{background:var(--green);color:#fff;border:none;cursor:pointer}.btn-sync:hover{background:#16a34a}
+.btn-sync:disabled{background:#475569;cursor:not-allowed;opacity:.7}
+.btn-sm{padding:6px 12px;font-size:11px}
 .badge{display:inline-block;padding:2px 8px;border-radius:20px;font-size:11px;font-weight:600;text-transform:uppercase}
 .badge-remote{background:#22c55e20;color:var(--green)}.badge-hybrid{background:#eab30820;color:var(--yellow)}.badge-onsite{background:#3b82f620;color:var(--blue)}
 
@@ -54,28 +56,40 @@ select.filter-select:focus{border-color:var(--accent)}
 
 /* Sync panel */
 .sync-panel{padding:20px 32px}
-.sync-status-card{background:var(--surface);border:1px solid var(--surface2);border-radius:var(--radius);padding:20px;margin-bottom:16px}
-.sync-header{display:flex;justify-content:space-between;align-items:center;margin-bottom:16px}
-.sync-title{font-size:16px;font-weight:700}
-.sync-progress-container{margin:16px 0}
-.sync-progress-bar{height:12px;background:var(--bg);border-radius:6px;overflow:hidden;position:relative}
-.sync-progress-fill{height:100%;border-radius:6px;transition:width 1s ease;background:linear-gradient(90deg,var(--green),var(--cyan))}
-.sync-progress-fill.running{animation:pulse 1.5s ease infinite}
-@keyframes pulse{0%,100%{opacity:1}50%{opacity:.7}}
-.sync-progress-text{text-align:center;font-size:12px;color:var(--muted);margin-top:6px}
-.sync-stats{display:grid;grid-template-columns:repeat(auto-fit,minmax(140px,1fr));gap:10px;margin-top:16px}
+.sync-status-card{background:var(--surface);border:1px solid var(--surface2);border-radius:var(--radius);padding:24px;margin-bottom:16px}
+.sync-header{display:flex;justify-content:space-between;align-items:center;margin-bottom:16px;flex-wrap:wrap;gap:12px}
+.sync-title{font-size:18px;font-weight:700}
+.sync-progress-container{margin:20px 0}
+.sync-progress-bar{height:16px;background:var(--bg);border-radius:8px;overflow:hidden;position:relative}
+.sync-progress-fill{height:100%;border-radius:8px;transition:width 2s ease;background:linear-gradient(90deg,var(--green),var(--cyan));position:relative}
+.sync-progress-fill.running{background:linear-gradient(90deg,var(--blue),var(--cyan),var(--green));background-size:200% 100%;animation:shimmer 2s linear infinite}
+@keyframes shimmer{0%{background-position:200% 0}100%{background-position:-200% 0}}
+.sync-progress-fill.error{background:var(--accent);animation:none}
+.sync-progress-text{text-align:center;font-size:13px;color:var(--muted);margin-top:8px}
+.sync-phase{display:inline-block;padding:4px 12px;background:var(--surface2);border-radius:6px;font-size:11px;color:var(--text);margin-top:8px}
+.sync-stats{display:grid;grid-template-columns:repeat(auto-fit,minmax(130px,1fr));gap:10px;margin-top:16px}
 .sync-stat{background:var(--bg);border-radius:8px;padding:10px 14px;text-align:center}
 .sync-stat-num{font-size:20px;font-weight:800}.sync-stat-label{font-size:10px;color:var(--muted);text-transform:uppercase;margin-top:2px}
 .sync-schedule{display:flex;gap:12px;flex-wrap:wrap;margin-top:12px}
 .sync-time{font-size:12px;padding:6px 12px;background:var(--bg);border-radius:6px;border:1px solid var(--surface2)}
 .sync-time strong{color:var(--text)}
 
+/* Token setup */
+.token-setup{background:var(--surface);border:1px solid var(--surface2);border-radius:var(--radius);padding:20px;margin-bottom:16px}
+.token-setup h3{font-size:14px;margin-bottom:8px}
+.token-setup p{font-size:12px;color:var(--muted);margin-bottom:12px;line-height:1.5}
+.token-setup a{color:var(--cyan)}
+.token-row{display:flex;gap:8px;align-items:center}
+.token-input{flex:1;padding:8px 12px;border-radius:var(--radius);border:1px solid var(--surface2);background:var(--bg);color:var(--text);font-size:12px;font-family:monospace;outline:none}
+.token-input:focus{border-color:var(--green)}
+.token-status{font-size:11px;margin-left:8px}
+
 /* Sync history */
 .sync-history{margin-top:16px}
 .sync-history-title{font-size:13px;font-weight:700;color:var(--muted);margin-bottom:8px}
-.sync-history-item{display:flex;justify-content:space-between;align-items:center;padding:8px 12px;background:var(--bg);border-radius:6px;margin-bottom:4px;font-size:12px}
+.sync-history-item{display:flex;justify-content:space-between;align-items:center;padding:8px 12px;background:var(--bg);border-radius:6px;margin-bottom:4px;font-size:12px;gap:8px;flex-wrap:wrap}
 .sync-history-time{color:var(--muted)}.sync-history-msg{color:var(--text)}
-.sync-history-badge{font-size:10px;padding:2px 8px;border-radius:10px;font-weight:600}
+.sync-history-badge{font-size:10px;padding:2px 8px;border-radius:10px;font-weight:600;white-space:nowrap}
 
 /* Sources tab */
 .sources-grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(300px,1fr));gap:12px;padding:20px 32px}
@@ -109,7 +123,7 @@ select.filter-select:focus{border-color:var(--accent)}
 .spinner{display:inline-block;width:20px;height:20px;border:2px solid var(--surface2);border-top-color:var(--accent);border-radius:50%;animation:spin .8s linear infinite}
 @keyframes spin{to{transform:rotate(360deg)}}
 .empty{text-align:center;padding:60px 20px;color:var(--muted)}
-@media(max-width:600px){.header,.stats,.toolbar,.meta,.jobs-list,.webhook-box,.sources-grid,.sources-summary,.sources-pie,.sync-panel{padding-left:14px;padding-right:14px}.stats{grid-template-columns:repeat(3,1fr)}.job-card{grid-template-columns:1fr}.sources-grid{grid-template-columns:1fr}.tab{padding:10px 14px;font-size:12px}.sync-stats{grid-template-columns:repeat(2,1fr)}}
+@media(max-width:600px){.header,.stats,.toolbar,.meta,.jobs-list,.webhook-box,.sources-grid,.sources-summary,.sources-pie,.sync-panel,.token-setup{padding-left:14px;padding-right:14px}.stats{grid-template-columns:repeat(3,1fr)}.job-card{grid-template-columns:1fr}.sources-grid{grid-template-columns:1fr}.tab{padding:10px 14px;font-size:12px}.sync-stats{grid-template-columns:repeat(2,1fr)}.token-row{flex-direction:column}.sync-header{flex-direction:column;align-items:flex-start}}
 </style>
 </head>
 <body>
@@ -118,8 +132,8 @@ select.filter-select:focus{border-color:var(--accent)}
   <h1>🦞 <span>Job Hub</span> — Mercado Hispano</h1>
   <div class="header-right">
     <span id="updated-label" style="font-size:11px;color:var(--muted)"></span>
-    <a class="btn btn-sync" href="https://github.com/Federicohung/job-hub/actions/workflows/scrape.yml" target="_blank" style="font-size:12px;padding:6px 14px">🔄 Sync</a>
-    <a class="btn btn-outline" href="https://github.com/Federicohung/job-hub/actions" target="_blank" style="font-size:12px;padding:6px 14px">⚙️ Actions</a>
+    <button class="btn btn-sync" id="header-sync-btn" onclick="triggerSyncFromHeader()">🔄 Sync</button>
+    <a class="btn btn-outline btn-sm" href="https://github.com/Federicohung/job-hub/actions" target="_blank" style="font-size:11px">⚙️ Actions</a>
   </div>
 </div>
 
@@ -175,11 +189,19 @@ select.filter-select:focus{border-color:var(--accent)}
 </div>
 
 <script>
+// ── Config ──
 const DATA_URL='https://raw.githubusercontent.com/Federicohung/job-hub/master/scraper/data/jobs.json';
 const SYNC_URL='https://raw.githubusercontent.com/Federicohung/job-hub/master/scraper/data/sync_log.json';
 const HISTORY_URL='https://raw.githubusercontent.com/Federicohung/job-hub/master/scraper/data/sync_history.json';
+const REPO='Federicohung/job-hub';
+const WORKFLOW_ID='scrape.yml';
+const TOKEN_KEY='jobhub_gh_token';
 let allJobs=[],filtered=[],curCat='all',curPage=1;const PP=60;
+let syncPolling=null;
+let syncRunId=null;
+let isSyncing=false;
 
+// ── Source metadata ──
 const SOURCE_META={
   'remotive':{name:'Remotive',type:'API',icon:'🔌',color:'#3b82f6'},
   'arbeitnow':{name:'Arbeitnow',type:'API',icon:'🔌',color:'#8b5cf6'},
@@ -226,6 +248,7 @@ function getSourceMeta(src){
   return{name:src,type:'?',icon:'❓',color:'#94a3b8'};
 }
 
+// ── Tab switching ──
 function switchTab(el){
   document.querySelectorAll('.tab').forEach(t=>t.classList.remove('active'));
   el.classList.add('active');
@@ -233,120 +256,269 @@ function switchTab(el){
   document.getElementById('tab-'+el.dataset.tab).classList.add('active');
 }
 
+// ── Token management ──
+function getToken(){return localStorage.getItem(TOKEN_KEY)}
+function saveToken(t){localStorage.setItem(TOKEN_KEY,t)}
+function clearToken(){localStorage.removeItem(TOKEN_KEY)}
+function hasToken(){return!!getToken()}
+
+// ── GitHub Actions API ──
+async function ghApi(path,opts={}){
+  const token=getToken();
+  if(!token)return null;
+  const headers={'Authorization':'Bearer '+token,'Accept':'application/vnd.github.v3+json','Content-Type':'application/json',...opts.headers};
+  const resp=await fetch('https://api.github.com'+path,{...opts,headers});
+  if(resp.status===401){clearToken();showToast('🔑 Token inválido — configurá de nuevo','error');return null}
+  if(resp.status===403){showToast('⛔ Sin permisos — el token necesita scope: repo + workflow','error');return null}
+  return resp;
+}
+
+async function triggerWorkflow(){
+  if(isSyncing){showToast('⏳ Sync ya en progreso','warn');return}
+  const token=getToken();
+  if(!token){showToast('🔑 Configurá tu GitHub token primero','warn');return}
+
+  isSyncing=true;
+  setSyncButtonState('triggering');
+  showToast('🚀 Disparando workflow...','info');
+
+  const resp=await ghApi(`/repos/${REPO}/actions/workflows/${WORKFLOW_ID}/dispatches`,{
+    method:'POST',body:JSON.stringify({ref:'master'})
+  });
+
+  if(!resp){isSyncing=false;setSyncButtonState('idle');return}
+
+  if(resp.status===204){
+    showToast('✅ Workflow disparado — monitoreando progreso...','ok');
+    setSyncButtonState('monitoring');
+    // Wait a moment then start polling
+    setTimeout(()=>startPolling(),5000);
+  }else{
+    showToast('❌ Error al disparar workflow (HTTP '+resp.status+')','error');
+    isSyncing=false;
+    setSyncButtonState('idle');
+  }
+}
+
+async function startPolling(){
+  if(syncPolling)clearInterval(syncPolling);
+  let elapsed=0;
+  const maxWait=30*60*1000; // 30 min timeout
+
+  syncPolling=setInterval(async()=>{
+    elapsed+=15000;
+
+    if(elapsed>maxWait){
+      clearInterval(syncPolling);syncPolling=null;
+      isSyncing=false;setSyncButtonState('idle');
+      showToast('⏰ Timeout — verificá en Actions','warn');
+      return;
+    }
+
+    try{
+      const resp=await ghApi(`/repos/${REPO}/actions/runs?per_page=5`);
+      if(!resp)return;
+      const data=await resp.json();
+      const runs=data.workflow_runs||[];
+
+      // Find the most recent run
+      const latestRun=runs.find(r=>r.name==='Job Hub Scraper & Sync');
+      if(!latestRun)return;
+
+      const status=latestRun.status;
+      const conclusion=latestRun.conclusion;
+
+      if(status==='queued'){
+        updateLiveProgress(10,'⏳ Encolado — esperando runner...');
+      }else if(status==='in_progress'){
+        // Estimate progress based on elapsed time (typical run ~10-15 min)
+        const runTime=(Date.now()-new Date(latestRun.run_started_at).getTime())/1000;
+        const estimated=900; // 15 min estimate
+        const pct=Math.min(85,Math.max(15,Math.round((runTime/estimated)*85)));
+        updateLiveProgress(pct,'🔄 Ejecutando — scrape + sync...');
+      }else if(status==='completed'){
+        clearInterval(syncPolling);syncPolling=null;
+        isSyncing=false;
+
+        if(conclusion==='success'){
+          updateLiveProgress(100,'✅ Sync completado exitosamente');
+          setSyncButtonState('success');
+          showToast('✅ Sync completado — datos actualizados','ok');
+          // Reload data after a delay (GitHub Pages cache)
+          setTimeout(()=>{load();renderSyncPanel(null)},5000);
+        }else{
+          updateLiveProgress(0,'❌ Error: '+conclusion);
+          setSyncButtonState('error');
+          showToast('❌ Workflow falló: '+conclusion+' — verificá en Actions','error');
+          setTimeout(()=>{isSyncing=false;setSyncButtonState('idle')},10000);
+        }
+      }
+    }catch(e){
+      console.error('Polling error:',e);
+    }
+  },15000);
+}
+
+function updateLiveProgress(pct,message){
+  const bar=document.getElementById('live-progress-fill');
+  const text=document.getElementById('live-progress-text');
+  const phase=document.getElementById('live-phase');
+  if(bar)bar.style.width=pct+'%';
+  if(text)text.textContent=message;
+  if(phase)phase.textContent=pct+'%';
+}
+
+function setSyncButtonState(state){
+  const btn=document.getElementById('header-sync-btn');
+  const panelBtn=document.getElementById('panel-sync-btn');
+  const [b,...r]=state==='idle'?['🔄 Sync']:state==='triggering'?['⏳...']:state==='monitoring'?['📡']:state==='success'?['✅']:state==='error'?['❌']:['🔄 Sync'];
+  if(btn){btn.textContent=b;btn.disabled=(state!=='idle')}
+  if(panelBtn){panelBtn.textContent=b;panelBtn.disabled=(state!=='idle')}
+  if(state==='idle'||state==='success'||state==='error'){
+    setTimeout(()=>{
+      if(btn){btn.textContent='🔄 Sync';btn.disabled=false}
+      if(panelBtn){panelBtn.textContent='🔄 Sincronizar Ahora';panelBtn.disabled=false}
+    },state==='success'?5000:8000);
+  }
+}
+
+function triggerSyncFromHeader(){
+  triggerWorkflow();
+  // Switch to sync tab to show progress
+  document.querySelectorAll('.tab').forEach(t=>t.classList.remove('active'));
+  document.querySelector('.tab[data-tab="sync"]').classList.add('active');
+  document.querySelectorAll('.tab-content').forEach(t=>t.classList.remove('active'));
+  document.getElementById('tab-sync').classList.add('active');
+}
+
+// ── Toast notifications ──
+function showToast(msg,type='info'){
+  const toast=document.createElement('div');
+  toast.style.cssText=`position:fixed;bottom:24px;right:24px;background:var(--surface);border:1px solid var(--surface2);color:var(--text);padding:12px 20px;border-radius:var(--radius);font-size:13px;z-index:9999;max-width:400px;box-shadow:0 4px 20px rgba(0,0,0,.4);transition:opacity .3s;`;
+  if(type==='error')toast.style.borderColor='var(--accent)';
+  if(type==='ok')toast.style.borderColor='var(--green)';
+  if(type==='warn')toast.style.borderColor='var(--yellow)';
+  toast.textContent=msg;
+  document.body.appendChild(toast);
+  setTimeout(()=>{toast.style.opacity='0';setTimeout(()=>toast.remove(),300)},4000);
+}
+
+// ── Load data ──
 async function load(){
   try{
-    const [r,d]=await Promise.all([
-      fetch(DATA_URL+'?t='+Date.now()),
-      fetch(SYNC_URL+'?t='+Date.now())
-    ]);
-    const data=await r.json();
-    allJobs=data.jobs||[];
-    renderStats(data.breakdown||{});
-    renderSources(data);
-    document.getElementById('updated-label').textContent=data.updatedAt?'✅ '+new Date(data.updatedAt).toLocaleString('es-CL'):'';
+    const r=await fetch(DATA_URL+'?t='+Date.now());
+    const d=await r.json();
+    allJobs=d.jobs||[];
+    renderStats(d.breakdown||{});
+    renderSources(d);
+    document.getElementById('updated-label').textContent=d.updatedAt?'✅ '+new Date(d.updatedAt).toLocaleString('es-CL'):'';
     document.getElementById('webhook-url').textContent=DATA_URL;
     const sources=[...new Set(allJobs.map(j=>j.source))].sort();
     const sel=document.getElementById('source-filter');
     sel.innerHTML='<option value="">📁 Todas las fuentes</option>'+sources.map(s=>`<option value="${s}">${getSourceMeta(s).icon} ${getSourceMeta(s).name}</option>`).join('');
     applyFilters();
 
-    // Render sync panel
     let syncData=null;
-    try{syncData=await d.json()}catch(e){}
-    renderSync(syncData);
+    try{const sr=await fetch(SYNC_URL+'?t='+Date.now());syncData=await sr.json()}catch(e){}
+    renderSyncPanel(syncData);
 
-    // Load sync history
-    try{
-      const h=await fetch(HISTORY_URL+'?t='+Date.now());
-      const hist=await h.json();
-      renderSyncHistory(hist);
-    }catch(e){}
+    try{const h=await fetch(HISTORY_URL+'?t='+Date.now());const hist=await h.json();renderSyncHistory(hist)}catch(e){}
   }catch(e){document.getElementById('jobs-list').innerHTML='<div class="empty">Error cargando datos.</div>'}
 }
 
 // ── Sync Tab ──
-function renderSync(syncData){
+function renderSyncPanel(syncData){
   const panel=document.getElementById('sync-panel');
-  if(!syncData){
-    panel.innerHTML=`
-      <div class="sync-status-card">
-        <div class="sync-header"><div class="sync-title">🔄 Sincronización</div></div>
-        <div style="color:var(--muted);font-size:13px;margin:12px 0">No hay datos de sincronización aún. Se registrará después del primer sync.</div>
-        <div class="sync-progress-container">
-          <div class="sync-progress-bar"><div class="sync-progress-fill" style="width:0%;background:var(--surface2)"></div></div>
-          <div class="sync-progress-text">Esperando primer sync...</div>
-        </div>
-        <div class="sync-schedule">
-          <div class="sync-time">🕐 <strong>Batch 1:</strong> 08:00 UTC (05:00 CL)</div>
-          <div class="sync-time">🕐 <strong>Batch 2:</strong> 20:00 UTC (17:00 CL)</div>
-          <div class="sync-time">📦 <strong>Lote:</strong> 1,500 jobs/batch</div>
-          <div class="sync-time">🗑️ <strong>Expiración:</strong> 30 días</div>
-        </div>
-        <div style="margin-top:16px">
-          <a class="btn btn-sync" href="https://github.com/Federicohung/job-hub/actions/workflows/scrape.yml" target="_blank">🔄 Sincronizar Manualmente</a>
-        </div>
+  const hasTokenStored=hasToken();
+
+  let tokenSection=`
+    <div class="token-setup">
+      <h3>🔑 Conexión con GitHub</h3>
+      <p>Necesitás un <a href="https://github.com/settings/tokens/new?scopes=repo,workflow&description=JobHub%20Sync" target="_blank">Personal Access Token</a> con scopes <strong>repo</strong> + <strong>workflow</strong> para sincronizar desde aquí.</p>
+      <div class="token-row">
+        <input class="token-input" type="password" id="token-input" placeholder="ghp_xxxxxxxxxxxx" value="${hasTokenStored?getToken().substring(0,7)+'••••••••••••':''}" onkeydown="if(event.key==='Enter')saveAndTestToken()">
+        <button class="btn btn-sync btn-sm" onclick="saveAndTestToken()">${hasTokenStored?'✅ Guardado':'💾 Guardar'}</button>
+        <span class="token-status" id="token-status">${hasTokenStored?'<span style="color:var(--green)">● Activo</span>':''}</span>
+      </div>
+    </div>`;
+
+  let liveProgressSection=`
+    <div style="margin:16px 0">
+      <div style="font-size:13px;font-weight:600;margin-bottom:8px">📊 Progreso en Vivo</div>
+      <div class="sync-progress-bar" style="height:16px">
+        <div class="sync-progress-fill ${isSyncing?'running':''}" id="live-progress-fill" style="width:${isSyncing?'50':'0'}%"></div>
+      </div>
+      <div style="display:flex;justify-content:space-between;margin-top:4px">
+        <span class="sync-progress-text" id="live-progress-text">${isSyncing?'🔄 Monitoreando...':'Esperando sync...'}</span>
+        <span class="sync-phase" id="live-phase">${isSyncing?'...':'0%'}</span>
+      </div>
+    </div>`;
+
+  let statsSection='';
+  if(syncData&&syncData.status==='complete'){
+    statsSection=`
+      <div class="sync-stats">
+        <div class="sync-stat"><div class="sync-stat-num green">${syncData.totalInDb||0}</div><div class="sync-stat-label">📊 Total DB</div></div>
+        <div class="sync-stat"><div class="sync-stat-num cyan">${syncData.added||0}</div><div class="sync-stat-label">➕ Nuevos</div></div>
+        <div class="sync-stat"><div class="sync-stat-num blue">${syncData.updated||0}</div><div class="sync-stat-label">🔄 Actualizados</div></div>
+        <div class="sync-stat"><div class="sync-stat-num yellow">${syncData.removed||0}</div><div class="sync-stat-label">🗑️ Expirados</div></div>
+        <div class="sync-stat"><div class="sync-stat-num purple">${syncData.deduped||0}</div><div class="sync-stat-label">🔁 Duplicados</div></div>
+        <div class="sync-stat"><div class="sync-stat-num orange">${syncData.processed||0}</div><div class="sync-stat-label">📦 Procesados</div></div>
       </div>`;
-    return;
   }
 
-  const isRunning=syncData.status==='running';
-  const pct=syncData.progress||0;
-  const msg=syncData.message||'';
-  const lastSync=syncData.lastSync?new Date(syncData.lastSync).toLocaleString('es-CL'):'Nunca';
+  let lastSyncText='Nunca';
+  if(syncData&&syncData.lastSync){
+    lastSyncText=new Date(syncData.lastSync).toLocaleString('es-CL');
+  }
 
   panel.innerHTML=`
+    ${tokenSection}
     <div class="sync-status-card">
       <div class="sync-header">
-        <div class="sync-title">${isRunning?'⏳ Sincronizando...':'✅ Sincronización'}</div>
-        <a class="btn ${isRunning?'btn-outline':'btn-sync'}" href="https://github.com/Federicohung/job-hub/actions/workflows/scrape.yml" target="_blank" ${isRunning?'':''}style="font-size:12px">
-          ${isRunning?'⏳ En progreso':'🔄 Sync Manual'}
-        </a>
+        <div class="sync-title">🔄 Sincronización</div>
+        <button class="btn btn-sync" id="panel-sync-btn" onclick="triggerWorkflow()" ${isSyncing?'disabled':''}>
+          ${isSyncing?'📡 Monitoreando...':'🔄 Sincronizar Ahora'}
+        </button>
       </div>
-
-      <div class="sync-progress-container">
-        <div class="sync-progress-bar">
-          <div class="sync-progress-fill ${isRunning?'running':''}" style="width:${pct}%"></div>
-        </div>
-        <div class="sync-progress-text">${pct}% — ${msg}</div>
-      </div>
-
-      <div class="sync-stats">
-        <div class="sync-stat">
-          <div class="sync-stat-num green">${syncData.totalInDb||0}</div>
-          <div class="sync-stat-label">📊 Total en DB</div>
-        </div>
-        <div class="sync-stat">
-          <div class="sync-stat-num cyan">${syncData.added||0}</div>
-          <div class="sync-stat-label">➕ Nuevos</div>
-        </div>
-        <div class="sync-stat">
-          <div class="sync-stat-num blue">${syncData.updated||0}</div>
-          <div class="sync-stat-label">🔄 Actualizados</div>
-        </div>
-        <div class="sync-stat">
-          <div class="sync-stat-num yellow">${syncData.removed||0}</div>
-          <div class="sync-stat-label">🗑️ Expirados</div>
-        </div>
-        <div class="sync-stat">
-          <div class="sync-stat-num purple">${syncData.deduped||0}</div>
-          <div class="sync-stat-label">🔁 Duplicados</div>
-        </div>
-        <div class="sync-stat">
-          <div class="sync-stat-num orange">${syncData.processed||0}</div>
-          <div class="sync-stat-label">📦 Procesados</div>
-        </div>
-      </div>
-
+      ${liveProgressSection}
+      ${statsSection}
       <div class="sync-schedule">
         <div class="sync-time">🕐 <strong>Batch 1:</strong> 08:00 UTC (05:00 CL)</div>
         <div class="sync-time">🕐 <strong>Batch 2:</strong> 20:00 UTC (17:00 CL)</div>
-        <div class="sync-time">📦 <strong>Lote:</strong> ${syncData.batchSize||1500} jobs/batch</div>
-        <div class="sync-time">🗑️ <strong>Expiración:</strong> ${syncData.maxAgeDays||30} días</div>
-        <div class="sync-time">📅 <strong>Último sync:</strong> ${lastSync}</div>
-        <div class="sync-time">🆔 <strong>Sync ID:</strong> ${syncData.syncId||'—'}</div>
+        <div class="sync-time">📦 <strong>Lote:</strong> ${syncData&&syncData.batchSize?syncData.batchSize:1500} jobs</div>
+        <div class="sync-time">🗑️ <strong>Expiración:</strong> ${syncData&&syncData.maxAgeDays?syncData.maxAgeDays:30} días</div>
+        <div class="sync-time">📅 <strong>Último sync:</strong> ${lastSyncText}</div>
       </div>
     </div>
     <div id="sync-history-container"></div>`;
+
+  // If already syncing, restore live state
+  if(isSyncing){setSyncButtonState('monitoring')}
+}
+
+async function saveAndTestToken(){
+  const input=document.getElementById('token-input');
+  const val=input.value.trim();
+  if(!val||val.length<10){showToast('⚠️ Pegá tu token completo','warn');return}
+
+  const token=val.startsWith('ghp_')?val:'ghp_'+val;
+  saveToken(token);
+  input.value=token.substring(0,7)+'••••••••••••';
+
+  // Test token
+  const resp=await fetch('https://api.github.com/user',{
+    headers:{'Authorization':'Bearer '+token,'Accept':'application/vnd.github.v3+json'}
+  });
+  if(resp.ok){
+    const user=await resp.json();
+    document.getElementById('token-status').innerHTML=`<span style="color:var(--green)">● ${user.login}</span>`;
+    showToast('✅ Token válido — conectado como '+user.login,'ok');
+  }else{
+    clearToken();
+    document.getElementById('token-status').innerHTML='<span style="color:var(--accent)">● Inválido</span>';
+    showToast('❌ Token inválido','error');
+  }
 }
 
 function renderSyncHistory(history){
@@ -425,19 +597,16 @@ function renderSources(d){
 
   const allSources=sourcesList.length>0?sourcesList:sortedSources.map(([s])=>s);
   document.getElementById('sources-grid').innerHTML=allSources.map(s=>{
-    const m=getSourceMeta(s);
-    const count=sourceCounts[s]||0;
-    const remote=sourceRemote[s]||0;
-    const cats=sourceCategories[s]||{};
-    const pct=((count/topSource)*100).toFixed(0);
+    const m=getSourceMeta(s);const count=sourceCounts[s]||0;const remote=sourceRemote[s]||0;
+    const cats=sourceCategories[s]||{};const pct=((count/topSource)*100).toFixed(0);
     const lastDate=sourceLatest[s]?new Date(sourceLatest[s]).toLocaleDateString('es-CL',{month:'short',day:'numeric'}):'N/A';
     let statusClass='status-off',statusText='Sin datos';
     if(count>50){statusClass='status-ok';statusText='🟢 Excelente';}
     else if(count>10){statusClass='status-ok';statusText='🟢 Activa';}
     else if(count>0){statusClass='status-warn';statusText='🟡 Baja';}
     const catBars=Object.entries(cats).sort((a,b)=>b[1]-a[1]).map(([cat,n])=>{
-      const catColors={'remote-spanish':'#ef4444','remote-latam':'#22c55e','remote-spain':'#3b82f6','remote-global':'#8b5cf6','hybrid-latam':'#eab308','hybrid-spain':'#f97316','onsite-latam':'#94a3b8','onsite-spain':'#64748b','other':'#475569'};
-      return `<div class="source-detail"><span style="color:${catColors[cat]||'#94a3b8'}">${cat}</span> <span>${n}</span></div>`;
+      const cc={'remote-spanish':'#ef4444','remote-latam':'#22c55e','remote-spain':'#3b82f6','remote-global':'#8b5cf6','hybrid-latam':'#eab308','hybrid-spain':'#f97316','onsite-latam':'#94a3b8','onsite-spain':'#64748b','other':'#475569'};
+      return `<div class="source-detail"><span style="color:${cc[cat]||'#94a3b8'}">${cat}</span> <span>${n}</span></div>`;
     }).join('');
     return `<div class="source-card">
       <div class="source-card-header"><div class="source-name">${m.icon} ${m.name}</div><span class="source-status ${statusClass}">${statusText}</span></div>
