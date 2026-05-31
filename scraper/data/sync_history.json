@@ -1148,5 +1148,30 @@
       "remotive"
     ],
     "message": "+56 nuevos, ~48 actualizados, =302 duplicados, -0 expirados → 5963 total"
+  },
+  {
+    "status": "complete",
+    "progress": 100,
+    "syncId": "20260531-102629",
+    "lastSync": "2026-05-31T10:26:29.364874+00:00",
+    "batchSize": 500,
+    "maxAgeDays": 30,
+    "processed": 415,
+    "added": 26,
+    "updated": 40,
+    "deduped": 349,
+    "removed": 0,
+    "keptExisting": 5574,
+    "totalInDb": 5989,
+    "sources": [
+      "arbeitnow",
+      "computrabajo-ar",
+      "computrabajo-cl",
+      "computrabajo-co",
+      "computrabajo-mx",
+      "infojobs",
+      "remotive"
+    ],
+    "message": "+26 nuevos, ~40 actualizados, =349 duplicados, -0 expirados → 5989 total"
   }
 ]
