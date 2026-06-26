@@ -1,12 +1,12 @@
 {
   "version": "2.0",
   "schema": "persistent-db",
-  "updatedAt": "2026-06-25T21:57:46.624812+00:00",
-  "lastSync": "2026-06-25T21:57:46.624820+00:00",
-  "syncId": "20260625-215746",
+  "updatedAt": "2026-06-26T11:01:45.638215+00:00",
+  "lastSync": "2026-06-26T11:01:45.638223+00:00",
+  "syncId": "20260626-110145",
   "maxAgeDays": 30,
   "batchSize": 500,
-  "totalJobs": 4065,
+  "totalJobs": 4119,
   "sources": [
     "arbeitnow",
     "computrabajo-cl",
@@ -16,14 +16,14 @@
   ],
   "breakdown": {
     "remote-spanish": 6,
-    "remote-latam": 551,
-    "remote-spain": 68,
-    "remote-global": 40,
+    "remote-latam": 558,
+    "remote-spain": 69,
+    "remote-global": 42,
     "hybrid-latam": 2,
     "hybrid-spain": 1,
-    "onsite-latam": 3103,
+    "onsite-latam": 3146,
     "onsite-spain": 147,
-    "other": 147
+    "other": 148
   },
   "jobs": [
     {
@@ -186,7 +186,7 @@
       "salary": "No publicado",
       "description": "Weezevent is the French leader in online ticketing and the European leader in cashless payments. Through all the companies forming up the Weezevent Group, it provides a comprehensive suite of solutions including ticketing, access control, cashless payments, CRM and crowd management, used across a wide variety of events all over the world. From iconic festivals such as Tomorrowland, Lollapalooza, BBK, and Boomtown to major sporting events like the Mexico GP or the Paris 2024 Olympic and Paralympic Games, Weezevent supports events of all sizes and formats. Founded in 2008, Weezevent received the",
       "postedAt": "1782225034",
-      "foundAt": "2026-06-25T21:47:53.851871+00:00",
+      "foundAt": "2026-06-26T10:51:12.652592+00:00",
       "tags": [
         "Management",
         "Team Leader"
@@ -3350,7 +3350,7 @@
       "salary": "No publicado",
       "description": "",
       "postedAt": "2026-06-01T22:34:55",
-      "foundAt": "2026-06-01T22:34:55",
+      "foundAt": "2026-06-26T10:51:29",
       "tags": [
         "Chile",
         "hispanic-market"
@@ -4053,12 +4053,12 @@
       "urlValid": true
     },
     {
-      "id": "a4fd2bf235ab",
+      "id": "4b5acdad23db",
       "source": "computrabajo-cl",
-      "sourceUrl": "https://cl.computrabajo.com/ofertas-de-trabajo/oferta-de-trabajo-de-gerentedirector-de-operaciones-region-metropolitana-en-santiago-vitacura-E79F6D0B0442E42D61373E686DCF3405#lc=ListOffers-Score4-9",
-      "title": "Gerente/Director de operaciones / Región Metropolitana",
+      "sourceUrl": "https://cl.computrabajo.com/ofertas-de-trabajo/oferta-de-trabajo-de-administradora-de-contrato-operaciones-mineras-tecnologia-operaciones-mineras-tecnologia-en-antofagasta-86BFC250EAE846F561373E686DCF3405#lc=ListOffers-Score4-18",
+      "title": "Administrador(a) de Contrato Operaciones Mineras / Tecnología",
       "company": "No especificada",
-      "location": "Presencial y remoto",
+      "location": "$ 2.000.000,00 (Mensual)\n                \n                \n                    \n                    Presencial y remoto",
       "remote": true,
       "type": "FULL_TIME",
       "salary": "No publicado",
@@ -4074,12 +4074,12 @@
       "urlValid": true
     },
     {
-      "id": "4b5acdad23db",
+      "id": "a4fd2bf235ab",
       "source": "computrabajo-cl",
-      "sourceUrl": "https://cl.computrabajo.com/ofertas-de-trabajo/oferta-de-trabajo-de-administradora-de-contrato-operaciones-mineras-tecnologia-operaciones-mineras-tecnologia-en-antofagasta-86BFC250EAE846F561373E686DCF3405#lc=ListOffers-Score4-18",
-      "title": "Administrador(a) de Contrato Operaciones Mineras / Tecnología",
+      "sourceUrl": "https://cl.computrabajo.com/ofertas-de-trabajo/oferta-de-trabajo-de-gerentedirector-de-operaciones-region-metropolitana-en-santiago-vitacura-E79F6D0B0442E42D61373E686DCF3405#lc=ListOffers-Score4-9",
+      "title": "Gerente/Director de operaciones / Región Metropolitana",
       "company": "No especificada",
-      "location": "$ 2.000.000,00 (Mensual)\n                \n                \n                    \n                    Presencial y remoto",
+      "location": "Presencial y remoto",
       "remote": true,
       "type": "FULL_TIME",
       "salary": "No publicado",
@@ -8988,12 +8988,12 @@
       "urlValid": true
     },
     {
-      "id": "58e96f24b7e5",
+      "id": "1d7f118b6520",
       "source": "computrabajo-cl",
-      "sourceUrl": "https://cl.computrabajo.com/ofertas-de-trabajo/oferta-de-trabajo-de-supervisor-de-operacionesestacion-central-y-pudahuel1000000-liquidos-en-santiago-pudahuel-22FED5C35DFA0D4761373E686DCF3405#lc=ListOffers-Score4-8",
-      "title": "Supervisor de Operaciones/Estación Central Y Pudahuel/$1.000.000 liquidos",
+      "sourceUrl": "https://cl.computrabajo.com/ofertas-de-trabajo/oferta-de-trabajo-de-asistente-administrativoa-de-operaciones-y-logistica-en-santiago-las-condes-784CE48F30C0AA0761373E686DCF3405#lc=ListOffers-Score4-10",
+      "title": "Asistente Administrativo/a de Operaciones y Logística",
       "company": "No especificada",
-      "location": "$ 1.000.000,00 (Mensual)\n                \n                \n                    \n                    Presencial y remoto",
+      "location": "$ 700.000,00 (Mensual)\n                \n                \n                    \n                    Presencial y remoto",
       "remote": true,
       "type": "FULL_TIME",
       "salary": "No publicado",
@@ -9009,12 +9009,12 @@
       "urlValid": true
     },
     {
-      "id": "1d7f118b6520",
+      "id": "58e96f24b7e5",
       "source": "computrabajo-cl",
-      "sourceUrl": "https://cl.computrabajo.com/ofertas-de-trabajo/oferta-de-trabajo-de-asistente-administrativoa-de-operaciones-y-logistica-en-santiago-las-condes-784CE48F30C0AA0761373E686DCF3405#lc=ListOffers-Score4-10",
-      "title": "Asistente Administrativo/a de Operaciones y Logística",
+      "sourceUrl": "https://cl.computrabajo.com/ofertas-de-trabajo/oferta-de-trabajo-de-supervisor-de-operacionesestacion-central-y-pudahuel1000000-liquidos-en-santiago-pudahuel-22FED5C35DFA0D4761373E686DCF3405#lc=ListOffers-Score4-8",
+      "title": "Supervisor de Operaciones/Estación Central Y Pudahuel/$1.000.000 liquidos",
       "company": "No especificada",
-      "location": "$ 700.000,00 (Mensual)\n                \n                \n                    \n                    Presencial y remoto",
+      "location": "$ 1.000.000,00 (Mensual)\n                \n                \n                    \n                    Presencial y remoto",
       "remote": true,
       "type": "FULL_TIME",
       "salary": "No publicado",
@@ -9072,27 +9072,6 @@
       "urlValid": true
     },
     {
-      "id": "cb069a3bb46f",
-      "source": "computrabajo-cl",
-      "sourceUrl": "https://cl.computrabajo.com/ofertas-de-trabajo/oferta-de-trabajo-de-jefe-zonal-de-operaciones-santiago-en-santiago-las-condes-642CC95B3908B2E461373E686DCF3405#lc=ListOffers-Score4-17",
-      "title": "Jefe Zonal de Operaciones Santiago",
-      "company": "No especificada",
-      "location": "Presencial y remoto",
-      "remote": true,
-      "type": "FULL_TIME",
-      "salary": "No publicado",
-      "description": "",
-      "postedAt": "2026-06-17T22:04:47",
-      "foundAt": "2026-06-25T21:48:43",
-      "tags": [
-        "Chile",
-        "hispanic-market"
-      ],
-      "locationPriority": "remote-latam",
-      "locationTier": 2,
-      "urlValid": true
-    },
-    {
       "id": "1548d1939915",
       "source": "computrabajo-cl",
       "sourceUrl": "https://cl.computrabajo.com/ofertas-de-trabajo/oferta-de-trabajo-de-analista-de-operaciones-proyecto-las-condes-en-santiago-las-condes-D99CCC0F77193D8961373E686DCF3405#lc=ListOffers-Score4-3",
@@ -9105,6 +9084,27 @@
       "description": "",
       "postedAt": "2026-06-17T22:04:47",
       "foundAt": "2026-06-17T22:04:47",
+      "tags": [
+        "Chile",
+        "hispanic-market"
+      ],
+      "locationPriority": "remote-latam",
+      "locationTier": 2,
+      "urlValid": true
+    },
+    {
+      "id": "cb069a3bb46f",
+      "source": "computrabajo-cl",
+      "sourceUrl": "https://cl.computrabajo.com/ofertas-de-trabajo/oferta-de-trabajo-de-jefe-zonal-de-operaciones-santiago-en-santiago-las-condes-642CC95B3908B2E461373E686DCF3405#lc=ListOffers-Score4-17",
+      "title": "Jefe Zonal de Operaciones Santiago",
+      "company": "No especificada",
+      "location": "Presencial y remoto",
+      "remote": true,
+      "type": "FULL_TIME",
+      "salary": "No publicado",
+      "description": "",
+      "postedAt": "2026-06-17T22:04:47",
+      "foundAt": "2026-06-25T21:48:43",
       "tags": [
         "Chile",
         "hispanic-market"
@@ -9408,10 +9408,10 @@
       "urlValid": true
     },
     {
-      "id": "8daf879fdcd1",
+      "id": "184351e9b516",
       "source": "computrabajo-cl",
-      "sourceUrl": "https://cl.computrabajo.com/ofertas-de-trabajo/oferta-de-trabajo-de-analista-de-ventas-y-marketing-b2b-pudahuel-en-santiago-pudahuel-DF04197B52D3B5A961373E686DCF3405#lc=ListOffers-Score4-0",
-      "title": "Analista de Ventas y Marketing B2B",
+      "sourceUrl": "https://cl.computrabajo.com/ofertas-de-trabajo/oferta-de-trabajo-de-planner-marketing-digital-providencia-en-santiago-providencia-D3CBEDE4F41657FA61373E686DCF3405#lc=ListOffers-Score4-1",
+      "title": "Planner Marketing Digital Providencia",
       "company": "No especificada",
       "location": "Presencial y remoto",
       "remote": true,
@@ -9429,10 +9429,10 @@
       "urlValid": true
     },
     {
-      "id": "184351e9b516",
+      "id": "8daf879fdcd1",
       "source": "computrabajo-cl",
-      "sourceUrl": "https://cl.computrabajo.com/ofertas-de-trabajo/oferta-de-trabajo-de-planner-marketing-digital-providencia-en-santiago-providencia-D3CBEDE4F41657FA61373E686DCF3405#lc=ListOffers-Score4-1",
-      "title": "Planner Marketing Digital Providencia",
+      "sourceUrl": "https://cl.computrabajo.com/ofertas-de-trabajo/oferta-de-trabajo-de-analista-de-ventas-y-marketing-b2b-pudahuel-en-santiago-pudahuel-DF04197B52D3B5A961373E686DCF3405#lc=ListOffers-Score4-0",
+      "title": "Analista de Ventas y Marketing B2B",
       "company": "No especificada",
       "location": "Presencial y remoto",
       "remote": true,
@@ -11739,6 +11739,153 @@
       "urlValid": true
     },
     {
+      "id": "f7a2a718abdf",
+      "source": "computrabajo-cl",
+      "sourceUrl": "https://cl.computrabajo.com/ofertas-de-trabajo/oferta-de-trabajo-de-agentes-telefonicos-750000-liquido-jornada-lunes-a-viernes-con-modalidad-presencial-y-teletrabajo-empresa-de-combustibles-en-las-condes-en-santiago-las-condes-661ADDE542AAB41261373E686DCF3405#lc=ListOffers-Score4-3",
+      "title": "Agentes telefónicos $750.000 liquido Jornada lunes a viernes con Modalidad presencial y teletrabajo",
+      "company": "No especificada",
+      "location": "$ 750.000,00 (Mensual)\n                \n                \n                    \n                    Presencial y remoto",
+      "remote": true,
+      "type": "FULL_TIME",
+      "salary": "No publicado",
+      "description": "",
+      "postedAt": "2026-06-26T10:51:27",
+      "foundAt": "2026-06-26T10:51:27",
+      "tags": [
+        "Chile",
+        "hispanic-market"
+      ],
+      "locationPriority": "remote-latam",
+      "locationTier": 2,
+      "urlValid": true
+    },
+    {
+      "id": "629e0eaac3ff",
+      "source": "computrabajo-cl",
+      "sourceUrl": "https://cl.computrabajo.com/ofertas-de-trabajo/oferta-de-trabajo-de-community-manager-inmobiliaria-providencia-en-santiago-providencia-5EB0C09502805BDD61373E686DCF3405#lc=ListOffers-Score4-10",
+      "title": "Community Manager (Inmobiliaria)",
+      "company": "No especificada",
+      "location": "Presencial y remoto",
+      "remote": true,
+      "type": "FULL_TIME",
+      "salary": "No publicado",
+      "description": "",
+      "postedAt": "2026-06-26T10:51:40",
+      "foundAt": "2026-06-26T10:51:40",
+      "tags": [
+        "Chile",
+        "hispanic-market"
+      ],
+      "locationPriority": "remote-latam",
+      "locationTier": 2,
+      "urlValid": true
+    },
+    {
+      "id": "0bf2027699fe",
+      "source": "computrabajo-cl",
+      "sourceUrl": "https://cl.computrabajo.com/ofertas-de-trabajo/oferta-de-trabajo-de-jefe-de-servicios-service-delivey-engineer-experiencia-en-infraestructura-critica-en-santiago-providencia-06426A0978F578FC61373E686DCF3405#lc=ListOffers-Score4-16",
+      "title": "Jefe de servicios/ Service Delivey Engineer/ Experiencia en infraestructura critica",
+      "company": "No especificada",
+      "location": "$ 1.900.000,00 (Mensual)\n                \n                \n                    \n                    Presencial y remoto",
+      "remote": true,
+      "type": "FULL_TIME",
+      "salary": "No publicado",
+      "description": "",
+      "postedAt": "2026-06-26T10:51:40",
+      "foundAt": "2026-06-26T10:51:40",
+      "tags": [
+        "Chile",
+        "hispanic-market"
+      ],
+      "locationPriority": "remote-latam",
+      "locationTier": 2,
+      "urlValid": true
+    },
+    {
+      "id": "3cc136103a3c",
+      "source": "computrabajo-cl",
+      "sourceUrl": "https://cl.computrabajo.com/ofertas-de-trabajo/oferta-de-trabajo-de-ejecutivo-ventas-call-center-seguro-automotriz-en-santiago-las-condes-3F1776A23725AFD961373E686DCF3405#lc=ListOffers-Score4-0",
+      "title": "Ejecutivo Ventas Call Center  Seguro Automotriz",
+      "company": "No especificada",
+      "location": "$ 560.000,00 (Mensual)\n                \n                \n                    \n                    Presencial y remoto",
+      "remote": true,
+      "type": "FULL_TIME",
+      "salary": "No publicado",
+      "description": "",
+      "postedAt": "2026-06-26T10:51:49",
+      "foundAt": "2026-06-26T10:51:49",
+      "tags": [
+        "Chile",
+        "hispanic-market"
+      ],
+      "locationPriority": "remote-latam",
+      "locationTier": 2,
+      "urlValid": true
+    },
+    {
+      "id": "a7881879891e",
+      "source": "computrabajo-cl",
+      "sourceUrl": "https://cl.computrabajo.com/ofertas-de-trabajo/oferta-de-trabajo-de-ejecutivos-de-ventas-call-centerconchali-564000comisiones-sin-tope-ejecutivos-de-ventas-call-center-en-santiago-conchali-E8C4ABEB0479613761373E686DCF3405#lc=ListOffers-Score4-6",
+      "title": "Ejecutivos de ventas (Call Center),Conchalí, $564.000+comisiones sin tope",
+      "company": "No especificada",
+      "location": "$ 564.000,00 (Mensual)\n                \n                \n                    \n                    Presencial y remoto",
+      "remote": true,
+      "type": "FULL_TIME",
+      "salary": "No publicado",
+      "description": "",
+      "postedAt": "2026-06-26T10:51:51",
+      "foundAt": "2026-06-26T10:51:51",
+      "tags": [
+        "Chile",
+        "hispanic-market"
+      ],
+      "locationPriority": "remote-latam",
+      "locationTier": 2,
+      "urlValid": true
+    },
+    {
+      "id": "1ab64a4b3d6e",
+      "source": "computrabajo-cl",
+      "sourceUrl": "https://cl.computrabajo.com/ofertas-de-trabajo/oferta-de-trabajo-de-analista-contable-de-venta-retail-en-santiago-huechuraba-ED1964791F6302E861373E686DCF3405#lc=ListOffers-Score4-17",
+      "title": "Analista Contable de Venta Retail",
+      "company": "No especificada",
+      "location": "Presencial y remoto",
+      "remote": true,
+      "type": "FULL_TIME",
+      "salary": "No publicado",
+      "description": "",
+      "postedAt": "2026-06-26T10:51:51",
+      "foundAt": "2026-06-26T10:51:51",
+      "tags": [
+        "Chile",
+        "hispanic-market"
+      ],
+      "locationPriority": "remote-latam",
+      "locationTier": 2,
+      "urlValid": true
+    },
+    {
+      "id": "5a23bb8e0c89",
+      "source": "computrabajo-cl",
+      "sourceUrl": "https://cl.computrabajo.com/ofertas-de-trabajo/oferta-de-trabajo-de-coordinadora-de-operaciones-logisticas-importaciones-en-santiago-pudahuel-ACFBF710211C660461373E686DCF3405#lc=ListOffers-Score4-6",
+      "title": "Coordinador/a de operaciones Logísticas",
+      "company": "No especificada",
+      "location": "Presencial y remoto",
+      "remote": true,
+      "type": "FULL_TIME",
+      "salary": "No publicado",
+      "description": "",
+      "postedAt": "2026-06-26T10:52:00",
+      "foundAt": "2026-06-26T10:52:00",
+      "tags": [
+        "Chile",
+        "hispanic-market"
+      ],
+      "locationPriority": "remote-latam",
+      "locationTier": 2,
+      "urlValid": true
+    },
+    {
       "id": "5683884cc403",
       "source": "arbeitnow",
       "sourceUrl": "https://www.arbeitnow.com/jobs/companies/mirakl/growth-marketing-director-munich-490959",
@@ -12292,7 +12439,7 @@
       "salary": "18.000 € - 18.000 € Bruto/año",
       "description": "",
       "postedAt": "2026-06-02T22:27:38",
-      "foundAt": "2026-06-25T21:50:41",
+      "foundAt": "2026-06-26T10:54:09",
       "tags": [
         "españa",
         "hispanic-market"
@@ -12733,7 +12880,7 @@
       "salary": "Más de 64.000 €",
       "description": "",
       "postedAt": "2026-06-11T12:13:14",
-      "foundAt": "2026-06-25T21:50:41",
+      "foundAt": "2026-06-26T10:54:09",
       "tags": [
         "españa",
         "hispanic-market"
@@ -12943,7 +13090,7 @@
       "salary": "Salario no disponible",
       "description": "",
       "postedAt": "2026-06-17T22:06:41",
-      "foundAt": "2026-06-25T21:50:51",
+      "foundAt": "2026-06-26T10:54:20",
       "tags": [
         "españa",
         "hispanic-market"
@@ -12964,7 +13111,7 @@
       "salary": "36.000 € - 45.000 € Bruto/año",
       "description": "",
       "postedAt": "2026-06-19T12:09:10",
-      "foundAt": "2026-06-25T21:50:41",
+      "foundAt": "2026-06-26T10:54:09",
       "tags": [
         "españa",
         "hispanic-market"
@@ -12985,7 +13132,7 @@
       "salary": "1200 € - 1400 € Bruto/mes",
       "description": "",
       "postedAt": "2026-06-19T21:16:24",
-      "foundAt": "2026-06-25T21:50:51",
+      "foundAt": "2026-06-26T10:54:20",
       "tags": [
         "españa",
         "hispanic-market"
@@ -13006,7 +13153,7 @@
       "salary": "Más de 20.000 €",
       "description": "",
       "postedAt": "2026-06-22T13:38:21",
-      "foundAt": "2026-06-25T21:50:41",
+      "foundAt": "2026-06-26T10:54:09",
       "tags": [
         "españa",
         "hispanic-market"
@@ -13132,7 +13279,7 @@
       "salary": "900 € - 1800 € Bruto/mes",
       "description": "",
       "postedAt": "2026-06-25T21:50:51",
-      "foundAt": "2026-06-25T21:50:51",
+      "foundAt": "2026-06-26T10:54:20",
       "tags": [
         "españa",
         "hispanic-market"
@@ -13153,7 +13300,28 @@
       "salary": "900 € - 1800 € Bruto/mes",
       "description": "",
       "postedAt": "2026-06-25T21:50:51",
-      "foundAt": "2026-06-25T21:50:51",
+      "foundAt": "2026-06-26T10:54:20",
+      "tags": [
+        "españa",
+        "hispanic-market"
+      ],
+      "locationPriority": "remote-spain",
+      "locationTier": 3,
+      "urlValid": true
+    },
+    {
+      "id": "680a4d2dc770",
+      "source": "infojobs",
+      "sourceUrl": "https://www.infojobs.net//www.infojobs.net/madrid/analista-programador-cobol-100-remoto-h-m-x/of-ibb165a9c4c4adba6416c51e70365d4?applicationOrigin=search-new&page=1&sortBy=RELEVANCE",
+      "title": "Analista/Programador Cobol - 100% Remoto (H/M/X)",
+      "company": "Experis IT",
+      "location": "España",
+      "remote": true,
+      "type": "FULL_TIME",
+      "salary": "Salario no disponible",
+      "description": "",
+      "postedAt": "2026-06-26T10:54:09",
+      "foundAt": "2026-06-26T10:54:09",
       "tags": [
         "españa",
         "hispanic-market"
@@ -13930,9 +14098,30 @@
       "salary": "No publicado",
       "description": "Hybrid oder vor Ort – Dein nächster Karriereschritt im IT-Projektmanagement Unbefristete Festanstellung | Start: ab 01.09.2026 | Standort: Hybrid | Remote Als IT-Projektmanager (m/w/d) leitest du anspruchsvolle ERP-Projekte – von der Analyse bis zum Go-live – und gestaltest aktiv die Digitalisierung des Mittelstands. Aufgaben Deine Mission Du verantwortest du klare, messbare Projekterfolge in IT- und ERP-Projekten – fachlich, wirtschaftlich und organisatorisch. Du leitest ERP-Einführungsprojekte von A bis Z – vom Kick-off bis zum Go-live Du analysierst und optimierst Prozesse – z. B. in Logist",
       "postedAt": "1782397832",
-      "foundAt": "2026-06-25T21:47:44.300638+00:00",
+      "foundAt": "2026-06-26T10:51:03.463478+00:00",
       "tags": [
         "Project Management"
+      ],
+      "locationPriority": "remote-global",
+      "locationTier": 4,
+      "urlValid": true
+    },
+    {
+      "id": "dd27550390f8",
+      "source": "arbeitnow",
+      "sourceUrl": "https://www.arbeitnow.com/jobs/companies/1komma50/senior-iot-cloud-engineer-berlin-476643",
+      "title": "(Senior) IoT Cloud Engineer (m/f/d)",
+      "company": "1KOMMA5˚",
+      "location": "Berlin",
+      "remote": true,
+      "type": "PROFESSIONAL / EXPERIENCED",
+      "salary": "No publicado",
+      "description": "1KOMMA5° At 1KOMMA5° , we pursue a clear vision: Living on wind and sunlight forever for free . To make this a reality, we are building the energy system of the future with Heartbeat AI. Want to be part of it? We bring together regional craftsmanship and scalable software: We don't think of solar, batteries, heat pumps, and e-mobility as isolated components, but control them as an intelligent, integrated overall system in our virtual power plant. Directly connected to the electricity market – in real time, fully automated. This way, energy is used when it is available from renewables and parti",
+      "postedAt": "1782423071",
+      "foundAt": "2026-06-26T10:51:03.453034+00:00",
+      "tags": [
+        "Remote",
+        "Software Development"
       ],
       "locationPriority": "remote-global",
       "locationTier": 4,
@@ -13950,7 +14139,7 @@
       "salary": "OTE $25k - $35k",
       "description": "About Us We are a financial services start up focusing on helping to improve consumer credit profiles. We are currently seeking KPI driven sales representatives looking to earn up to 45K in their first year while working remotely. We offer comprehensive training and continuous sales coaching to help you meet your financial goals. During our training period we offer a guaranteed training stipend while our trainees are acclimating to the position (*see weekly pay below). If you are a seasoned sales professional looking for the autonomy of a remote position combined with great compensation, we wa",
       "postedAt": "2026-05-08T22:00:54",
-      "foundAt": "2026-06-25T21:47:18.295052+00:00",
+      "foundAt": "2026-06-26T10:50:38.870579+00:00",
       "tags": [
         "CRM",
         "google sheets",
@@ -13973,7 +14162,7 @@
       "salary": "No publicado",
       "description": "Are you a talented Senior Data Scientist looking for a remote job that lets you show your skills and get decent compensation? Look no further than Lemon.io — the marketplace that connects you with hand-picked startups in the US and Europe. What we offer: The rate depends on your skills and experience. We've already paid out over $11M to our engineers. No more hunting for clients or negotiating rates — let us handle the business side of things so you can focus on what you do best. Choose a schedule that works best for you. It’s possible to communicate async or minimally overlap within team work",
       "postedAt": "2026-06-11T13:24:37",
-      "foundAt": "2026-06-25T21:47:18.294085+00:00",
+      "foundAt": "2026-06-26T10:50:38.869398+00:00",
       "tags": [
         "android",
         "AWS",
@@ -13983,6 +14172,33 @@
         "golang",
         "ios",
         "java"
+      ],
+      "locationPriority": "remote-global",
+      "locationTier": 4,
+      "urlValid": true
+    },
+    {
+      "id": "03768af7f4ff",
+      "source": "remotive",
+      "sourceUrl": "https://remotive.com/remote-jobs/product/senior-product-manager-2090984",
+      "title": "Senior Product Manager",
+      "company": "Lemon.io",
+      "location": "Americas, Europe, Asia, Oceania",
+      "remote": true,
+      "type": "FULL_TIME",
+      "salary": "No publicado",
+      "description": "Are you a talented Senior Product Manager looking for a remote job where you can showcase your skills and earn competitive compensation? Look no further than Lemon.io — a marketplace that connects you with hand-picked startups in the US and Europe. What we offer: Your rate will depend on your seniority level, skills, and experience. We've already paid out over $11M to our engineers and other specialists. No more hunting for clients or negotiating rates — we’ll handle the business side so you can focus on delivering successful projects. Choose a schedule that works best for you. Async communica",
+      "postedAt": "2026-06-24T09:57:46",
+      "foundAt": "2026-06-26T10:50:38.861377+00:00",
+      "tags": [
+        ".Net",
+        "android",
+        "azure",
+        "C",
+        "C#",
+        "C++",
+        "data science",
+        "golang"
       ],
       "locationPriority": "remote-global",
       "locationTier": 4,
@@ -14135,7 +14351,25 @@
       "salary": "No publicado",
       "description": "SumUp builds simple, affordable financial tools that help over 4 million small businesses across 37 markets get paid, manage their money, and grow. Beyond card payments, we offer a full suite of financial products - business banking, lending, invoicing, and money transfers - giving merchants everything they need in one place. Our Transfers Excellence squad sits within SumUp's Global Bank , and owns the core services that power how merchants and consumers move money. E.g. IBAN-based transfers, money in and out, and peer-to-peer payments via the SumUp consumer app. With the high volume transfers",
       "postedAt": "1782395127",
-      "foundAt": "2026-06-25T21:47:44.303973+00:00",
+      "foundAt": "2026-06-26T10:51:06.498403+00:00",
+      "tags": [],
+      "locationPriority": "onsite-latam",
+      "locationTier": 7,
+      "urlValid": true
+    },
+    {
+      "id": "0da44b1f2f31",
+      "source": "arbeitnow",
+      "sourceUrl": "https://www.arbeitnow.com/jobs/companies/sumup/senior-backend-engineer-global-expansion-leipzig-336508",
+      "title": "Senior Backend Engineer - Global Expansion",
+      "company": "SumUp",
+      "location": "Leipzig, Saxony, Germany",
+      "remote": false,
+      "type": "FULL_TIME",
+      "salary": "No publicado",
+      "description": "Senior Backend Engineer — Global Expansion About the team The Global Expansion Acquiring Squad is the engine behind SumUp's growth into new markets — integrating local payment acquirers, enabling merchant onboarding, and ensuring transactions flow reliably across countries like Mexico, Canada, New Zealand, and Australia. This role sits at the heart of that mission, owning critical backend systems while also shaping how the squad works — building AI agents and developer tooling that make the entire team faster and smarter. If you're a backend engineer who wants real ownership, enjoys working in",
+      "postedAt": "1782456324",
+      "foundAt": "2026-06-26T10:51:03.443041+00:00",
       "tags": [],
       "locationPriority": "onsite-latam",
       "locationTier": 7,
@@ -16463,28 +16697,7 @@
       "salary": "No publicado",
       "description": "",
       "postedAt": "2026-05-26T21:49:38",
-      "foundAt": "2026-06-18T11:54:22",
-      "tags": [
-        "Chile",
-        "hispanic-market"
-      ],
-      "locationPriority": "onsite-latam",
-      "locationTier": 7,
-      "urlValid": true
-    },
-    {
-      "id": "6d26c8add3c5",
-      "source": "computrabajo-cl",
-      "sourceUrl": "https://cl.computrabajo.com/ofertas-de-trabajo/oferta-de-trabajo-de-subgerente-de-operaciones-region-metropolitana-en-santiago-centro-D8EB05558B62995061373E686DCF3405#lc=ListOffers-Score4-10",
-      "title": "Subgerente de Operaciones / Región Metropolitana",
-      "company": "No especificada",
-      "location": "Hace  2  horas",
-      "remote": false,
-      "type": "FULL_TIME",
-      "salary": "No publicado",
-      "description": "",
-      "postedAt": "2026-05-26T21:49:47",
-      "foundAt": "2026-05-26T21:49:47",
+      "foundAt": "2026-06-26T10:51:49",
       "tags": [
         "Chile",
         "hispanic-market"
@@ -16767,6 +16980,27 @@
       "urlValid": true
     },
     {
+      "id": "e6a8c934d17b",
+      "source": "computrabajo-cl",
+      "sourceUrl": "https://cl.computrabajo.com/ofertas-de-trabajo/oferta-de-trabajo-de-jefea-de-operaciones-de-generacion-iquique-en-iquique-2A90A47416AAF24A61373E686DCF3405#lc=ListOffers-Score4-9",
+      "title": "Jefe/a de Operaciones de Generación",
+      "company": "No especificada",
+      "location": "Hace  5  horas",
+      "remote": false,
+      "type": "FULL_TIME",
+      "salary": "No publicado",
+      "description": "",
+      "postedAt": "2026-05-27T21:59:58",
+      "foundAt": "2026-06-11T22:05:07",
+      "tags": [
+        "Chile",
+        "hispanic-market"
+      ],
+      "locationPriority": "onsite-latam",
+      "locationTier": 7,
+      "urlValid": true
+    },
+    {
       "id": "68d8e9fe68bb",
       "source": "computrabajo-cl",
       "sourceUrl": "https://cl.computrabajo.com/ofertas-de-trabajo/oferta-de-trabajo-de-jefe-de-proyectos-metalmecanicos-mineria-1300000-liquidos-bonos-colacion-y-bus-antofagasta-ingeniero-mecanico-en-antofagasta-2D014783EDC3432861373E686DCF3405#lc=ListOffers-Score4-19",
@@ -16821,27 +17055,6 @@
       "description": "",
       "postedAt": "2026-05-27T21:59:58",
       "foundAt": "2026-06-12T11:43:43",
-      "tags": [
-        "Chile",
-        "hispanic-market"
-      ],
-      "locationPriority": "onsite-latam",
-      "locationTier": 7,
-      "urlValid": true
-    },
-    {
-      "id": "e6a8c934d17b",
-      "source": "computrabajo-cl",
-      "sourceUrl": "https://cl.computrabajo.com/ofertas-de-trabajo/oferta-de-trabajo-de-jefea-de-operaciones-de-generacion-iquique-en-iquique-2A90A47416AAF24A61373E686DCF3405#lc=ListOffers-Score4-9",
-      "title": "Jefe/a de Operaciones de Generación",
-      "company": "No especificada",
-      "location": "Hace  5  horas",
-      "remote": false,
-      "type": "FULL_TIME",
-      "salary": "No publicado",
-      "description": "",
-      "postedAt": "2026-05-27T21:59:58",
-      "foundAt": "2026-06-11T22:05:07",
       "tags": [
         "Chile",
         "hispanic-market"
@@ -18699,6 +18912,27 @@
       "urlValid": true
     },
     {
+      "id": "009973523955",
+      "source": "computrabajo-cl",
+      "sourceUrl": "https://cl.computrabajo.com/ofertas-de-trabajo/oferta-de-trabajo-de-jefe-a-de-operaciones-alimentacion-mineria-en-iquique-52BC2FE5802BE42861373E686DCF3405#lc=ListOffers-Score4-6",
+      "title": "Jefe (a) de Operaciones Alimentación",
+      "company": "No especificada",
+      "location": "Hace  37  minutos",
+      "remote": false,
+      "type": "FULL_TIME",
+      "salary": "No publicado",
+      "description": "",
+      "postedAt": "2026-05-28T21:59:05",
+      "foundAt": "2026-05-28T21:59:05",
+      "tags": [
+        "Chile",
+        "hispanic-market"
+      ],
+      "locationPriority": "onsite-latam",
+      "locationTier": 7,
+      "urlValid": true
+    },
+    {
       "id": "f6e6084b0c2d",
       "source": "computrabajo-cl",
       "sourceUrl": "https://cl.computrabajo.com/ofertas-de-trabajo/oferta-de-trabajo-de-guardia-de-seguridad-6x2-rotativo-dia-con-curso-os10--supermercado-lider-express-637000-santiago-centro-en-santiago-centro-80BDD9F75A0F7D8661373E686DCF3405#lc=ListOffers-Score4-16",
@@ -18747,27 +18981,6 @@
       "title": "Jefe de Bodega para el casino de Astara Noviciado en Pudahuel",
       "company": "No especificada",
       "location": "$ 960.000,00 (Mensual)",
-      "remote": false,
-      "type": "FULL_TIME",
-      "salary": "No publicado",
-      "description": "",
-      "postedAt": "2026-05-28T21:59:05",
-      "foundAt": "2026-05-28T21:59:05",
-      "tags": [
-        "Chile",
-        "hispanic-market"
-      ],
-      "locationPriority": "onsite-latam",
-      "locationTier": 7,
-      "urlValid": true
-    },
-    {
-      "id": "009973523955",
-      "source": "computrabajo-cl",
-      "sourceUrl": "https://cl.computrabajo.com/ofertas-de-trabajo/oferta-de-trabajo-de-jefe-a-de-operaciones-alimentacion-mineria-en-iquique-52BC2FE5802BE42861373E686DCF3405#lc=ListOffers-Score4-6",
-      "title": "Jefe (a) de Operaciones Alimentación",
-      "company": "No especificada",
-      "location": "Hace  37  minutos",
       "remote": false,
       "type": "FULL_TIME",
       "salary": "No publicado",
@@ -25629,12 +25842,12 @@
       "urlValid": true
     },
     {
-      "id": "c884ca5386d1",
+      "id": "c07f8cc2a94f",
       "source": "computrabajo-cl",
-      "sourceUrl": "https://cl.computrabajo.com/ofertas-de-trabajo/oferta-de-trabajo-de-jefe-con-experiencia-en-monitoreo-de-agua-residencia-region-metropolitana-en-santiago-pudahuel-F5F05E47562DFD9361373E686DCF3405#lc=ListOffers-Score4-17",
-      "title": "Jefe con Experiencia en Monitoreo de Agua Residencia Región Metropolitana",
+      "sourceUrl": "https://cl.computrabajo.com/ofertas-de-trabajo/oferta-de-trabajo-de-jefe-de-grupo-para-edificio-corporativo-en-vitacura-turno-corto-full-time-en-santiago-las-condes-5BBAFABACC90C59561373E686DCF3405#lc=ListOffers-Score4-0",
+      "title": "Jefe de grupo para Edificio Corporativo, En Vitacura (Turno Corto)",
       "company": "No especificada",
-      "location": "Hace  1  hora",
+      "location": "$ 390.000,00 (Mensual)",
       "remote": false,
       "type": "FULL_TIME",
       "salary": "No publicado",
@@ -25650,12 +25863,12 @@
       "urlValid": true
     },
     {
-      "id": "c07f8cc2a94f",
+      "id": "c884ca5386d1",
       "source": "computrabajo-cl",
-      "sourceUrl": "https://cl.computrabajo.com/ofertas-de-trabajo/oferta-de-trabajo-de-jefe-de-grupo-para-edificio-corporativo-en-vitacura-turno-corto-full-time-en-santiago-las-condes-5BBAFABACC90C59561373E686DCF3405#lc=ListOffers-Score4-0",
-      "title": "Jefe de grupo para Edificio Corporativo, En Vitacura (Turno Corto)",
+      "sourceUrl": "https://cl.computrabajo.com/ofertas-de-trabajo/oferta-de-trabajo-de-jefe-con-experiencia-en-monitoreo-de-agua-residencia-region-metropolitana-en-santiago-pudahuel-F5F05E47562DFD9361373E686DCF3405#lc=ListOffers-Score4-17",
+      "title": "Jefe con Experiencia en Monitoreo de Agua Residencia Región Metropolitana",
       "company": "No especificada",
-      "location": "$ 390.000,00 (Mensual)",
+      "location": "Hace  1  hora",
       "remote": false,
       "type": "FULL_TIME",
       "salary": "No publicado",
@@ -26007,6 +26220,27 @@
       "urlValid": true
     },
     {
+      "id": "2746fbde94b6",
+      "source": "computrabajo-cl",
+      "sourceUrl": "https://cl.computrabajo.com/ofertas-de-trabajo/oferta-de-trabajo-de-ejecutivo-venta-producto-financiero-captador-jornada-parcial-tda-pto-montt-costanera-banco-ripley-en-puerto-montt-74E986B91164A2FD61373E686DCF3405#lc=ListOffers-Score4-14",
+      "title": "Ejecutivo Venta Producto Financiero (Captador) Jornada Parcial Tda Pto Montt Costanera Banco Ripley",
+      "company": "No especificada",
+      "location": "Hace  16  minutos",
+      "remote": false,
+      "type": "FULL_TIME",
+      "salary": "No publicado",
+      "description": "",
+      "postedAt": "2026-06-01T13:37:34",
+      "foundAt": "2026-06-01T13:37:34",
+      "tags": [
+        "Chile",
+        "hispanic-market"
+      ],
+      "locationPriority": "onsite-latam",
+      "locationTier": 7,
+      "urlValid": true
+    },
+    {
       "id": "eb19c4e001c8",
       "source": "computrabajo-cl",
       "sourceUrl": "https://cl.computrabajo.com/ofertas-de-trabajo/oferta-de-trabajo-de-ingeniero-de-ventas-correas-transportadoras-calama-en-calama-56D2119B03CC46AA61373E686DCF3405#lc=ListOffers-Score4-0",
@@ -26118,27 +26352,6 @@
       "title": "Ejecutivo de ventas en terreno // Puerto Montt",
       "company": "No especificada",
       "location": "Hace  24  minutos",
-      "remote": false,
-      "type": "FULL_TIME",
-      "salary": "No publicado",
-      "description": "",
-      "postedAt": "2026-06-01T13:37:34",
-      "foundAt": "2026-06-01T13:37:34",
-      "tags": [
-        "Chile",
-        "hispanic-market"
-      ],
-      "locationPriority": "onsite-latam",
-      "locationTier": 7,
-      "urlValid": true
-    },
-    {
-      "id": "2746fbde94b6",
-      "source": "computrabajo-cl",
-      "sourceUrl": "https://cl.computrabajo.com/ofertas-de-trabajo/oferta-de-trabajo-de-ejecutivo-venta-producto-financiero-captador-jornada-parcial-tda-pto-montt-costanera-banco-ripley-en-puerto-montt-74E986B91164A2FD61373E686DCF3405#lc=ListOffers-Score4-14",
-      "title": "Ejecutivo Venta Producto Financiero (Captador) Jornada Parcial Tda Pto Montt Costanera Banco Ripley",
-      "company": "No especificada",
-      "location": "Hace  16  minutos",
       "remote": false,
       "type": "FULL_TIME",
       "salary": "No publicado",
@@ -30480,6 +30693,27 @@
       "urlValid": true
     },
     {
+      "id": "6ff5bdb7156e",
+      "source": "computrabajo-cl",
+      "sourceUrl": "https://cl.computrabajo.com/ofertas-de-trabajo/oferta-de-trabajo-de-vendedora-pt-30hrs-mall-plaza-egana-4x3-rotativo-en-santiago-la-reina-379AC7AF68F3980A61373E686DCF3405#lc=ListOffers-Score4-17",
+      "title": "Vendedor/a PT 30hrs / Mall Plaza Egaña / 4x3 Rotativo",
+      "company": "No especificada",
+      "location": "Hace  1  hora",
+      "remote": false,
+      "type": "FULL_TIME",
+      "salary": "No publicado",
+      "description": "",
+      "postedAt": "2026-06-02T22:25:39",
+      "foundAt": "2026-06-02T22:25:39",
+      "tags": [
+        "Chile",
+        "hispanic-market"
+      ],
+      "locationPriority": "onsite-latam",
+      "locationTier": 7,
+      "urlValid": true
+    },
+    {
       "id": "248a6fc84d7f",
       "source": "computrabajo-cl",
       "sourceUrl": "https://cl.computrabajo.com/ofertas-de-trabajo/oferta-de-trabajo-de-vendedor-en-ruta-con-licencia-clase-b-chillan-en-chillan-1DB459AC7D65392E61373E686DCF3405#lc=ListOffers-Score4-16",
@@ -30564,12 +30798,12 @@
       "urlValid": true
     },
     {
-      "id": "6ff5bdb7156e",
+      "id": "145f4c09818a",
       "source": "computrabajo-cl",
-      "sourceUrl": "https://cl.computrabajo.com/ofertas-de-trabajo/oferta-de-trabajo-de-vendedora-pt-30hrs-mall-plaza-egana-4x3-rotativo-en-santiago-la-reina-379AC7AF68F3980A61373E686DCF3405#lc=ListOffers-Score4-17",
-      "title": "Vendedor/a PT 30hrs / Mall Plaza Egaña / 4x3 Rotativo",
+      "sourceUrl": "https://cl.computrabajo.com/ofertas-de-trabajo/oferta-de-trabajo-de-ejecutivosas-comerciales-region-metropolitana-en-santiago-providencia-0580AAE9FEB6EE0E61373E686DCF3405#lc=ListOffers-Score4-19",
+      "title": "Ejecutivos/as Comerciales, Región Metropolitana",
       "company": "No especificada",
-      "location": "Hace  1  hora",
+      "location": "Hace  2  horas",
       "remote": false,
       "type": "FULL_TIME",
       "salary": "No publicado",
@@ -30585,18 +30819,18 @@
       "urlValid": true
     },
     {
-      "id": "145f4c09818a",
+      "id": "520c6f9381d3",
       "source": "computrabajo-cl",
-      "sourceUrl": "https://cl.computrabajo.com/ofertas-de-trabajo/oferta-de-trabajo-de-ejecutivosas-comerciales-region-metropolitana-en-santiago-providencia-0580AAE9FEB6EE0E61373E686DCF3405#lc=ListOffers-Score4-19",
-      "title": "Ejecutivos/as Comerciales, Región Metropolitana",
+      "sourceUrl": "https://cl.computrabajo.com/ofertas-de-trabajo/oferta-de-trabajo-de-asistente-de-operaciones-empresa-de-aseo-industrial-en-santiago-conchali-063B66E26F87406861373E686DCF3405#lc=ListOffers-Score4-17",
+      "title": "Asistente de Operaciones Empresa de Aseo Industrial",
       "company": "No especificada",
-      "location": "Hace  2  horas",
+      "location": "$ 700.000,00 (Mensual)",
       "remote": false,
       "type": "FULL_TIME",
       "salary": "No publicado",
       "description": "",
-      "postedAt": "2026-06-02T22:25:39",
-      "foundAt": "2026-06-02T22:25:39",
+      "postedAt": "2026-06-02T22:25:42",
+      "foundAt": "2026-06-02T22:25:42",
       "tags": [
         "Chile",
         "hispanic-market"
@@ -30681,27 +30915,6 @@
       "description": "",
       "postedAt": "2026-06-02T22:25:42",
       "foundAt": "2026-06-22T13:36:02",
-      "tags": [
-        "Chile",
-        "hispanic-market"
-      ],
-      "locationPriority": "onsite-latam",
-      "locationTier": 7,
-      "urlValid": true
-    },
-    {
-      "id": "520c6f9381d3",
-      "source": "computrabajo-cl",
-      "sourceUrl": "https://cl.computrabajo.com/ofertas-de-trabajo/oferta-de-trabajo-de-asistente-de-operaciones-empresa-de-aseo-industrial-en-santiago-conchali-063B66E26F87406861373E686DCF3405#lc=ListOffers-Score4-17",
-      "title": "Asistente de Operaciones Empresa de Aseo Industrial",
-      "company": "No especificada",
-      "location": "$ 700.000,00 (Mensual)",
-      "remote": false,
-      "type": "FULL_TIME",
-      "salary": "No publicado",
-      "description": "",
-      "postedAt": "2026-06-02T22:25:42",
-      "foundAt": "2026-06-02T22:25:42",
       "tags": [
         "Chile",
         "hispanic-market"
@@ -31761,6 +31974,27 @@
       "urlValid": true
     },
     {
+      "id": "15a3b845fa1e",
+      "source": "computrabajo-cl",
+      "sourceUrl": "https://cl.computrabajo.com/ofertas-de-trabajo/oferta-de-trabajo-de-cotizador-plataforma-comercial-800000-rubro-industrial-ducasse-antofagasta-en-antofagasta-6BAF37AE8BD908E361373E686DCF3405#lc=ListOffers-Score4-11",
+      "title": "Cotizador plataforma comercial $800.000 (rubro industrial), Ducasse Antofagasta",
+      "company": "No especificada",
+      "location": "$ 800.000,00 (Mensual)",
+      "remote": false,
+      "type": "FULL_TIME",
+      "salary": "No publicado",
+      "description": "",
+      "postedAt": "2026-06-03T12:43:14",
+      "foundAt": "2026-06-03T12:43:14",
+      "tags": [
+        "Chile",
+        "hispanic-market"
+      ],
+      "locationPriority": "onsite-latam",
+      "locationTier": 7,
+      "urlValid": true
+    },
+    {
       "id": "95e867d88de4",
       "source": "computrabajo-cl",
       "sourceUrl": "https://cl.computrabajo.com/ofertas-de-trabajo/oferta-de-trabajo-de-vendedor-pt-20-horas-los-angeles-guante-gacel-anacapri-en-los-angeles-F5F740DE3B4E081961373E686DCF3405#lc=ListOffers-Score4-1",
@@ -31809,27 +32043,6 @@
       "title": "Vendedor de Productos – Xiaomi Store (Mall Plaza Norte)",
       "company": "No especificada",
       "location": "Hace  1  hora",
-      "remote": false,
-      "type": "FULL_TIME",
-      "salary": "No publicado",
-      "description": "",
-      "postedAt": "2026-06-03T12:43:14",
-      "foundAt": "2026-06-03T12:43:14",
-      "tags": [
-        "Chile",
-        "hispanic-market"
-      ],
-      "locationPriority": "onsite-latam",
-      "locationTier": 7,
-      "urlValid": true
-    },
-    {
-      "id": "15a3b845fa1e",
-      "source": "computrabajo-cl",
-      "sourceUrl": "https://cl.computrabajo.com/ofertas-de-trabajo/oferta-de-trabajo-de-cotizador-plataforma-comercial-800000-rubro-industrial-ducasse-antofagasta-en-antofagasta-6BAF37AE8BD908E361373E686DCF3405#lc=ListOffers-Score4-11",
-      "title": "Cotizador plataforma comercial $800.000 (rubro industrial), Ducasse Antofagasta",
-      "company": "No especificada",
-      "location": "$ 800.000,00 (Mensual)",
       "remote": false,
       "type": "FULL_TIME",
       "salary": "No publicado",
@@ -31992,12 +32205,12 @@
       "urlValid": true
     },
     {
-      "id": "5e491955068a",
+      "id": "1462cdb8a0da",
       "source": "computrabajo-cl",
-      "sourceUrl": "https://cl.computrabajo.com/ofertas-de-trabajo/oferta-de-trabajo-de-especialista-en-marketing-digital-b2b-y-prospeccion-comercial-en-santiago-la-florida-96FFB91CB75F6E1961373E686DCF3405#lc=ListOffers-Score4-7",
-      "title": "Especialista en Marketing Digital B2B y Prospección Comercial",
+      "sourceUrl": "https://cl.computrabajo.com/ofertas-de-trabajo/oferta-de-trabajo-de-gerente-comercial-y-de-marketing-en-santiago-las-condes-D09BEA114A2CA24161373E686DCF3405#lc=ListOffers-Score4-6",
+      "title": "Gerente Comercial y de Marketing",
       "company": "No especificada",
-      "location": "Hace  12  horas",
+      "location": "Hace  10  horas",
       "remote": false,
       "type": "FULL_TIME",
       "salary": "No publicado",
@@ -32013,12 +32226,12 @@
       "urlValid": true
     },
     {
-      "id": "1462cdb8a0da",
+      "id": "5e491955068a",
       "source": "computrabajo-cl",
-      "sourceUrl": "https://cl.computrabajo.com/ofertas-de-trabajo/oferta-de-trabajo-de-gerente-comercial-y-de-marketing-en-santiago-las-condes-D09BEA114A2CA24161373E686DCF3405#lc=ListOffers-Score4-6",
-      "title": "Gerente Comercial y de Marketing",
+      "sourceUrl": "https://cl.computrabajo.com/ofertas-de-trabajo/oferta-de-trabajo-de-especialista-en-marketing-digital-b2b-y-prospeccion-comercial-en-santiago-la-florida-96FFB91CB75F6E1961373E686DCF3405#lc=ListOffers-Score4-7",
+      "title": "Especialista en Marketing Digital B2B y Prospección Comercial",
       "company": "No especificada",
-      "location": "Hace  10  horas",
+      "location": "Hace  12  horas",
       "remote": false,
       "type": "FULL_TIME",
       "salary": "No publicado",
@@ -38544,6 +38757,27 @@
       "urlValid": true
     },
     {
+      "id": "99af62d809af",
+      "source": "computrabajo-cl",
+      "sourceUrl": "https://cl.computrabajo.com/ofertas-de-trabajo/oferta-de-trabajo-de-ejecutivoa-de-ventas-a-empresas-b2b-en-santiago-las-condes-32F7E0C308D770F161373E686DCF3405#lc=ListOffers-Score4-9",
+      "title": "Ejecutivo/a de ventas a empresas B2B",
+      "company": "No especificada",
+      "location": "$ 900.000,00 (Mensual)",
+      "remote": false,
+      "type": "FULL_TIME",
+      "salary": "No publicado",
+      "description": "",
+      "postedAt": "2026-06-08T12:28:59",
+      "foundAt": "2026-06-26T10:51:49",
+      "tags": [
+        "Chile",
+        "hispanic-market"
+      ],
+      "locationPriority": "onsite-latam",
+      "locationTier": 7,
+      "urlValid": true
+    },
+    {
       "id": "c615b07ff97b",
       "source": "computrabajo-cl",
       "sourceUrl": "https://cl.computrabajo.com/ofertas-de-trabajo/oferta-de-trabajo-de-ejecutivo-de-venta-producto-finan-jp-25-en-san-bernardo-E22DFC65E458907861373E686DCF3405#lc=ListOffers-Score4-3",
@@ -38712,12 +38946,12 @@
       "urlValid": true
     },
     {
-      "id": "99af62d809af",
+      "id": "439c086dd15c",
       "source": "computrabajo-cl",
-      "sourceUrl": "https://cl.computrabajo.com/ofertas-de-trabajo/oferta-de-trabajo-de-ejecutivoa-de-ventas-a-empresas-b2b-en-santiago-las-condes-32F7E0C308D770F161373E686DCF3405#lc=ListOffers-Score4-9",
-      "title": "Ejecutivo/a de ventas a empresas B2B",
+      "sourceUrl": "https://cl.computrabajo.com/ofertas-de-trabajo/oferta-de-trabajo-de-recepcionista-asistente-ventas-en-antofagasta-7123D7DEB06D7A1561373E686DCF3405#lc=ListOffers-Score4-14",
+      "title": "Recepcionista/ Asistente Ventas",
       "company": "No especificada",
-      "location": "$ 900.000,00 (Mensual)",
+      "location": "$ 550.000,00 (Mensual) + Comisiones",
       "remote": false,
       "type": "FULL_TIME",
       "salary": "No publicado",
@@ -38733,18 +38967,18 @@
       "urlValid": true
     },
     {
-      "id": "439c086dd15c",
+      "id": "1a4af9572843",
       "source": "computrabajo-cl",
-      "sourceUrl": "https://cl.computrabajo.com/ofertas-de-trabajo/oferta-de-trabajo-de-recepcionista-asistente-ventas-en-antofagasta-7123D7DEB06D7A1561373E686DCF3405#lc=ListOffers-Score4-14",
-      "title": "Recepcionista/ Asistente Ventas",
+      "sourceUrl": "https://cl.computrabajo.com/ofertas-de-trabajo/oferta-de-trabajo-de-ejecutivoa-de-venta-de-seguros-dentales-trabaja-de-lunes-a-viernes-peak-time-30-horas-call-center-en-santiago-centro-8629B3E0D5069D4061373E686DCF3405#lc=ListOffers-Score4-14",
+      "title": "Ejecutivo(a) de Venta de Seguros Dentales / Trabaja De Lunes a Viernes",
       "company": "No especificada",
-      "location": "$ 550.000,00 (Mensual) + Comisiones",
+      "location": "Hace  7  horas",
       "remote": false,
       "type": "FULL_TIME",
       "salary": "No publicado",
       "description": "",
-      "postedAt": "2026-06-08T12:28:59",
-      "foundAt": "2026-06-08T12:28:59",
+      "postedAt": "2026-06-08T12:29:01",
+      "foundAt": "2026-06-08T12:29:01",
       "tags": [
         "Chile",
         "hispanic-market"
@@ -38781,27 +39015,6 @@
       "title": "Vendedora ejecutiva comercial",
       "company": "No especificada",
       "location": "Hace  4  horas",
-      "remote": false,
-      "type": "FULL_TIME",
-      "salary": "No publicado",
-      "description": "",
-      "postedAt": "2026-06-08T12:29:01",
-      "foundAt": "2026-06-08T12:29:01",
-      "tags": [
-        "Chile",
-        "hispanic-market"
-      ],
-      "locationPriority": "onsite-latam",
-      "locationTier": 7,
-      "urlValid": true
-    },
-    {
-      "id": "1a4af9572843",
-      "source": "computrabajo-cl",
-      "sourceUrl": "https://cl.computrabajo.com/ofertas-de-trabajo/oferta-de-trabajo-de-ejecutivoa-de-venta-de-seguros-dentales-trabaja-de-lunes-a-viernes-peak-time-30-horas-call-center-en-santiago-centro-8629B3E0D5069D4061373E686DCF3405#lc=ListOffers-Score4-14",
-      "title": "Ejecutivo(a) de Venta de Seguros Dentales / Trabaja De Lunes a Viernes",
-      "company": "No especificada",
-      "location": "Hace  7  horas",
       "remote": false,
       "type": "FULL_TIME",
       "salary": "No publicado",
@@ -39321,6 +39534,27 @@
       "urlValid": true
     },
     {
+      "id": "641513d5c2b7",
+      "source": "computrabajo-cl",
+      "sourceUrl": "https://cl.computrabajo.com/ofertas-de-trabajo/oferta-de-trabajo-de-jefatura-de-hub-logistico-crossdocking-en-san-bernardo-2CB54DA9DCB2DC5C61373E686DCF3405#lc=ListOffers-Score4-5",
+      "title": "Jefatura de Hub Logístico (Crossdocking)",
+      "company": "No especificada",
+      "location": "Hace  3  horas",
+      "remote": false,
+      "type": "FULL_TIME",
+      "salary": "No publicado",
+      "description": "",
+      "postedAt": "2026-06-08T21:53:10",
+      "foundAt": "2026-06-08T21:53:10",
+      "tags": [
+        "Chile",
+        "hispanic-market"
+      ],
+      "locationPriority": "onsite-latam",
+      "locationTier": 7,
+      "urlValid": true
+    },
+    {
       "id": "7822104dba76",
       "source": "computrabajo-cl",
       "sourceUrl": "https://cl.computrabajo.com/ofertas-de-trabajo/oferta-de-trabajo-de-lider-de-tienda-rubro-telecomunicaciones-plaza-bio-bio-concepcion-en-concepcion-A66358290163C00161373E686DCF3405#lc=ListOffers-Score4-17",
@@ -39472,27 +39706,6 @@
       "source": "computrabajo-cl",
       "sourceUrl": "https://cl.computrabajo.com/ofertas-de-trabajo/oferta-de-trabajo-de-jefe-excelencia-operacional-y-mejora-continua-rubro-portuario-iquique-en-iquique-6BDE91C7A0A5225461373E686DCF3405#lc=ListOffers-Score4-2",
       "title": "Jefe Excelencia Operacional y Mejora Continua / Rubro Portuario / Iquique",
-      "company": "No especificada",
-      "location": "Hace  3  horas",
-      "remote": false,
-      "type": "FULL_TIME",
-      "salary": "No publicado",
-      "description": "",
-      "postedAt": "2026-06-08T21:53:10",
-      "foundAt": "2026-06-08T21:53:10",
-      "tags": [
-        "Chile",
-        "hispanic-market"
-      ],
-      "locationPriority": "onsite-latam",
-      "locationTier": 7,
-      "urlValid": true
-    },
-    {
-      "id": "641513d5c2b7",
-      "source": "computrabajo-cl",
-      "sourceUrl": "https://cl.computrabajo.com/ofertas-de-trabajo/oferta-de-trabajo-de-jefatura-de-hub-logistico-crossdocking-en-san-bernardo-2CB54DA9DCB2DC5C61373E686DCF3405#lc=ListOffers-Score4-5",
-      "title": "Jefatura de Hub Logístico (Crossdocking)",
       "company": "No especificada",
       "location": "Hace  3  horas",
       "remote": false,
@@ -40350,6 +40563,27 @@
       "urlValid": true
     },
     {
+      "id": "5a617eda787d",
+      "source": "computrabajo-cl",
+      "sourceUrl": "https://cl.computrabajo.com/ofertas-de-trabajo/oferta-de-trabajo-de-asistente-de-ventas-en-santiago-quilicura-2EB87380EE39916D61373E686DCF3405#lc=ListOffers-Score4-0",
+      "title": "asistente de ventas",
+      "company": "No especificada",
+      "location": "$ 800.000,00 (Mensual)",
+      "remote": false,
+      "type": "FULL_TIME",
+      "salary": "No publicado",
+      "description": "",
+      "postedAt": "2026-06-09T11:15:37",
+      "foundAt": "2026-06-09T11:15:37",
+      "tags": [
+        "Chile",
+        "hispanic-market"
+      ],
+      "locationPriority": "onsite-latam",
+      "locationTier": 7,
+      "urlValid": true
+    },
+    {
       "id": "8d9adfd44966",
       "source": "computrabajo-cl",
       "sourceUrl": "https://cl.computrabajo.com/ofertas-de-trabajo/oferta-de-trabajo-de-representante-de-ventas-copiapo-en-lampa-15E2B125FD5B53FD61373E686DCF3405#lc=ListOffers-Score4-9",
@@ -40377,27 +40611,6 @@
       "title": "Asistente de Ventas Full Time Peñaflor",
       "company": "No especificada",
       "location": "Hace  2  horas",
-      "remote": false,
-      "type": "FULL_TIME",
-      "salary": "No publicado",
-      "description": "",
-      "postedAt": "2026-06-09T11:15:37",
-      "foundAt": "2026-06-09T11:15:37",
-      "tags": [
-        "Chile",
-        "hispanic-market"
-      ],
-      "locationPriority": "onsite-latam",
-      "locationTier": 7,
-      "urlValid": true
-    },
-    {
-      "id": "5a617eda787d",
-      "source": "computrabajo-cl",
-      "sourceUrl": "https://cl.computrabajo.com/ofertas-de-trabajo/oferta-de-trabajo-de-asistente-de-ventas-en-santiago-quilicura-2EB87380EE39916D61373E686DCF3405#lc=ListOffers-Score4-0",
-      "title": "asistente de ventas",
-      "company": "No especificada",
-      "location": "$ 800.000,00 (Mensual)",
       "remote": false,
       "type": "FULL_TIME",
       "salary": "No publicado",
@@ -41106,6 +41319,27 @@
       "urlValid": true
     },
     {
+      "id": "1234b5b9a371",
+      "source": "computrabajo-cl",
+      "sourceUrl": "https://cl.computrabajo.com/ofertas-de-trabajo/oferta-de-trabajo-de-gerente-de-sucursal-en-santiago-las-condes-6255B9FCBE52860361373E686DCF3405#lc=ListOffers-Score4-3",
+      "title": "Gerente de Sucursal",
+      "company": "No especificada",
+      "location": "Hace  4  horas",
+      "remote": false,
+      "type": "FULL_TIME",
+      "salary": "No publicado",
+      "description": "",
+      "postedAt": "2026-06-09T21:50:25",
+      "foundAt": "2026-06-09T21:50:25",
+      "tags": [
+        "Chile",
+        "hispanic-market"
+      ],
+      "locationPriority": "onsite-latam",
+      "locationTier": 7,
+      "urlValid": true
+    },
+    {
       "id": "23d87a602751",
       "source": "computrabajo-cl",
       "sourceUrl": "https://cl.computrabajo.com/ofertas-de-trabajo/oferta-de-trabajo-de-jefe-contabilidad-en-santiago-providencia-41120ACA15D3B37261373E686DCF3405#lc=ListOffers-Score4-19",
@@ -41196,27 +41430,6 @@
       "title": "Líder de Equipo de Limpieza",
       "company": "No especificada",
       "location": "Hace  5  horas",
-      "remote": false,
-      "type": "FULL_TIME",
-      "salary": "No publicado",
-      "description": "",
-      "postedAt": "2026-06-09T21:50:25",
-      "foundAt": "2026-06-09T21:50:25",
-      "tags": [
-        "Chile",
-        "hispanic-market"
-      ],
-      "locationPriority": "onsite-latam",
-      "locationTier": 7,
-      "urlValid": true
-    },
-    {
-      "id": "1234b5b9a371",
-      "source": "computrabajo-cl",
-      "sourceUrl": "https://cl.computrabajo.com/ofertas-de-trabajo/oferta-de-trabajo-de-gerente-de-sucursal-en-santiago-las-condes-6255B9FCBE52860361373E686DCF3405#lc=ListOffers-Score4-3",
-      "title": "Gerente de Sucursal",
-      "company": "No especificada",
-      "location": "Hace  4  horas",
       "remote": false,
       "type": "FULL_TIME",
       "salary": "No publicado",
@@ -41337,12 +41550,12 @@
       "urlValid": true
     },
     {
-      "id": "3a4c2a4bb0a2",
+      "id": "e472a122b12b",
       "source": "computrabajo-cl",
-      "sourceUrl": "https://cl.computrabajo.com/ofertas-de-trabajo/oferta-de-trabajo-de-representante-de-ventas-rubo-industrial-antofagasta-en-antofagasta-D133142A47B5846A61373E686DCF3405#lc=ListOffers-Score4-4",
-      "title": "Representante de ventas rubo industrial",
+      "sourceUrl": "https://cl.computrabajo.com/ofertas-de-trabajo/oferta-de-trabajo-de-ejecutivo-de-ventas-en-terreno-telecomunicaciones-alto-hospicio-jornada-completa-disponibilidad-inmediata-en-alto-hospicio-9BCB24BB03020F3F61373E686DCF3405#lc=ListOffers-Score4-7",
+      "title": "Ejecutivo de Ventas en Terreno – Telecomunicaciones / Alto Hospicio / Jornada completa",
       "company": "No especificada",
-      "location": "$ 1.700.000,00 (Mensual)",
+      "location": "Hace  1  hora",
       "remote": false,
       "type": "FULL_TIME",
       "salary": "No publicado",
@@ -41379,12 +41592,12 @@
       "urlValid": true
     },
     {
-      "id": "e472a122b12b",
+      "id": "3a4c2a4bb0a2",
       "source": "computrabajo-cl",
-      "sourceUrl": "https://cl.computrabajo.com/ofertas-de-trabajo/oferta-de-trabajo-de-ejecutivo-de-ventas-en-terreno-telecomunicaciones-alto-hospicio-jornada-completa-disponibilidad-inmediata-en-alto-hospicio-9BCB24BB03020F3F61373E686DCF3405#lc=ListOffers-Score4-7",
-      "title": "Ejecutivo de Ventas en Terreno – Telecomunicaciones / Alto Hospicio / Jornada completa",
+      "sourceUrl": "https://cl.computrabajo.com/ofertas-de-trabajo/oferta-de-trabajo-de-representante-de-ventas-rubo-industrial-antofagasta-en-antofagasta-D133142A47B5846A61373E686DCF3405#lc=ListOffers-Score4-4",
+      "title": "Representante de ventas rubo industrial",
       "company": "No especificada",
-      "location": "Hace  1  hora",
+      "location": "$ 1.700.000,00 (Mensual)",
       "remote": false,
       "type": "FULL_TIME",
       "salary": "No publicado",
@@ -41526,6 +41739,27 @@
       "urlValid": true
     },
     {
+      "id": "6afda3f02f87",
+      "source": "computrabajo-cl",
+      "sourceUrl": "https://cl.computrabajo.com/ofertas-de-trabajo/oferta-de-trabajo-de-ejecutivo-de-ventas-en-terreno-telecomunicaciones-santiago-centro-full-time-disponibilidad-inmediata-en-santiago-centro-5E90162A95DF0A8A61373E686DCF3405#lc=ListOffers-Score4-17",
+      "title": "Ejecutivo de Ventas en Terreno – Telecomunicaciones /Santiago Centro / Full Time",
+      "company": "No especificada",
+      "location": "$ 529.000,00 (Mensual)",
+      "remote": false,
+      "type": "FULL_TIME",
+      "salary": "No publicado",
+      "description": "",
+      "postedAt": "2026-06-09T21:50:36",
+      "foundAt": "2026-06-09T21:50:36",
+      "tags": [
+        "Chile",
+        "hispanic-market"
+      ],
+      "locationPriority": "onsite-latam",
+      "locationTier": 7,
+      "urlValid": true
+    },
+    {
       "id": "55858dd0da7b",
       "source": "computrabajo-cl",
       "sourceUrl": "https://cl.computrabajo.com/ofertas-de-trabajo/oferta-de-trabajo-de-promotorcaptador-unicef-pto-montt-30hrssem-600000-comisiones-ventas-en-terreno-en-puerto-montt-5077E7DA42AAB97361373E686DCF3405#lc=ListOffers-Score4-19",
@@ -41553,27 +41787,6 @@
       "title": "Ejecutivo de Ventas Telecomunicaciones – Antofagasta",
       "company": "No especificada",
       "location": "Hace  2  horas",
-      "remote": false,
-      "type": "FULL_TIME",
-      "salary": "No publicado",
-      "description": "",
-      "postedAt": "2026-06-09T21:50:36",
-      "foundAt": "2026-06-09T21:50:36",
-      "tags": [
-        "Chile",
-        "hispanic-market"
-      ],
-      "locationPriority": "onsite-latam",
-      "locationTier": 7,
-      "urlValid": true
-    },
-    {
-      "id": "6afda3f02f87",
-      "source": "computrabajo-cl",
-      "sourceUrl": "https://cl.computrabajo.com/ofertas-de-trabajo/oferta-de-trabajo-de-ejecutivo-de-ventas-en-terreno-telecomunicaciones-santiago-centro-full-time-disponibilidad-inmediata-en-santiago-centro-5E90162A95DF0A8A61373E686DCF3405#lc=ListOffers-Score4-17",
-      "title": "Ejecutivo de Ventas en Terreno – Telecomunicaciones /Santiago Centro / Full Time",
-      "company": "No especificada",
-      "location": "$ 529.000,00 (Mensual)",
       "remote": false,
       "type": "FULL_TIME",
       "salary": "No publicado",
@@ -41694,10 +41907,10 @@
       "urlValid": true
     },
     {
-      "id": "9aaca1d04d14",
+      "id": "9886125bb6ce",
       "source": "computrabajo-cl",
-      "sourceUrl": "https://cl.computrabajo.com/ofertas-de-trabajo/oferta-de-trabajo-de-jefe-centro-distribucion-en-coquimbo-6511B20C9A93150461373E686DCF3405#lc=ListOffers-Score4-18",
-      "title": "Jefe centro distribución",
+      "sourceUrl": "https://cl.computrabajo.com/ofertas-de-trabajo/oferta-de-trabajo-de-jefe-de-tienda-san-fernando-en-san-fernando-6FF4230AA012AF2B61373E686DCF3405#lc=ListOffers-Score4-17",
+      "title": "Jefe de Tienda San Fernando",
       "company": "No especificada",
       "location": "Hace  2  horas",
       "remote": false,
@@ -41715,10 +41928,10 @@
       "urlValid": true
     },
     {
-      "id": "9886125bb6ce",
+      "id": "9aaca1d04d14",
       "source": "computrabajo-cl",
-      "sourceUrl": "https://cl.computrabajo.com/ofertas-de-trabajo/oferta-de-trabajo-de-jefe-de-tienda-san-fernando-en-san-fernando-6FF4230AA012AF2B61373E686DCF3405#lc=ListOffers-Score4-17",
-      "title": "Jefe de Tienda San Fernando",
+      "sourceUrl": "https://cl.computrabajo.com/ofertas-de-trabajo/oferta-de-trabajo-de-jefe-centro-distribucion-en-coquimbo-6511B20C9A93150461373E686DCF3405#lc=ListOffers-Score4-18",
+      "title": "Jefe centro distribución",
       "company": "No especificada",
       "location": "Hace  2  horas",
       "remote": false,
@@ -42240,6 +42453,27 @@
       "urlValid": true
     },
     {
+      "id": "8b0edbb77f80",
+      "source": "computrabajo-cl",
+      "sourceUrl": "https://cl.computrabajo.com/ofertas-de-trabajo/oferta-de-trabajo-de-candidato-para-jefatura-de-produccion-forestal-en-osorno-3B1290032015206561373E686DCF3405#lc=ListOffers-Score4-16",
+      "title": "Candidato para Jefatura  de Producción Forestal",
+      "company": "No especificada",
+      "location": "Hace  2  horas",
+      "remote": false,
+      "type": "FULL_TIME",
+      "salary": "No publicado",
+      "description": "",
+      "postedAt": "2026-06-10T22:07:08",
+      "foundAt": "2026-06-10T22:07:08",
+      "tags": [
+        "Chile",
+        "hispanic-market"
+      ],
+      "locationPriority": "onsite-latam",
+      "locationTier": 7,
+      "urlValid": true
+    },
+    {
       "id": "897397d78b4f",
       "source": "computrabajo-cl",
       "sourceUrl": "https://cl.computrabajo.com/ofertas-de-trabajo/oferta-de-trabajo-de-jefe-de-recursos-humanos-empresa-de-produccion-industrial-cerrillos-cerrillos-en-santiago-cerrillos-E813CDAD0D869A5D61373E686DCF3405#lc=ListOffers-Score4-19",
@@ -42288,27 +42522,6 @@
       "title": "Jefe de Grupo de seguridad OS10 Vigente 4x4 rotativo",
       "company": "No especificada",
       "location": "$ 700.000,00 (Mensual)",
-      "remote": false,
-      "type": "FULL_TIME",
-      "salary": "No publicado",
-      "description": "",
-      "postedAt": "2026-06-10T22:07:08",
-      "foundAt": "2026-06-10T22:07:08",
-      "tags": [
-        "Chile",
-        "hispanic-market"
-      ],
-      "locationPriority": "onsite-latam",
-      "locationTier": 7,
-      "urlValid": true
-    },
-    {
-      "id": "8b0edbb77f80",
-      "source": "computrabajo-cl",
-      "sourceUrl": "https://cl.computrabajo.com/ofertas-de-trabajo/oferta-de-trabajo-de-candidato-para-jefatura-de-produccion-forestal-en-osorno-3B1290032015206561373E686DCF3405#lc=ListOffers-Score4-16",
-      "title": "Candidato para Jefatura  de Producción Forestal",
-      "company": "No especificada",
-      "location": "Hace  2  horas",
       "remote": false,
       "type": "FULL_TIME",
       "salary": "No publicado",
@@ -42534,6 +42747,27 @@
       "urlValid": true
     },
     {
+      "id": "596d2ca09a09",
+      "source": "computrabajo-cl",
+      "sourceUrl": "https://cl.computrabajo.com/ofertas-de-trabajo/oferta-de-trabajo-de-jefe-de-turno-mantencion-turnos-rotativos-1300000-liquido-aprox-en-santiago-quinta-normal-018D8A1C4E45A63E61373E686DCF3405#lc=ListOffers-Score4-7",
+      "title": "Jefe de turno Mantención",
+      "company": "No especificada",
+      "location": "Hace  2  horas",
+      "remote": false,
+      "type": "FULL_TIME",
+      "salary": "No publicado",
+      "description": "",
+      "postedAt": "2026-06-10T22:07:09",
+      "foundAt": "2026-06-18T11:54:13",
+      "tags": [
+        "Chile",
+        "hispanic-market"
+      ],
+      "locationPriority": "onsite-latam",
+      "locationTier": 7,
+      "urlValid": true
+    },
+    {
       "id": "f0ef4c6950dd",
       "source": "computrabajo-cl",
       "sourceUrl": "https://cl.computrabajo.com/ofertas-de-trabajo/oferta-de-trabajo-de-jefe-de-produccion-ras-en-puerto-montt-CCBAAE05AB6BECD661373E686DCF3405#lc=ListOffers-Score4-11",
@@ -42588,27 +42822,6 @@
       "description": "",
       "postedAt": "2026-06-10T22:07:09",
       "foundAt": "2026-06-10T22:07:09",
-      "tags": [
-        "Chile",
-        "hispanic-market"
-      ],
-      "locationPriority": "onsite-latam",
-      "locationTier": 7,
-      "urlValid": true
-    },
-    {
-      "id": "596d2ca09a09",
-      "source": "computrabajo-cl",
-      "sourceUrl": "https://cl.computrabajo.com/ofertas-de-trabajo/oferta-de-trabajo-de-jefe-de-turno-mantencion-turnos-rotativos-1300000-liquido-aprox-en-santiago-quinta-normal-018D8A1C4E45A63E61373E686DCF3405#lc=ListOffers-Score4-7",
-      "title": "Jefe de turno Mantención",
-      "company": "No especificada",
-      "location": "Hace  2  horas",
-      "remote": false,
-      "type": "FULL_TIME",
-      "salary": "No publicado",
-      "description": "",
-      "postedAt": "2026-06-10T22:07:09",
-      "foundAt": "2026-06-18T11:54:13",
       "tags": [
         "Chile",
         "hispanic-market"
@@ -46367,7 +46580,7 @@
       "salary": "No publicado",
       "description": "",
       "postedAt": "2026-06-12T11:44:16",
-      "foundAt": "2026-06-18T22:15:42",
+      "foundAt": "2026-06-26T10:52:11",
       "tags": [
         "Chile",
         "hispanic-market"
@@ -46377,10 +46590,10 @@
       "urlValid": true
     },
     {
-      "id": "5c59b95a04ff",
+      "id": "522eff37ee52",
       "source": "computrabajo-cl",
-      "sourceUrl": "https://cl.computrabajo.com/ofertas-de-trabajo/oferta-de-trabajo-de-auxiliar-de-casino-reemplazo-universidad-del-desarrollo-san-carlos-de-apoquindo-las-condes-en-santiago-las-condes-9017CF35C73CAC5E61373E686DCF3405#lc=ListOffers-Score4-18",
-      "title": "Auxiliar de Casino (Reemplazo) / Universidad del Desarrollo (San Carlos de Apoquindo, Las Condes)",
+      "sourceUrl": "https://cl.computrabajo.com/ofertas-de-trabajo/oferta-de-trabajo-de-asistente-de-desarrollo-de-procesos-puerto-montt-en-puerto-montt-A366D300A687DF6E61373E686DCF3405#lc=ListOffers-Score4-8",
+      "title": "Asistente de Desarrollo de Procesos (Puerto Montt)",
       "company": "No especificada",
       "location": "Hace  2  días",
       "remote": false,
@@ -46388,7 +46601,7 @@
       "salary": "No publicado",
       "description": "",
       "postedAt": "2026-06-12T11:44:16",
-      "foundAt": "2026-06-18T22:15:40",
+      "foundAt": "2026-06-12T11:44:16",
       "tags": [
         "Chile",
         "hispanic-market"
@@ -46419,10 +46632,10 @@
       "urlValid": true
     },
     {
-      "id": "522eff37ee52",
+      "id": "5c59b95a04ff",
       "source": "computrabajo-cl",
-      "sourceUrl": "https://cl.computrabajo.com/ofertas-de-trabajo/oferta-de-trabajo-de-asistente-de-desarrollo-de-procesos-puerto-montt-en-puerto-montt-A366D300A687DF6E61373E686DCF3405#lc=ListOffers-Score4-8",
-      "title": "Asistente de Desarrollo de Procesos (Puerto Montt)",
+      "sourceUrl": "https://cl.computrabajo.com/ofertas-de-trabajo/oferta-de-trabajo-de-auxiliar-de-casino-reemplazo-universidad-del-desarrollo-san-carlos-de-apoquindo-las-condes-en-santiago-las-condes-9017CF35C73CAC5E61373E686DCF3405#lc=ListOffers-Score4-18",
+      "title": "Auxiliar de Casino (Reemplazo) / Universidad del Desarrollo (San Carlos de Apoquindo, Las Condes)",
       "company": "No especificada",
       "location": "Hace  2  días",
       "remote": false,
@@ -46430,7 +46643,7 @@
       "salary": "No publicado",
       "description": "",
       "postedAt": "2026-06-12T11:44:16",
-      "foundAt": "2026-06-12T11:44:16",
+      "foundAt": "2026-06-18T22:15:40",
       "tags": [
         "Chile",
         "hispanic-market"
@@ -49884,6 +50097,27 @@
       "urlValid": true
     },
     {
+      "id": "e2848af8c9d6",
+      "source": "computrabajo-cl",
+      "sourceUrl": "https://cl.computrabajo.com/ofertas-de-trabajo/oferta-de-trabajo-de-jefea-de-tienda-retail--puerto-montt-alerce-en-puerto-montt-872CF5FC2683E82061373E686DCF3405#lc=ListOffers-Score4-15",
+      "title": "Jefe/a de Tienda – Retail –  Puerto Montt (Alerce)",
+      "company": "No especificada",
+      "location": "Hace  5  horas",
+      "remote": false,
+      "type": "FULL_TIME",
+      "salary": "No publicado",
+      "description": "",
+      "postedAt": "2026-06-13T21:21:05",
+      "foundAt": "2026-06-13T21:21:05",
+      "tags": [
+        "Chile",
+        "hispanic-market"
+      ],
+      "locationPriority": "onsite-latam",
+      "locationTier": 7,
+      "urlValid": true
+    },
+    {
       "id": "743f7ed75374",
       "source": "computrabajo-cl",
       "sourceUrl": "https://cl.computrabajo.com/ofertas-de-trabajo/oferta-de-trabajo-de-urgente-buscamos-operadores-de-tienda-con-experiencia-en-caja-a-cuenta-o-lider-ingreso-inmediato-la-reina-en-santiago-la-reina-39CB6CC37006CDF361373E686DCF3405#lc=ListOffers-Score4-11",
@@ -49932,27 +50166,6 @@
       "title": "Key Account Manager – Bombas y Válvulas",
       "company": "No especificada",
       "location": "Hace  4  horas",
-      "remote": false,
-      "type": "FULL_TIME",
-      "salary": "No publicado",
-      "description": "",
-      "postedAt": "2026-06-13T21:21:05",
-      "foundAt": "2026-06-13T21:21:05",
-      "tags": [
-        "Chile",
-        "hispanic-market"
-      ],
-      "locationPriority": "onsite-latam",
-      "locationTier": 7,
-      "urlValid": true
-    },
-    {
-      "id": "e2848af8c9d6",
-      "source": "computrabajo-cl",
-      "sourceUrl": "https://cl.computrabajo.com/ofertas-de-trabajo/oferta-de-trabajo-de-jefea-de-tienda-retail--puerto-montt-alerce-en-puerto-montt-872CF5FC2683E82061373E686DCF3405#lc=ListOffers-Score4-15",
-      "title": "Jefe/a de Tienda – Retail –  Puerto Montt (Alerce)",
-      "company": "No especificada",
-      "location": "Hace  5  horas",
       "remote": false,
       "type": "FULL_TIME",
       "salary": "No publicado",
@@ -52005,10 +52218,10 @@
       "urlValid": true
     },
     {
-      "id": "371c463f9cf3",
+      "id": "67780f812886",
       "source": "computrabajo-cl",
-      "sourceUrl": "https://cl.computrabajo.com/ofertas-de-trabajo/oferta-de-trabajo-de-supervisor-comercial-tienda-retail-talca-en-talca-053B74DC146171F761373E686DCF3405#lc=ListOffers-Score4-3",
-      "title": "Supervisor Comercial Tienda Retail Talca",
+      "sourceUrl": "https://cl.computrabajo.com/ofertas-de-trabajo/oferta-de-trabajo-de-vendedor-a-terreno-quillota-en-quillota-BB3D0593F35B92E261373E686DCF3405#lc=ListOffers-Score4-16",
+      "title": "Vendedor (a) Terreno",
       "company": "No especificada",
       "location": "Hace  2  horas",
       "remote": false,
@@ -52026,10 +52239,10 @@
       "urlValid": true
     },
     {
-      "id": "67780f812886",
+      "id": "371c463f9cf3",
       "source": "computrabajo-cl",
-      "sourceUrl": "https://cl.computrabajo.com/ofertas-de-trabajo/oferta-de-trabajo-de-vendedor-a-terreno-quillota-en-quillota-BB3D0593F35B92E261373E686DCF3405#lc=ListOffers-Score4-16",
-      "title": "Vendedor (a) Terreno",
+      "sourceUrl": "https://cl.computrabajo.com/ofertas-de-trabajo/oferta-de-trabajo-de-supervisor-comercial-tienda-retail-talca-en-talca-053B74DC146171F761373E686DCF3405#lc=ListOffers-Score4-3",
+      "title": "Supervisor Comercial Tienda Retail Talca",
       "company": "No especificada",
       "location": "Hace  2  horas",
       "remote": false,
@@ -52164,6 +52377,27 @@
       "description": "",
       "postedAt": "2026-06-14T10:49:31",
       "foundAt": "2026-06-14T10:49:31",
+      "tags": [
+        "Chile",
+        "hispanic-market"
+      ],
+      "locationPriority": "onsite-latam",
+      "locationTier": 7,
+      "urlValid": true
+    },
+    {
+      "id": "df1b9d72824a",
+      "source": "computrabajo-cl",
+      "sourceUrl": "https://cl.computrabajo.com/ofertas-de-trabajo/oferta-de-trabajo-de-supervisora-de-operaciones-transporte-administrando-conductores-en-santiago-quilicura-760732091D3D853561373E686DCF3405#lc=ListOffers-Score4-17",
+      "title": "Supervisora de operaciones (transporte)",
+      "company": "No especificada",
+      "location": "Hace  2  horas",
+      "remote": false,
+      "type": "FULL_TIME",
+      "salary": "No publicado",
+      "description": "",
+      "postedAt": "2026-06-14T10:49:35",
+      "foundAt": "2026-06-14T10:49:35",
       "tags": [
         "Chile",
         "hispanic-market"
@@ -52326,27 +52560,6 @@
       "title": "Supervisor de Seguridad",
       "company": "No especificada",
       "location": "$ 1.300.000,00 (Mensual)",
-      "remote": false,
-      "type": "FULL_TIME",
-      "salary": "No publicado",
-      "description": "",
-      "postedAt": "2026-06-14T10:49:35",
-      "foundAt": "2026-06-14T10:49:35",
-      "tags": [
-        "Chile",
-        "hispanic-market"
-      ],
-      "locationPriority": "onsite-latam",
-      "locationTier": 7,
-      "urlValid": true
-    },
-    {
-      "id": "df1b9d72824a",
-      "source": "computrabajo-cl",
-      "sourceUrl": "https://cl.computrabajo.com/ofertas-de-trabajo/oferta-de-trabajo-de-supervisora-de-operaciones-transporte-administrando-conductores-en-santiago-quilicura-760732091D3D853561373E686DCF3405#lc=ListOffers-Score4-17",
-      "title": "Supervisora de operaciones (transporte)",
-      "company": "No especificada",
-      "location": "Hace  2  horas",
       "remote": false,
       "type": "FULL_TIME",
       "salary": "No publicado",
@@ -54147,6 +54360,27 @@
       "urlValid": true
     },
     {
+      "id": "ed0fe4294047",
+      "source": "computrabajo-cl",
+      "sourceUrl": "https://cl.computrabajo.com/ofertas-de-trabajo/oferta-de-trabajo-de-vendedor-ruta-iquique-en-iquique-A1FA52143C94FE6261373E686DCF3405#lc=ListOffers-Score4-8",
+      "title": "Vendedor Ruta",
+      "company": "No especificada",
+      "location": "Hace  1  hora",
+      "remote": false,
+      "type": "FULL_TIME",
+      "salary": "No publicado",
+      "description": "",
+      "postedAt": "2026-06-15T13:56:29",
+      "foundAt": "2026-06-15T13:56:29",
+      "tags": [
+        "Chile",
+        "hispanic-market"
+      ],
+      "locationPriority": "onsite-latam",
+      "locationTier": 7,
+      "urlValid": true
+    },
+    {
       "id": "d937b3a1047e",
       "source": "computrabajo-cl",
       "sourceUrl": "https://cl.computrabajo.com/ofertas-de-trabajo/oferta-de-trabajo-de-vendedor-peak-time-maui-plaza-oeste-en-santiago-cerrillos-81B1F256F1C172D661373E686DCF3405#lc=ListOffers-Score4-6",
@@ -54174,27 +54408,6 @@
       "title": "Vendedor Full Time Reemplazo Maui Plaza Oeste",
       "company": "No especificada",
       "location": "$ 539.000,00 (Mensual)",
-      "remote": false,
-      "type": "FULL_TIME",
-      "salary": "No publicado",
-      "description": "",
-      "postedAt": "2026-06-15T13:56:29",
-      "foundAt": "2026-06-15T13:56:29",
-      "tags": [
-        "Chile",
-        "hispanic-market"
-      ],
-      "locationPriority": "onsite-latam",
-      "locationTier": 7,
-      "urlValid": true
-    },
-    {
-      "id": "ed0fe4294047",
-      "source": "computrabajo-cl",
-      "sourceUrl": "https://cl.computrabajo.com/ofertas-de-trabajo/oferta-de-trabajo-de-vendedor-ruta-iquique-en-iquique-A1FA52143C94FE6261373E686DCF3405#lc=ListOffers-Score4-8",
-      "title": "Vendedor Ruta",
-      "company": "No especificada",
-      "location": "Hace  1  hora",
       "remote": false,
       "type": "FULL_TIME",
       "salary": "No publicado",
@@ -54693,12 +54906,12 @@
       "urlValid": true
     },
     {
-      "id": "7e9629e45d9d",
+      "id": "d5827ba79d16",
       "source": "computrabajo-cl",
-      "sourceUrl": "https://cl.computrabajo.com/ofertas-de-trabajo/oferta-de-trabajo-de-jefe-de-oficina-tecnica-contrato-electrico-mina-subterranea-en-calama-7CB64DA2E3F8833D61373E686DCF3405#lc=ListOffers-Score4-11",
-      "title": "Jefe de Oficina Técnica",
+      "sourceUrl": "https://cl.computrabajo.com/ofertas-de-trabajo/oferta-de-trabajo-de-product-manager-de-trade-marketing-lo-barnechea-en-santiago-lo-barnechea-104814478E6B6ACE61373E686DCF3405#lc=ListOffers-Score4-2",
+      "title": "Product Manager de Trade Marketing / Lo Barnechea",
       "company": "No especificada",
-      "location": "Hace  2  horas",
+      "location": "Hace  37  minutos",
       "remote": false,
       "type": "FULL_TIME",
       "salary": "No publicado",
@@ -54714,12 +54927,12 @@
       "urlValid": true
     },
     {
-      "id": "d5827ba79d16",
+      "id": "7e9629e45d9d",
       "source": "computrabajo-cl",
-      "sourceUrl": "https://cl.computrabajo.com/ofertas-de-trabajo/oferta-de-trabajo-de-product-manager-de-trade-marketing-lo-barnechea-en-santiago-lo-barnechea-104814478E6B6ACE61373E686DCF3405#lc=ListOffers-Score4-2",
-      "title": "Product Manager de Trade Marketing / Lo Barnechea",
+      "sourceUrl": "https://cl.computrabajo.com/ofertas-de-trabajo/oferta-de-trabajo-de-jefe-de-oficina-tecnica-contrato-electrico-mina-subterranea-en-calama-7CB64DA2E3F8833D61373E686DCF3405#lc=ListOffers-Score4-11",
+      "title": "Jefe de Oficina Técnica",
       "company": "No especificada",
-      "location": "Hace  37  minutos",
+      "location": "Hace  2  horas",
       "remote": false,
       "type": "FULL_TIME",
       "salary": "No publicado",
@@ -54924,6 +55137,27 @@
       "urlValid": true
     },
     {
+      "id": "bbb5d894b6b4",
+      "source": "computrabajo-cl",
+      "sourceUrl": "https://cl.computrabajo.com/ofertas-de-trabajo/oferta-de-trabajo-de-jefe-de-reclutamiento-y-seleccion-en-santiago-providencia-0D757A1F3D7D5C4361373E686DCF3405#lc=ListOffers-Score4-16",
+      "title": "Jefe de Reclutamiento y Selección",
+      "company": "No especificada",
+      "location": "Hace  6  horas",
+      "remote": false,
+      "type": "FULL_TIME",
+      "salary": "No publicado",
+      "description": "",
+      "postedAt": "2026-06-15T22:22:52",
+      "foundAt": "2026-06-15T22:22:52",
+      "tags": [
+        "Chile",
+        "hispanic-market"
+      ],
+      "locationPriority": "onsite-latam",
+      "locationTier": 7,
+      "urlValid": true
+    },
+    {
       "id": "577ab2ca4d2c",
       "source": "computrabajo-cl",
       "sourceUrl": "https://cl.computrabajo.com/ofertas-de-trabajo/oferta-de-trabajo-de-jefe-tecnico-division-maquinaria-para-san-bernardo-en-santiago-providencia-E800A19BDD267F1561373E686DCF3405#lc=ListOffers-Score4-10",
@@ -54951,27 +55185,6 @@
       "title": "Jefe/a experiencia cliente.",
       "company": "No especificada",
       "location": "Hace  5  horas",
-      "remote": false,
-      "type": "FULL_TIME",
-      "salary": "No publicado",
-      "description": "",
-      "postedAt": "2026-06-15T22:22:52",
-      "foundAt": "2026-06-15T22:22:52",
-      "tags": [
-        "Chile",
-        "hispanic-market"
-      ],
-      "locationPriority": "onsite-latam",
-      "locationTier": 7,
-      "urlValid": true
-    },
-    {
-      "id": "bbb5d894b6b4",
-      "source": "computrabajo-cl",
-      "sourceUrl": "https://cl.computrabajo.com/ofertas-de-trabajo/oferta-de-trabajo-de-jefe-de-reclutamiento-y-seleccion-en-santiago-providencia-0D757A1F3D7D5C4361373E686DCF3405#lc=ListOffers-Score4-16",
-      "title": "Jefe de Reclutamiento y Selección",
-      "company": "No especificada",
-      "location": "Hace  6  horas",
       "remote": false,
       "type": "FULL_TIME",
       "salary": "No publicado",
@@ -55260,6 +55473,27 @@
       "urlValid": true
     },
     {
+      "id": "32864058807f",
+      "source": "computrabajo-cl",
+      "sourceUrl": "https://cl.computrabajo.com/ofertas-de-trabajo/oferta-de-trabajo-de-supervisor-de-ventas-en-terreno-segmento-movil-puerto-montt-en-iquique-501842E22C2C989461373E686DCF3405#lc=ListOffers-Score4-15",
+      "title": "Supervisor de Ventas en Terreno / Segmento Móvil /Puerto Montt",
+      "company": "No especificada",
+      "location": "Hace  1  hora",
+      "remote": false,
+      "type": "FULL_TIME",
+      "salary": "No publicado",
+      "description": "",
+      "postedAt": "2026-06-15T22:23:03",
+      "foundAt": "2026-06-15T22:23:03",
+      "tags": [
+        "Chile",
+        "hispanic-market"
+      ],
+      "locationPriority": "onsite-latam",
+      "locationTier": 7,
+      "urlValid": true
+    },
+    {
       "id": "005bff55b989",
       "source": "computrabajo-cl",
       "sourceUrl": "https://cl.computrabajo.com/ofertas-de-trabajo/oferta-de-trabajo-de-asesor-de-ventas-live-tik-tok-comisiones-sin-tope-lunes-a-viernes-30-hrs-en-santiago-macul-0934FFA5B4D5757061373E686DCF3405#lc=ListOffers-Score4-6",
@@ -55285,27 +55519,6 @@
       "source": "computrabajo-cl",
       "sourceUrl": "https://cl.computrabajo.com/ofertas-de-trabajo/oferta-de-trabajo-de-ejecutivo-en-terreno-para-ventas-de-maquinas-de-pago-vina-en-vina-del-mar-BCA722A410DDEF5261373E686DCF3405#lc=ListOffers-Score4-12",
       "title": "Ejecutivo en Terreno para Ventas de Máquinas de Pago Viña",
-      "company": "No especificada",
-      "location": "Hace  1  hora",
-      "remote": false,
-      "type": "FULL_TIME",
-      "salary": "No publicado",
-      "description": "",
-      "postedAt": "2026-06-15T22:23:03",
-      "foundAt": "2026-06-15T22:23:03",
-      "tags": [
-        "Chile",
-        "hispanic-market"
-      ],
-      "locationPriority": "onsite-latam",
-      "locationTier": 7,
-      "urlValid": true
-    },
-    {
-      "id": "32864058807f",
-      "source": "computrabajo-cl",
-      "sourceUrl": "https://cl.computrabajo.com/ofertas-de-trabajo/oferta-de-trabajo-de-supervisor-de-ventas-en-terreno-segmento-movil-puerto-montt-en-iquique-501842E22C2C989461373E686DCF3405#lc=ListOffers-Score4-15",
-      "title": "Supervisor de Ventas en Terreno / Segmento Móvil /Puerto Montt",
       "company": "No especificada",
       "location": "Hace  1  hora",
       "remote": false,
@@ -59502,12 +59715,12 @@
       "urlValid": true
     },
     {
-      "id": "c61f0b80f859",
+      "id": "51a79e6f5f53",
       "source": "computrabajo-cl",
-      "sourceUrl": "https://cl.computrabajo.com/ofertas-de-trabajo/oferta-de-trabajo-de-jefe-operaciones-mantencion-la-serena-en-la-serena-9ED09A7E3E92C80D61373E686DCF3405#lc=ListOffers-Score4-17",
-      "title": "Jefe Operaciones Mantención",
+      "sourceUrl": "https://cl.computrabajo.com/ofertas-de-trabajo/oferta-de-trabajo-de-gerente-de-marketing-en-santiago-quilicura-51C1323C1606FB7E61373E686DCF3405#lc=ListOffers-Score4-7",
+      "title": "Gerente de marketing",
       "company": "No especificada",
-      "location": "Hace  4  horas",
+      "location": "Hace  3  horas",
       "remote": false,
       "type": "FULL_TIME",
       "salary": "No publicado",
@@ -59523,12 +59736,12 @@
       "urlValid": true
     },
     {
-      "id": "51a79e6f5f53",
+      "id": "c61f0b80f859",
       "source": "computrabajo-cl",
-      "sourceUrl": "https://cl.computrabajo.com/ofertas-de-trabajo/oferta-de-trabajo-de-gerente-de-marketing-en-santiago-quilicura-51C1323C1606FB7E61373E686DCF3405#lc=ListOffers-Score4-7",
-      "title": "Gerente de marketing",
+      "sourceUrl": "https://cl.computrabajo.com/ofertas-de-trabajo/oferta-de-trabajo-de-jefe-operaciones-mantencion-la-serena-en-la-serena-9ED09A7E3E92C80D61373E686DCF3405#lc=ListOffers-Score4-17",
+      "title": "Jefe Operaciones Mantención",
       "company": "No especificada",
-      "location": "Hace  3  horas",
+      "location": "Hace  4  horas",
       "remote": false,
       "type": "FULL_TIME",
       "salary": "No publicado",
@@ -61434,6 +61647,69 @@
       "urlValid": true
     },
     {
+      "id": "1369c04e5e08",
+      "source": "computrabajo-cl",
+      "sourceUrl": "https://cl.computrabajo.com/ofertas-de-trabajo/oferta-de-trabajo-de-asistente-de-operaciones-reemplazo-desde-22-de-junio-al-03-de-julio-650000-liquidos-coquimbo-en-coquimbo-68A934A63BAA937A61373E686DCF3405#lc=ListOffers-Score4-9",
+      "title": "Asistente de Operaciones/ Reemplazo desde 22 de Junio al 03 de Julio/  $650.000 líquidos / Coquimbo",
+      "company": "No especificada",
+      "location": "Hace  8  horas",
+      "remote": false,
+      "type": "FULL_TIME",
+      "salary": "No publicado",
+      "description": "",
+      "postedAt": "2026-06-17T22:04:47",
+      "foundAt": "2026-06-17T22:04:47",
+      "tags": [
+        "Chile",
+        "hispanic-market"
+      ],
+      "locationPriority": "onsite-latam",
+      "locationTier": 7,
+      "urlValid": true
+    },
+    {
+      "id": "f28da921c820",
+      "source": "computrabajo-cl",
+      "sourceUrl": "https://cl.computrabajo.com/ofertas-de-trabajo/oferta-de-trabajo-de-asistente-de-operaciones-administrativas-y-servicios-generales-en-santiago-las-condes-CCAC5860D72B62C361373E686DCF3405#lc=ListOffers-Score4-19",
+      "title": "Asistente de Operaciones Administrativas y Servicios Generales",
+      "company": "No especificada",
+      "location": "Hace  7  horas",
+      "remote": false,
+      "type": "FULL_TIME",
+      "salary": "No publicado",
+      "description": "",
+      "postedAt": "2026-06-17T22:04:47",
+      "foundAt": "2026-06-17T22:04:47",
+      "tags": [
+        "Chile",
+        "hispanic-market"
+      ],
+      "locationPriority": "onsite-latam",
+      "locationTier": 7,
+      "urlValid": true
+    },
+    {
+      "id": "e72fe39b2efb",
+      "source": "computrabajo-cl",
+      "sourceUrl": "https://cl.computrabajo.com/ofertas-de-trabajo/oferta-de-trabajo-de-coordinador-de-operaciones-de-mantenimiento-en-santiago-quilicura-C252C31AD37675C361373E686DCF3405#lc=ListOffers-Score4-10",
+      "title": "Coordinador de Operaciones de Mantenimiento",
+      "company": "No especificada",
+      "location": "Hace  9  horas",
+      "remote": false,
+      "type": "FULL_TIME",
+      "salary": "No publicado",
+      "description": "",
+      "postedAt": "2026-06-17T22:04:47",
+      "foundAt": "2026-06-17T22:04:47",
+      "tags": [
+        "Chile",
+        "hispanic-market"
+      ],
+      "locationPriority": "onsite-latam",
+      "locationTier": 7,
+      "urlValid": true
+    },
+    {
       "id": "8b520f47f6e9",
       "source": "computrabajo-cl",
       "sourceUrl": "https://cl.computrabajo.com/ofertas-de-trabajo/oferta-de-trabajo-de-planificador-de-operaciones-en-santiago-las-condes-289BCE4D6A26249161373E686DCF3405#lc=ListOffers-Score4-5",
@@ -61503,69 +61779,6 @@
       "title": "Asistente de Operaciones Bancarias",
       "company": "No especificada",
       "location": "$ 600.000,00 (Mensual)",
-      "remote": false,
-      "type": "FULL_TIME",
-      "salary": "No publicado",
-      "description": "",
-      "postedAt": "2026-06-17T22:04:47",
-      "foundAt": "2026-06-17T22:04:47",
-      "tags": [
-        "Chile",
-        "hispanic-market"
-      ],
-      "locationPriority": "onsite-latam",
-      "locationTier": 7,
-      "urlValid": true
-    },
-    {
-      "id": "1369c04e5e08",
-      "source": "computrabajo-cl",
-      "sourceUrl": "https://cl.computrabajo.com/ofertas-de-trabajo/oferta-de-trabajo-de-asistente-de-operaciones-reemplazo-desde-22-de-junio-al-03-de-julio-650000-liquidos-coquimbo-en-coquimbo-68A934A63BAA937A61373E686DCF3405#lc=ListOffers-Score4-9",
-      "title": "Asistente de Operaciones/ Reemplazo desde 22 de Junio al 03 de Julio/  $650.000 líquidos / Coquimbo",
-      "company": "No especificada",
-      "location": "Hace  8  horas",
-      "remote": false,
-      "type": "FULL_TIME",
-      "salary": "No publicado",
-      "description": "",
-      "postedAt": "2026-06-17T22:04:47",
-      "foundAt": "2026-06-17T22:04:47",
-      "tags": [
-        "Chile",
-        "hispanic-market"
-      ],
-      "locationPriority": "onsite-latam",
-      "locationTier": 7,
-      "urlValid": true
-    },
-    {
-      "id": "e72fe39b2efb",
-      "source": "computrabajo-cl",
-      "sourceUrl": "https://cl.computrabajo.com/ofertas-de-trabajo/oferta-de-trabajo-de-coordinador-de-operaciones-de-mantenimiento-en-santiago-quilicura-C252C31AD37675C361373E686DCF3405#lc=ListOffers-Score4-10",
-      "title": "Coordinador de Operaciones de Mantenimiento",
-      "company": "No especificada",
-      "location": "Hace  9  horas",
-      "remote": false,
-      "type": "FULL_TIME",
-      "salary": "No publicado",
-      "description": "",
-      "postedAt": "2026-06-17T22:04:47",
-      "foundAt": "2026-06-17T22:04:47",
-      "tags": [
-        "Chile",
-        "hispanic-market"
-      ],
-      "locationPriority": "onsite-latam",
-      "locationTier": 7,
-      "urlValid": true
-    },
-    {
-      "id": "f28da921c820",
-      "source": "computrabajo-cl",
-      "sourceUrl": "https://cl.computrabajo.com/ofertas-de-trabajo/oferta-de-trabajo-de-asistente-de-operaciones-administrativas-y-servicios-generales-en-santiago-las-condes-CCAC5860D72B62C361373E686DCF3405#lc=ListOffers-Score4-19",
-      "title": "Asistente de Operaciones Administrativas y Servicios Generales",
-      "company": "No especificada",
-      "location": "Hace  7  horas",
       "remote": false,
       "type": "FULL_TIME",
       "salary": "No publicado",
@@ -61665,12 +61878,12 @@
       "urlValid": true
     },
     {
-      "id": "cabcc384ea20",
+      "id": "f1a9820cfe5e",
       "source": "computrabajo-cl",
-      "sourceUrl": "https://cl.computrabajo.com/ofertas-de-trabajo/oferta-de-trabajo-de-asistente-de-investigacion-y-desarrollo-agricola-idi-buin-en-buin-F8D80C04F30D860661373E686DCF3405#lc=ListOffers-Score4-0",
-      "title": "Asistente de Investigación y Desarrollo Agrícola (I+D+i) – Buin",
+      "sourceUrl": "https://cl.computrabajo.com/ofertas-de-trabajo/oferta-de-trabajo-de-ejecutivoa-de-desarrollo-comercial-on-trade-region-metropolitana-en-santiago-centro-3CB302855348754061373E686DCF3405#lc=ListOffers-Score4-3",
+      "title": "Ejecutivo/a de Desarrollo Comercial On Trade Región Metropolitana",
       "company": "No especificada",
-      "location": "$ 800.000,00 (Mensual)",
+      "location": "Hace  4  horas",
       "remote": false,
       "type": "FULL_TIME",
       "salary": "No publicado",
@@ -61707,12 +61920,12 @@
       "urlValid": true
     },
     {
-      "id": "f1a9820cfe5e",
+      "id": "cabcc384ea20",
       "source": "computrabajo-cl",
-      "sourceUrl": "https://cl.computrabajo.com/ofertas-de-trabajo/oferta-de-trabajo-de-ejecutivoa-de-desarrollo-comercial-on-trade-region-metropolitana-en-santiago-centro-3CB302855348754061373E686DCF3405#lc=ListOffers-Score4-3",
-      "title": "Ejecutivo/a de Desarrollo Comercial On Trade Región Metropolitana",
+      "sourceUrl": "https://cl.computrabajo.com/ofertas-de-trabajo/oferta-de-trabajo-de-asistente-de-investigacion-y-desarrollo-agricola-idi-buin-en-buin-F8D80C04F30D860661373E686DCF3405#lc=ListOffers-Score4-0",
+      "title": "Asistente de Investigación y Desarrollo Agrícola (I+D+i) – Buin",
       "company": "No especificada",
-      "location": "Hace  4  horas",
+      "location": "$ 800.000,00 (Mensual)",
       "remote": false,
       "type": "FULL_TIME",
       "salary": "No publicado",
@@ -61917,6 +62130,27 @@
       "urlValid": true
     },
     {
+      "id": "ecbea5b9646b",
+      "source": "computrabajo-cl",
+      "sourceUrl": "https://cl.computrabajo.com/ofertas-de-trabajo/oferta-de-trabajo-de-asesora-de-ventas-optica-en-osorno-8B3D2A40AFA79F6B61373E686DCF3405#lc=ListOffers-Score4-19",
+      "title": "Asesora de Ventas",
+      "company": "No especificada",
+      "location": "$ 500.000,00 (Mensual) + Comisiones",
+      "remote": false,
+      "type": "FULL_TIME",
+      "salary": "No publicado",
+      "description": "",
+      "postedAt": "2026-06-18T11:54:22",
+      "foundAt": "2026-06-18T11:54:22",
+      "tags": [
+        "Chile",
+        "hispanic-market"
+      ],
+      "locationPriority": "onsite-latam",
+      "locationTier": 7,
+      "urlValid": true
+    },
+    {
       "id": "67631a46c9dd",
       "source": "computrabajo-cl",
       "sourceUrl": "https://cl.computrabajo.com/ofertas-de-trabajo/oferta-de-trabajo-de-ejecutivo-de-venta-producto-financiero-captador-part-time-tda-maipu-banco-ripley-banco-ripley-en-santiago-maipu-C5DA04435E8FBBE261373E686DCF3405#lc=ListOffers-Score4-4",
@@ -62001,33 +62235,12 @@
       "urlValid": true
     },
     {
-      "id": "ecbea5b9646b",
+      "id": "5c1fb732a01a",
       "source": "computrabajo-cl",
-      "sourceUrl": "https://cl.computrabajo.com/ofertas-de-trabajo/oferta-de-trabajo-de-asesora-de-ventas-optica-en-osorno-8B3D2A40AFA79F6B61373E686DCF3405#lc=ListOffers-Score4-19",
-      "title": "Asesora de Ventas",
+      "sourceUrl": "https://cl.computrabajo.com/ofertas-de-trabajo/oferta-de-trabajo-de-buscamos-ejecutivos-as-de-venta-de-seguros-call-center--part-time-y-full-time-en-santiago-centro-8F1C716857C369B161373E686DCF3405#lc=ListOffers-Score4-6",
+      "title": "Buscamos Ejecutivos (as) de Venta de Seguros Call center   Part time y Full Time",
       "company": "No especificada",
-      "location": "$ 500.000,00 (Mensual) + Comisiones",
-      "remote": false,
-      "type": "FULL_TIME",
-      "salary": "No publicado",
-      "description": "",
-      "postedAt": "2026-06-18T11:54:22",
-      "foundAt": "2026-06-18T11:54:22",
-      "tags": [
-        "Chile",
-        "hispanic-market"
-      ],
-      "locationPriority": "onsite-latam",
-      "locationTier": 7,
-      "urlValid": true
-    },
-    {
-      "id": "882c875ee4d7",
-      "source": "computrabajo-cl",
-      "sourceUrl": "https://cl.computrabajo.com/ofertas-de-trabajo/oferta-de-trabajo-de-encargado-de-ventas-biobio-en-hualpen-BDAFB60EC57DB97F61373E686DCF3405#lc=ListOffers-Score4-15",
-      "title": "Encargado de Ventas, BioBío",
-      "company": "No especificada",
-      "location": "Hace  10  horas",
+      "location": "Hace  3  horas",
       "remote": false,
       "type": "FULL_TIME",
       "salary": "No publicado",
@@ -62043,12 +62256,12 @@
       "urlValid": true
     },
     {
-      "id": "5c1fb732a01a",
+      "id": "882c875ee4d7",
       "source": "computrabajo-cl",
-      "sourceUrl": "https://cl.computrabajo.com/ofertas-de-trabajo/oferta-de-trabajo-de-buscamos-ejecutivos-as-de-venta-de-seguros-call-center--part-time-y-full-time-en-santiago-centro-8F1C716857C369B161373E686DCF3405#lc=ListOffers-Score4-6",
-      "title": "Buscamos Ejecutivos (as) de Venta de Seguros Call center   Part time y Full Time",
+      "sourceUrl": "https://cl.computrabajo.com/ofertas-de-trabajo/oferta-de-trabajo-de-encargado-de-ventas-biobio-en-hualpen-BDAFB60EC57DB97F61373E686DCF3405#lc=ListOffers-Score4-15",
+      "title": "Encargado de Ventas, BioBío",
       "company": "No especificada",
-      "location": "Hace  3  horas",
+      "location": "Hace  10  horas",
       "remote": false,
       "type": "FULL_TIME",
       "salary": "No publicado",
@@ -62180,6 +62393,48 @@
       "salary": "No publicado",
       "description": "",
       "postedAt": "2026-06-18T11:54:27",
+      "foundAt": "2026-06-26T10:51:54",
+      "tags": [
+        "Chile",
+        "hispanic-market"
+      ],
+      "locationPriority": "onsite-latam",
+      "locationTier": 7,
+      "urlValid": true
+    },
+    {
+      "id": "525f8cdef1fb",
+      "source": "computrabajo-cl",
+      "sourceUrl": "https://cl.computrabajo.com/ofertas-de-trabajo/oferta-de-trabajo-de-vendedor-de-combustible-full-time-entre-lagos-ruta-215-sn-puyehue-turnos-rotativos-manana-tarde-y-noche-44-hrs-semanales-en-puyehue-014682861377B25661373E686DCF3405#lc=ListOffers-Score4-14",
+      "title": "Vendedor de Combustible full time Entre Lagos Ruta 215 S/N, Puyehue",
+      "company": "No especificada",
+      "location": "Hace  2  horas",
+      "remote": false,
+      "type": "FULL_TIME",
+      "salary": "No publicado",
+      "description": "",
+      "postedAt": "2026-06-18T11:54:27",
+      "foundAt": "2026-06-18T11:54:27",
+      "tags": [
+        "Chile",
+        "hispanic-market"
+      ],
+      "locationPriority": "onsite-latam",
+      "locationTier": 7,
+      "urlValid": true
+    },
+    {
+      "id": "58b567ec13de",
+      "source": "computrabajo-cl",
+      "sourceUrl": "https://cl.computrabajo.com/ofertas-de-trabajo/oferta-de-trabajo-de-asesora-comercial-pyme-soluciones-telecom-santiago-telecomunicaciones-en-santiago-centro-11ACCBEBFE2CF88E61373E686DCF3405#lc=ListOffers-Score4-19",
+      "title": "Asesor/a Comercial Pyme Soluciones Telecom – Santiago",
+      "company": "No especificada",
+      "location": "Hace  3  horas",
+      "remote": false,
+      "type": "FULL_TIME",
+      "salary": "No publicado",
+      "description": "",
+      "postedAt": "2026-06-18T11:54:27",
       "foundAt": "2026-06-18T11:54:27",
       "tags": [
         "Chile",
@@ -62215,27 +62470,6 @@
       "source": "computrabajo-cl",
       "sourceUrl": "https://cl.computrabajo.com/ofertas-de-trabajo/oferta-de-trabajo-de-vendedor-local-comercial-constitucion-en-constitucion-02E23D9067D84C2261373E686DCF3405#lc=ListOffers-Score4-9",
       "title": "Vendedor local comercial, Constitución",
-      "company": "No especificada",
-      "location": "Hace  2  horas",
-      "remote": false,
-      "type": "FULL_TIME",
-      "salary": "No publicado",
-      "description": "",
-      "postedAt": "2026-06-18T11:54:27",
-      "foundAt": "2026-06-18T11:54:27",
-      "tags": [
-        "Chile",
-        "hispanic-market"
-      ],
-      "locationPriority": "onsite-latam",
-      "locationTier": 7,
-      "urlValid": true
-    },
-    {
-      "id": "525f8cdef1fb",
-      "source": "computrabajo-cl",
-      "sourceUrl": "https://cl.computrabajo.com/ofertas-de-trabajo/oferta-de-trabajo-de-vendedor-de-combustible-full-time-entre-lagos-ruta-215-sn-puyehue-turnos-rotativos-manana-tarde-y-noche-44-hrs-semanales-en-puyehue-014682861377B25661373E686DCF3405#lc=ListOffers-Score4-14",
-      "title": "Vendedor de Combustible full time Entre Lagos Ruta 215 S/N, Puyehue",
       "company": "No especificada",
       "location": "Hace  2  horas",
       "remote": false,
@@ -62295,48 +62529,6 @@
       "urlValid": true
     },
     {
-      "id": "58b567ec13de",
-      "source": "computrabajo-cl",
-      "sourceUrl": "https://cl.computrabajo.com/ofertas-de-trabajo/oferta-de-trabajo-de-asesora-comercial-pyme-soluciones-telecom-santiago-telecomunicaciones-en-santiago-centro-11ACCBEBFE2CF88E61373E686DCF3405#lc=ListOffers-Score4-19",
-      "title": "Asesor/a Comercial Pyme Soluciones Telecom – Santiago",
-      "company": "No especificada",
-      "location": "Hace  3  horas",
-      "remote": false,
-      "type": "FULL_TIME",
-      "salary": "No publicado",
-      "description": "",
-      "postedAt": "2026-06-18T11:54:27",
-      "foundAt": "2026-06-18T11:54:27",
-      "tags": [
-        "Chile",
-        "hispanic-market"
-      ],
-      "locationPriority": "onsite-latam",
-      "locationTier": 7,
-      "urlValid": true
-    },
-    {
-      "id": "0baae87a9b4f",
-      "source": "computrabajo-cl",
-      "sourceUrl": "https://cl.computrabajo.com/ofertas-de-trabajo/oferta-de-trabajo-de-vendedor-a-full-time-42-hrs-mobile-outfitters-ripley-marina-arauco-en-vina-del-mar-5392C83FD15E5A3561373E686DCF3405#lc=ListOffers-Score4-19",
-      "title": "Vendedor (a) Full time 42 hrs",
-      "company": "No especificada",
-      "location": "Hace  3  horas",
-      "remote": false,
-      "type": "FULL_TIME",
-      "salary": "No publicado",
-      "description": "",
-      "postedAt": "2026-06-18T11:54:29",
-      "foundAt": "2026-06-18T11:54:29",
-      "tags": [
-        "Chile",
-        "hispanic-market"
-      ],
-      "locationPriority": "onsite-latam",
-      "locationTier": 7,
-      "urlValid": true
-    },
-    {
       "id": "eb8a6784099a",
       "source": "computrabajo-cl",
       "sourceUrl": "https://cl.computrabajo.com/ofertas-de-trabajo/oferta-de-trabajo-de-vendedor-a-full-time-42-hrs-reemplazo-mobile-outfitters-ripley-costanera-en-santiago-providencia-30AA072620C0CF3F61373E686DCF3405#lc=ListOffers-Score4-0",
@@ -62379,27 +62571,6 @@
       "urlValid": true
     },
     {
-      "id": "baa67f2c377f",
-      "source": "computrabajo-cl",
-      "sourceUrl": "https://cl.computrabajo.com/ofertas-de-trabajo/oferta-de-trabajo-de-vendedor-de-combustible-full-time-frutillar-rotativos-manana-tarde-noche-en-frutillar-8304F3063C7C8A2F61373E686DCF3405#lc=ListOffers-Score4-8",
-      "title": "Vendedor de Combustible full time Frutillar",
-      "company": "No especificada",
-      "location": "$ 670.000,00 (Mensual)",
-      "remote": false,
-      "type": "FULL_TIME",
-      "salary": "No publicado",
-      "description": "",
-      "postedAt": "2026-06-18T11:54:29",
-      "foundAt": "2026-06-18T11:54:29",
-      "tags": [
-        "Chile",
-        "hispanic-market"
-      ],
-      "locationPriority": "onsite-latam",
-      "locationTier": 7,
-      "urlValid": true
-    },
-    {
       "id": "9ccbb5d909e5",
       "source": "computrabajo-cl",
       "sourceUrl": "https://cl.computrabajo.com/ofertas-de-trabajo/oferta-de-trabajo-de-vendedora-terreno-vacacionista-rancagua-en-rancagua-BB76E82CDF943E3861373E686DCF3405#lc=ListOffers-Score4-11",
@@ -62421,10 +62592,52 @@
       "urlValid": true
     },
     {
+      "id": "baa67f2c377f",
+      "source": "computrabajo-cl",
+      "sourceUrl": "https://cl.computrabajo.com/ofertas-de-trabajo/oferta-de-trabajo-de-vendedor-de-combustible-full-time-frutillar-rotativos-manana-tarde-noche-en-frutillar-8304F3063C7C8A2F61373E686DCF3405#lc=ListOffers-Score4-8",
+      "title": "Vendedor de Combustible full time Frutillar",
+      "company": "No especificada",
+      "location": "$ 670.000,00 (Mensual)",
+      "remote": false,
+      "type": "FULL_TIME",
+      "salary": "No publicado",
+      "description": "",
+      "postedAt": "2026-06-18T11:54:29",
+      "foundAt": "2026-06-18T11:54:29",
+      "tags": [
+        "Chile",
+        "hispanic-market"
+      ],
+      "locationPriority": "onsite-latam",
+      "locationTier": 7,
+      "urlValid": true
+    },
+    {
       "id": "8a55393ca8af",
       "source": "computrabajo-cl",
       "sourceUrl": "https://cl.computrabajo.com/ofertas-de-trabajo/oferta-de-trabajo-de-asistente-comercial-y-atencion-de-clientes-administracion-y-rrpp-en-santiago-san-miguel-710D7E9010891B9D61373E686DCF3405#lc=ListOffers-Score4-12",
       "title": "Asistente comercial y atención de clientes",
+      "company": "No especificada",
+      "location": "Hace  3  horas",
+      "remote": false,
+      "type": "FULL_TIME",
+      "salary": "No publicado",
+      "description": "",
+      "postedAt": "2026-06-18T11:54:29",
+      "foundAt": "2026-06-18T11:54:29",
+      "tags": [
+        "Chile",
+        "hispanic-market"
+      ],
+      "locationPriority": "onsite-latam",
+      "locationTier": 7,
+      "urlValid": true
+    },
+    {
+      "id": "0baae87a9b4f",
+      "source": "computrabajo-cl",
+      "sourceUrl": "https://cl.computrabajo.com/ofertas-de-trabajo/oferta-de-trabajo-de-vendedor-a-full-time-42-hrs-mobile-outfitters-ripley-marina-arauco-en-vina-del-mar-5392C83FD15E5A3561373E686DCF3405#lc=ListOffers-Score4-19",
+      "title": "Vendedor (a) Full time 42 hrs",
       "company": "No especificada",
       "location": "Hace  3  horas",
       "remote": false,
@@ -62463,27 +62676,6 @@
       "urlValid": true
     },
     {
-      "id": "70fa73962702",
-      "source": "computrabajo-cl",
-      "sourceUrl": "https://cl.computrabajo.com/ofertas-de-trabajo/oferta-de-trabajo-de-supervisor-de-control-de-operaciones-colina-en-colina-EE12548188F5C99E61373E686DCF3405#lc=ListOffers-Score4-11",
-      "title": "Supervisor de control de operaciones (Colina)",
-      "company": "No especificada",
-      "location": "$ 1.600.000,00 (Mensual)",
-      "remote": false,
-      "type": "FULL_TIME",
-      "salary": "No publicado",
-      "description": "",
-      "postedAt": "2026-06-18T11:54:33",
-      "foundAt": "2026-06-18T11:54:33",
-      "tags": [
-        "Chile",
-        "hispanic-market"
-      ],
-      "locationPriority": "onsite-latam",
-      "locationTier": 7,
-      "urlValid": true
-    },
-    {
       "id": "035196297842",
       "source": "computrabajo-cl",
       "sourceUrl": "https://cl.computrabajo.com/ofertas-de-trabajo/oferta-de-trabajo-de-conductor-a5-con-base-lampa-base-de-operaciones-lampa-en-lampa-72274B02ED59F36D61373E686DCF3405#lc=ListOffers-Score4-12",
@@ -62505,12 +62697,33 @@
       "urlValid": true
     },
     {
-      "id": "034c9a7790ae",
+      "id": "afec625e9481",
       "source": "computrabajo-cl",
-      "sourceUrl": "https://cl.computrabajo.com/ofertas-de-trabajo/oferta-de-trabajo-de-analista-operaciones-contables-renta-liquida-915000-en-santiago-las-condes-0E83F1F01379B71B61373E686DCF3405#lc=ListOffers-Score4-16",
-      "title": "Analista Operaciones Contables",
+      "sourceUrl": "https://cl.computrabajo.com/ofertas-de-trabajo/oferta-de-trabajo-de-analista-de-operaciones-financieras-reemplazo-tda-plaza-oeste-banco-ripley-en-santiago-cerrillos-A120C44F73B8102261373E686DCF3405#lc=ListOffers-Score4-18",
+      "title": "Analista de Operaciones Financieras Reemplazo Tda Plaza Oeste Banco Ripley",
       "company": "No especificada",
       "location": "Hace  11  horas",
+      "remote": false,
+      "type": "FULL_TIME",
+      "salary": "No publicado",
+      "description": "",
+      "postedAt": "2026-06-18T11:54:33",
+      "foundAt": "2026-06-26T10:52:00",
+      "tags": [
+        "Chile",
+        "hispanic-market"
+      ],
+      "locationPriority": "onsite-latam",
+      "locationTier": 7,
+      "urlValid": true
+    },
+    {
+      "id": "70fa73962702",
+      "source": "computrabajo-cl",
+      "sourceUrl": "https://cl.computrabajo.com/ofertas-de-trabajo/oferta-de-trabajo-de-supervisor-de-control-de-operaciones-colina-en-colina-EE12548188F5C99E61373E686DCF3405#lc=ListOffers-Score4-11",
+      "title": "Supervisor de control de operaciones (Colina)",
+      "company": "No especificada",
+      "location": "$ 1.600.000,00 (Mensual)",
       "remote": false,
       "type": "FULL_TIME",
       "salary": "No publicado",
@@ -62526,10 +62739,10 @@
       "urlValid": true
     },
     {
-      "id": "afec625e9481",
+      "id": "034c9a7790ae",
       "source": "computrabajo-cl",
-      "sourceUrl": "https://cl.computrabajo.com/ofertas-de-trabajo/oferta-de-trabajo-de-analista-de-operaciones-financieras-reemplazo-tda-plaza-oeste-banco-ripley-en-santiago-cerrillos-A120C44F73B8102261373E686DCF3405#lc=ListOffers-Score4-18",
-      "title": "Analista de Operaciones Financieras Reemplazo Tda Plaza Oeste Banco Ripley",
+      "sourceUrl": "https://cl.computrabajo.com/ofertas-de-trabajo/oferta-de-trabajo-de-analista-operaciones-contables-renta-liquida-915000-en-santiago-las-condes-0E83F1F01379B71B61373E686DCF3405#lc=ListOffers-Score4-16",
+      "title": "Analista Operaciones Contables",
       "company": "No especificada",
       "location": "Hace  11  horas",
       "remote": false,
@@ -62736,6 +62949,27 @@
       "urlValid": true
     },
     {
+      "id": "c110c2d4ff82",
+      "source": "computrabajo-cl",
+      "sourceUrl": "https://cl.computrabajo.com/ofertas-de-trabajo/oferta-de-trabajo-de-programador-mantencion-casa-blanca-en-casablanca-88E384F4588242FC61373E686DCF3405#lc=ListOffers-Score4-1",
+      "title": "Programador Mantención",
+      "company": "No especificada",
+      "location": "Hace  2  horas",
+      "remote": false,
+      "type": "FULL_TIME",
+      "salary": "No publicado",
+      "description": "",
+      "postedAt": "2026-06-18T22:14:58",
+      "foundAt": "2026-06-18T22:14:58",
+      "tags": [
+        "Chile",
+        "hispanic-market"
+      ],
+      "locationPriority": "onsite-latam",
+      "locationTier": 7,
+      "urlValid": true
+    },
+    {
       "id": "0973942c2b11",
       "source": "computrabajo-cl",
       "sourceUrl": "https://cl.computrabajo.com/ofertas-de-trabajo/oferta-de-trabajo-de-kam-soluciones-modulares-home-colina-en-colina-752C6AB79E7B463E61373E686DCF3405#lc=ListOffers-Score4-0",
@@ -62757,18 +62991,18 @@
       "urlValid": true
     },
     {
-      "id": "c110c2d4ff82",
+      "id": "07c6db55f903",
       "source": "computrabajo-cl",
-      "sourceUrl": "https://cl.computrabajo.com/ofertas-de-trabajo/oferta-de-trabajo-de-programador-mantencion-casa-blanca-en-casablanca-88E384F4588242FC61373E686DCF3405#lc=ListOffers-Score4-1",
-      "title": "Programador Mantención",
+      "sourceUrl": "https://cl.computrabajo.com/ofertas-de-trabajo/oferta-de-trabajo-de-apoyo-jefatura-comercial-pichara-820000-liquido-ochagavia-pedro-aguirre-cerda-en-santiago-pedro-aguirre-cerda-F65827CBFBF9C57E61373E686DCF3405#lc=ListOffers-Score4-7",
+      "title": "Apoyo Jefatura Comercial Pichara",
       "company": "No especificada",
-      "location": "Hace  2  horas",
+      "location": "$ 800.000,00 (Mensual)",
       "remote": false,
       "type": "FULL_TIME",
       "salary": "No publicado",
       "description": "",
-      "postedAt": "2026-06-18T22:14:58",
-      "foundAt": "2026-06-18T22:14:58",
+      "postedAt": "2026-06-18T22:15:08",
+      "foundAt": "2026-06-18T22:15:08",
       "tags": [
         "Chile",
         "hispanic-market"
@@ -62826,27 +63060,6 @@
       "title": "Jefe/a de Zona Mantenimiento de Comunicaciones",
       "company": "No especificada",
       "location": "Hace  40  minutos",
-      "remote": false,
-      "type": "FULL_TIME",
-      "salary": "No publicado",
-      "description": "",
-      "postedAt": "2026-06-18T22:15:08",
-      "foundAt": "2026-06-18T22:15:08",
-      "tags": [
-        "Chile",
-        "hispanic-market"
-      ],
-      "locationPriority": "onsite-latam",
-      "locationTier": 7,
-      "urlValid": true
-    },
-    {
-      "id": "07c6db55f903",
-      "source": "computrabajo-cl",
-      "sourceUrl": "https://cl.computrabajo.com/ofertas-de-trabajo/oferta-de-trabajo-de-apoyo-jefatura-comercial-pichara-820000-liquido-ochagavia-pedro-aguirre-cerda-en-santiago-pedro-aguirre-cerda-F65827CBFBF9C57E61373E686DCF3405#lc=ListOffers-Score4-7",
-      "title": "Apoyo Jefatura Comercial Pichara",
-      "company": "No especificada",
-      "location": "$ 800.000,00 (Mensual)",
       "remote": false,
       "type": "FULL_TIME",
       "salary": "No publicado",
@@ -63240,18 +63453,18 @@
       "urlValid": true
     },
     {
-      "id": "1bfaec973af8",
+      "id": "ff72652d99f0",
       "source": "computrabajo-cl",
-      "sourceUrl": "https://cl.computrabajo.com/ofertas-de-trabajo/oferta-de-trabajo-de-ejecutiva-comercial-de-convenios-por-evento-en-terreno-para-talcahuano-en-talcahuano-67792480D001F86A61373E686DCF3405#lc=ListOffers-Score4-10",
-      "title": "Ejecutiva Comercial de Convenios (Por Evento)",
+      "sourceUrl": "https://cl.computrabajo.com/ofertas-de-trabajo/oferta-de-trabajo-de-vendedor-de-repuestos-por-meson-huechuraba-en-santiago-huechuraba-9B5B813EBEDE60C761373E686DCF3405#lc=ListOffers-Score4-3",
+      "title": "Vendedor de Repuestos por Mesón",
       "company": "No especificada",
-      "location": "$ 539.000,00 (Mensual)",
+      "location": "$ 539.999,00 (Mensual)",
       "remote": false,
       "type": "FULL_TIME",
       "salary": "No publicado",
       "description": "",
       "postedAt": "2026-06-18T22:15:24",
-      "foundAt": "2026-06-18T22:15:24",
+      "foundAt": "2026-06-26T10:51:56",
       "tags": [
         "Chile",
         "hispanic-market"
@@ -63261,12 +63474,12 @@
       "urlValid": true
     },
     {
-      "id": "ff72652d99f0",
+      "id": "1bfaec973af8",
       "source": "computrabajo-cl",
-      "sourceUrl": "https://cl.computrabajo.com/ofertas-de-trabajo/oferta-de-trabajo-de-vendedor-de-repuestos-por-meson-huechuraba-en-santiago-huechuraba-9B5B813EBEDE60C761373E686DCF3405#lc=ListOffers-Score4-3",
-      "title": "Vendedor de Repuestos por Mesón",
+      "sourceUrl": "https://cl.computrabajo.com/ofertas-de-trabajo/oferta-de-trabajo-de-ejecutiva-comercial-de-convenios-por-evento-en-terreno-para-talcahuano-en-talcahuano-67792480D001F86A61373E686DCF3405#lc=ListOffers-Score4-10",
+      "title": "Ejecutiva Comercial de Convenios (Por Evento)",
       "company": "No especificada",
-      "location": "$ 539.999,00 (Mensual)",
+      "location": "$ 539.000,00 (Mensual)",
       "remote": false,
       "type": "FULL_TIME",
       "salary": "No publicado",
@@ -63429,6 +63642,48 @@
       "urlValid": true
     },
     {
+      "id": "3c687f5b86c4",
+      "source": "computrabajo-cl",
+      "sourceUrl": "https://cl.computrabajo.com/ofertas-de-trabajo/oferta-de-trabajo-de-vendedor--preventa-chillan-en-chillan-0F1276C0625C89A061373E686DCF3405#lc=ListOffers-Score4-17",
+      "title": "Vendedor   Preventa Chillán",
+      "company": "No especificada",
+      "location": "Hace  1  hora",
+      "remote": false,
+      "type": "FULL_TIME",
+      "salary": "No publicado",
+      "description": "",
+      "postedAt": "2026-06-18T22:15:26",
+      "foundAt": "2026-06-18T22:15:26",
+      "tags": [
+        "Chile",
+        "hispanic-market"
+      ],
+      "locationPriority": "onsite-latam",
+      "locationTier": 7,
+      "urlValid": true
+    },
+    {
+      "id": "d2e7e6aab580",
+      "source": "computrabajo-cl",
+      "sourceUrl": "https://cl.computrabajo.com/ofertas-de-trabajo/oferta-de-trabajo-de-vendedor--preventa-concepcion-en-concepcion-728E16748E5A1FA961373E686DCF3405#lc=ListOffers-Score4-16",
+      "title": "Vendedor   Preventa Concepción",
+      "company": "No especificada",
+      "location": "Hace  1  hora",
+      "remote": false,
+      "type": "FULL_TIME",
+      "salary": "No publicado",
+      "description": "",
+      "postedAt": "2026-06-18T22:15:26",
+      "foundAt": "2026-06-18T22:15:26",
+      "tags": [
+        "Chile",
+        "hispanic-market"
+      ],
+      "locationPriority": "onsite-latam",
+      "locationTier": 7,
+      "urlValid": true
+    },
+    {
       "id": "f40ae88574b0",
       "source": "computrabajo-cl",
       "sourceUrl": "https://cl.computrabajo.com/ofertas-de-trabajo/oferta-de-trabajo-de-vendedora-comercial-pichara-660000-liquidos-quillota-en-quillota-F9CB345470CB1A7761373E686DCF3405#lc=ListOffers-Score4-0",
@@ -63534,48 +63789,6 @@
       "urlValid": true
     },
     {
-      "id": "d2e7e6aab580",
-      "source": "computrabajo-cl",
-      "sourceUrl": "https://cl.computrabajo.com/ofertas-de-trabajo/oferta-de-trabajo-de-vendedor--preventa-concepcion-en-concepcion-728E16748E5A1FA961373E686DCF3405#lc=ListOffers-Score4-16",
-      "title": "Vendedor   Preventa Concepción",
-      "company": "No especificada",
-      "location": "Hace  1  hora",
-      "remote": false,
-      "type": "FULL_TIME",
-      "salary": "No publicado",
-      "description": "",
-      "postedAt": "2026-06-18T22:15:26",
-      "foundAt": "2026-06-18T22:15:26",
-      "tags": [
-        "Chile",
-        "hispanic-market"
-      ],
-      "locationPriority": "onsite-latam",
-      "locationTier": 7,
-      "urlValid": true
-    },
-    {
-      "id": "3c687f5b86c4",
-      "source": "computrabajo-cl",
-      "sourceUrl": "https://cl.computrabajo.com/ofertas-de-trabajo/oferta-de-trabajo-de-vendedor--preventa-chillan-en-chillan-0F1276C0625C89A061373E686DCF3405#lc=ListOffers-Score4-17",
-      "title": "Vendedor   Preventa Chillán",
-      "company": "No especificada",
-      "location": "Hace  1  hora",
-      "remote": false,
-      "type": "FULL_TIME",
-      "salary": "No publicado",
-      "description": "",
-      "postedAt": "2026-06-18T22:15:26",
-      "foundAt": "2026-06-18T22:15:26",
-      "tags": [
-        "Chile",
-        "hispanic-market"
-      ],
-      "locationPriority": "onsite-latam",
-      "locationTier": 7,
-      "urlValid": true
-    },
-    {
       "id": "779784fa167b",
       "source": "computrabajo-cl",
       "sourceUrl": "https://cl.computrabajo.com/ofertas-de-trabajo/oferta-de-trabajo-de-vendedor--preventa-chillan-foraneo-en-chillan-1E2BF41BA0AEC28961373E686DCF3405#lc=ListOffers-Score4-19",
@@ -63588,6 +63801,48 @@
       "description": "",
       "postedAt": "2026-06-18T22:15:26",
       "foundAt": "2026-06-18T22:15:26",
+      "tags": [
+        "Chile",
+        "hispanic-market"
+      ],
+      "locationPriority": "onsite-latam",
+      "locationTier": 7,
+      "urlValid": true
+    },
+    {
+      "id": "598edb5af11a",
+      "source": "computrabajo-cl",
+      "sourceUrl": "https://cl.computrabajo.com/ofertas-de-trabajo/oferta-de-trabajo-de-analista-de-operaciones-y-documentacion-naviera-en-santiago-vitacura-64C00295056034D761373E686DCF3405#lc=ListOffers-Score4-2",
+      "title": "Analista de operaciones y documentación naviera",
+      "company": "No especificada",
+      "location": "Hace  42  minutos",
+      "remote": false,
+      "type": "FULL_TIME",
+      "salary": "No publicado",
+      "description": "",
+      "postedAt": "2026-06-18T22:15:30",
+      "foundAt": "2026-06-18T22:15:30",
+      "tags": [
+        "Chile",
+        "hispanic-market"
+      ],
+      "locationPriority": "onsite-latam",
+      "locationTier": 7,
+      "urlValid": true
+    },
+    {
+      "id": "0d706ed52b41",
+      "source": "computrabajo-cl",
+      "sourceUrl": "https://cl.computrabajo.com/ofertas-de-trabajo/oferta-de-trabajo-de-analista-operaciones-rubro-bancario-remplazo-santiago-centro-en-santiago-centro-D32AE6D2C384B8D361373E686DCF3405#lc=ListOffers-Score4-13",
+      "title": "Analista Operaciones Rubro Bancario Remplazo",
+      "company": "No especificada",
+      "location": "$ 700.000,00 (Mensual)",
+      "remote": false,
+      "type": "FULL_TIME",
+      "salary": "No publicado",
+      "description": "",
+      "postedAt": "2026-06-18T22:15:30",
+      "foundAt": "2026-06-18T22:15:30",
       "tags": [
         "Chile",
         "hispanic-market"
@@ -63645,27 +63900,6 @@
       "title": "Analista Contable de Operaciones y Cuadraturas",
       "company": "No especificada",
       "location": "$ 970.000,00 (Mensual)",
-      "remote": false,
-      "type": "FULL_TIME",
-      "salary": "No publicado",
-      "description": "",
-      "postedAt": "2026-06-18T22:15:30",
-      "foundAt": "2026-06-18T22:15:30",
-      "tags": [
-        "Chile",
-        "hispanic-market"
-      ],
-      "locationPriority": "onsite-latam",
-      "locationTier": 7,
-      "urlValid": true
-    },
-    {
-      "id": "598edb5af11a",
-      "source": "computrabajo-cl",
-      "sourceUrl": "https://cl.computrabajo.com/ofertas-de-trabajo/oferta-de-trabajo-de-analista-de-operaciones-y-documentacion-naviera-en-santiago-vitacura-64C00295056034D761373E686DCF3405#lc=ListOffers-Score4-2",
-      "title": "Analista de operaciones y documentación naviera",
-      "company": "No especificada",
-      "location": "Hace  42  minutos",
       "remote": false,
       "type": "FULL_TIME",
       "salary": "No publicado",
@@ -63744,27 +63978,6 @@
       "urlValid": true
     },
     {
-      "id": "0d706ed52b41",
-      "source": "computrabajo-cl",
-      "sourceUrl": "https://cl.computrabajo.com/ofertas-de-trabajo/oferta-de-trabajo-de-analista-operaciones-rubro-bancario-remplazo-santiago-centro-en-santiago-centro-D32AE6D2C384B8D361373E686DCF3405#lc=ListOffers-Score4-13",
-      "title": "Analista Operaciones Rubro Bancario Remplazo",
-      "company": "No especificada",
-      "location": "$ 700.000,00 (Mensual)",
-      "remote": false,
-      "type": "FULL_TIME",
-      "salary": "No publicado",
-      "description": "",
-      "postedAt": "2026-06-18T22:15:30",
-      "foundAt": "2026-06-18T22:15:30",
-      "tags": [
-        "Chile",
-        "hispanic-market"
-      ],
-      "locationPriority": "onsite-latam",
-      "locationTier": 7,
-      "urlValid": true
-    },
-    {
       "id": "455a602c32dd",
       "source": "computrabajo-cl",
       "sourceUrl": "https://cl.computrabajo.com/ofertas-de-trabajo/oferta-de-trabajo-de-asistente-de-operaciones-reemplazo-desde-19-de-junio-al-07-de-julio-650000-liquidos-chillan-en-chillan-1EE017A94D59484F61373E686DCF3405#lc=ListOffers-Score4-15",
@@ -63828,6 +64041,48 @@
       "urlValid": true
     },
     {
+      "id": "94aaa64399ff",
+      "source": "computrabajo-cl",
+      "sourceUrl": "https://cl.computrabajo.com/ofertas-de-trabajo/oferta-de-trabajo-de-coordinador-de-operaciones-melipilla-en-melipilla-D75844DBCA51FD7461373E686DCF3405#lc=ListOffers-Score4-8",
+      "title": "Coordinador de operaciones / Melipilla",
+      "company": "No especificada",
+      "location": "Hace  7  horas",
+      "remote": false,
+      "type": "FULL_TIME",
+      "salary": "No publicado",
+      "description": "",
+      "postedAt": "2026-06-18T22:15:31",
+      "foundAt": "2026-06-18T22:15:31",
+      "tags": [
+        "Chile",
+        "hispanic-market"
+      ],
+      "locationPriority": "onsite-latam",
+      "locationTier": 7,
+      "urlValid": true
+    },
+    {
+      "id": "af0cc4aec260",
+      "source": "computrabajo-cl",
+      "sourceUrl": "https://cl.computrabajo.com/ofertas-de-trabajo/oferta-de-trabajo-de-asistente-de-operaciones-logisticas-terreno-region-metropolitana-en-santiago-centro-BA4A270447DA436661373E686DCF3405#lc=ListOffers-Score4-2",
+      "title": "Asistente de Operaciones Logísticas / Terreno",
+      "company": "No especificada",
+      "location": "Hace  5  horas",
+      "remote": false,
+      "type": "FULL_TIME",
+      "salary": "No publicado",
+      "description": "",
+      "postedAt": "2026-06-18T22:15:31",
+      "foundAt": "2026-06-18T22:15:31",
+      "tags": [
+        "Chile",
+        "hispanic-market"
+      ],
+      "locationPriority": "onsite-latam",
+      "locationTier": 7,
+      "urlValid": true
+    },
+    {
       "id": "27cb311f9213",
       "source": "computrabajo-cl",
       "sourceUrl": "https://cl.computrabajo.com/ofertas-de-trabajo/oferta-de-trabajo-de-certificador-de-operaciones-logisticas-noche-ikea-pudahuel-ikea-comuna-pudahuel-bodegas-san-francisco-en-santiago-pudahuel-4EAA49DC8611B40561373E686DCF3405#lc=ListOffers-Score4-5",
@@ -63876,48 +64131,6 @@
       "title": "Egresado liceo tecnico comercial para operación telefónica",
       "company": "No especificada",
       "location": "Hace  9  horas",
-      "remote": false,
-      "type": "FULL_TIME",
-      "salary": "No publicado",
-      "description": "",
-      "postedAt": "2026-06-18T22:15:31",
-      "foundAt": "2026-06-18T22:15:31",
-      "tags": [
-        "Chile",
-        "hispanic-market"
-      ],
-      "locationPriority": "onsite-latam",
-      "locationTier": 7,
-      "urlValid": true
-    },
-    {
-      "id": "af0cc4aec260",
-      "source": "computrabajo-cl",
-      "sourceUrl": "https://cl.computrabajo.com/ofertas-de-trabajo/oferta-de-trabajo-de-asistente-de-operaciones-logisticas-terreno-region-metropolitana-en-santiago-centro-BA4A270447DA436661373E686DCF3405#lc=ListOffers-Score4-2",
-      "title": "Asistente de Operaciones Logísticas / Terreno",
-      "company": "No especificada",
-      "location": "Hace  5  horas",
-      "remote": false,
-      "type": "FULL_TIME",
-      "salary": "No publicado",
-      "description": "",
-      "postedAt": "2026-06-18T22:15:31",
-      "foundAt": "2026-06-18T22:15:31",
-      "tags": [
-        "Chile",
-        "hispanic-market"
-      ],
-      "locationPriority": "onsite-latam",
-      "locationTier": 7,
-      "urlValid": true
-    },
-    {
-      "id": "94aaa64399ff",
-      "source": "computrabajo-cl",
-      "sourceUrl": "https://cl.computrabajo.com/ofertas-de-trabajo/oferta-de-trabajo-de-coordinador-de-operaciones-melipilla-en-melipilla-D75844DBCA51FD7461373E686DCF3405#lc=ListOffers-Score4-8",
-      "title": "Coordinador de operaciones / Melipilla",
-      "company": "No especificada",
-      "location": "Hace  7  horas",
       "remote": false,
       "type": "FULL_TIME",
       "salary": "No publicado",
@@ -77142,12 +77355,12 @@
       "urlValid": true
     },
     {
-      "id": "7340143efee3",
+      "id": "dac7e0e32cd1",
       "source": "computrabajo-cl",
-      "sourceUrl": "https://cl.computrabajo.com/ofertas-de-trabajo/oferta-de-trabajo-de-jefea-de-abastecimiento-antofagasta-en-antofagasta-A3C783644FC493D861373E686DCF3405#lc=ListOffers-Score4-4",
-      "title": "Jefe/a de Abastecimiento",
+      "sourceUrl": "https://cl.computrabajo.com/ofertas-de-trabajo/oferta-de-trabajo-de-jefe-comercial-marketing-en-santiago-las-condes-81D11E2DBE9C8D5B61373E686DCF3405#lc=ListOffers-Score4-13",
+      "title": "Jefe comercial /Marketing",
       "company": "No especificada",
-      "location": "Hace  2  horas",
+      "location": "$ 1.000.000,00 (Mensual)",
       "remote": false,
       "type": "FULL_TIME",
       "salary": "No publicado",
@@ -77163,12 +77376,12 @@
       "urlValid": true
     },
     {
-      "id": "dac7e0e32cd1",
+      "id": "7340143efee3",
       "source": "computrabajo-cl",
-      "sourceUrl": "https://cl.computrabajo.com/ofertas-de-trabajo/oferta-de-trabajo-de-jefe-comercial-marketing-en-santiago-las-condes-81D11E2DBE9C8D5B61373E686DCF3405#lc=ListOffers-Score4-13",
-      "title": "Jefe comercial /Marketing",
+      "sourceUrl": "https://cl.computrabajo.com/ofertas-de-trabajo/oferta-de-trabajo-de-jefea-de-abastecimiento-antofagasta-en-antofagasta-A3C783644FC493D861373E686DCF3405#lc=ListOffers-Score4-4",
+      "title": "Jefe/a de Abastecimiento",
       "company": "No especificada",
-      "location": "$ 1.000.000,00 (Mensual)",
+      "location": "Hace  2  horas",
       "remote": false,
       "type": "FULL_TIME",
       "salary": "No publicado",
@@ -77657,7 +77870,7 @@
       "salary": "No publicado",
       "description": "",
       "postedAt": "2026-06-25T10:42:13",
-      "foundAt": "2026-06-25T10:42:13",
+      "foundAt": "2026-06-26T10:52:07",
       "tags": [
         "Chile",
         "hispanic-market"
@@ -77919,6 +78132,27 @@
       "urlValid": true
     },
     {
+      "id": "9de6b39231a2",
+      "source": "computrabajo-cl",
+      "sourceUrl": "https://cl.computrabajo.com/ofertas-de-trabajo/oferta-de-trabajo-de-jefe-de-operaciones-experiencia-como-jefe-de-sala-supermercado-an-en-santiago-nunoa-3372436468025FAD61373E686DCF3405#lc=ListOffers-Score4-7",
+      "title": "Jefe de  Operaciones experiencia como Jefe de sala supermercado",
+      "company": "No especificada",
+      "location": "$ 900.000,00 (Mensual)",
+      "remote": false,
+      "type": "FULL_TIME",
+      "salary": "No publicado",
+      "description": "",
+      "postedAt": "2026-06-25T21:48:21",
+      "foundAt": "2026-06-25T21:48:21",
+      "tags": [
+        "Chile",
+        "hispanic-market"
+      ],
+      "locationPriority": "onsite-latam",
+      "locationTier": 7,
+      "urlValid": true
+    },
+    {
       "id": "ac1505b52f68",
       "source": "computrabajo-cl",
       "sourceUrl": "https://cl.computrabajo.com/ofertas-de-trabajo/oferta-de-trabajo-de-jefe-de-produccion-industria-de-paneles-sip-colina-en-colina-723EB6F4E626726661373E686DCF3405#lc=ListOffers-Score4-0",
@@ -77946,27 +78180,6 @@
       "title": "Jefe de Parque Inflable  Puente Alto ´Part Time",
       "company": "No especificada",
       "location": "Hace  4  horas",
-      "remote": false,
-      "type": "FULL_TIME",
-      "salary": "No publicado",
-      "description": "",
-      "postedAt": "2026-06-25T21:48:21",
-      "foundAt": "2026-06-25T21:48:21",
-      "tags": [
-        "Chile",
-        "hispanic-market"
-      ],
-      "locationPriority": "onsite-latam",
-      "locationTier": 7,
-      "urlValid": true
-    },
-    {
-      "id": "9de6b39231a2",
-      "source": "computrabajo-cl",
-      "sourceUrl": "https://cl.computrabajo.com/ofertas-de-trabajo/oferta-de-trabajo-de-jefe-de-operaciones-experiencia-como-jefe-de-sala-supermercado-an-en-santiago-nunoa-3372436468025FAD61373E686DCF3405#lc=ListOffers-Score4-7",
-      "title": "Jefe de  Operaciones experiencia como Jefe de sala supermercado",
-      "company": "No especificada",
-      "location": "$ 900.000,00 (Mensual)",
       "remote": false,
       "type": "FULL_TIME",
       "salary": "No publicado",
@@ -78906,27 +79119,6 @@
       "urlValid": true
     },
     {
-      "id": "1a97b3217d7f",
-      "source": "computrabajo-cl",
-      "sourceUrl": "https://cl.computrabajo.com/ofertas-de-trabajo/oferta-de-trabajo-de-zonal-de-operaciones-empresa-de-seguridad-en-santiago-providencia-CE5A772615D9744E61373E686DCF3405#lc=ListOffers-Score4-3",
-      "title": "Zonal De Operaciones Empresa De Seguridad",
-      "company": "No especificada",
-      "location": "$ 1.300.000,00 (Mensual)",
-      "remote": false,
-      "type": "FULL_TIME",
-      "salary": "No publicado",
-      "description": "",
-      "postedAt": "2026-06-25T21:48:41",
-      "foundAt": "2026-06-25T21:48:41",
-      "tags": [
-        "Chile",
-        "hispanic-market"
-      ],
-      "locationPriority": "onsite-latam",
-      "locationTier": 7,
-      "urlValid": true
-    },
-    {
       "id": "1cc08eb5f57a",
       "source": "computrabajo-cl",
       "sourceUrl": "https://cl.computrabajo.com/ofertas-de-trabajo/oferta-de-trabajo-de-encargado-de-operaciones-en-terreno-santiago-en-santiago-centro-F2357F2DA530EA0161373E686DCF3405#lc=ListOffers-Score4-5",
@@ -79001,7 +79193,7 @@
       "salary": "No publicado",
       "description": "",
       "postedAt": "2026-06-25T21:48:41",
-      "foundAt": "2026-06-25T21:48:41",
+      "foundAt": "2026-06-26T10:52:02",
       "tags": [
         "Chile",
         "hispanic-market"
@@ -79022,7 +79214,7 @@
       "salary": "No publicado",
       "description": "",
       "postedAt": "2026-06-25T21:48:41",
-      "foundAt": "2026-06-25T21:48:41",
+      "foundAt": "2026-06-26T10:52:02",
       "tags": [
         "Chile",
         "hispanic-market"
@@ -79038,6 +79230,27 @@
       "title": "Supervisor/a de Operaciones en Concepción",
       "company": "No especificada",
       "location": "Hace  6  horas",
+      "remote": false,
+      "type": "FULL_TIME",
+      "salary": "No publicado",
+      "description": "",
+      "postedAt": "2026-06-25T21:48:41",
+      "foundAt": "2026-06-26T10:52:02",
+      "tags": [
+        "Chile",
+        "hispanic-market"
+      ],
+      "locationPriority": "onsite-latam",
+      "locationTier": 7,
+      "urlValid": true
+    },
+    {
+      "id": "1a97b3217d7f",
+      "source": "computrabajo-cl",
+      "sourceUrl": "https://cl.computrabajo.com/ofertas-de-trabajo/oferta-de-trabajo-de-zonal-de-operaciones-empresa-de-seguridad-en-santiago-providencia-CE5A772615D9744E61373E686DCF3405#lc=ListOffers-Score4-3",
+      "title": "Zonal De Operaciones Empresa De Seguridad",
+      "company": "No especificada",
+      "location": "$ 1.300.000,00 (Mensual)",
       "remote": false,
       "type": "FULL_TIME",
       "salary": "No publicado",
@@ -79200,6 +79413,909 @@
       "urlValid": true
     },
     {
+      "id": "fb6aabfe261e",
+      "source": "computrabajo-cl",
+      "sourceUrl": "https://cl.computrabajo.com/ofertas-de-trabajo/oferta-de-trabajo-de-lider-capataz-cctv-codelco-calama-en-calama-C0F9778DC4064B0361373E686DCF3405#lc=ListOffers-Score4-0",
+      "title": "Lider Capataz CCTV",
+      "company": "No especificada",
+      "location": "$ 1.570.000,00 (Mensual)",
+      "remote": false,
+      "type": "FULL_TIME",
+      "salary": "No publicado",
+      "description": "",
+      "postedAt": "2026-06-26T10:51:38",
+      "foundAt": "2026-06-26T10:51:38",
+      "tags": [
+        "Chile",
+        "hispanic-market"
+      ],
+      "locationPriority": "onsite-latam",
+      "locationTier": 7,
+      "urlValid": true
+    },
+    {
+      "id": "88756a3e35ba",
+      "source": "computrabajo-cl",
+      "sourceUrl": "https://cl.computrabajo.com/ofertas-de-trabajo/oferta-de-trabajo-de-jefe-de-seguridad-maipu-en-santiago-maipu-058FA588DC9F1C8161373E686DCF3405#lc=ListOffers-Score4-3",
+      "title": "Jefe de Seguridad Maipú",
+      "company": "No especificada",
+      "location": "Hace  46  minutos",
+      "remote": false,
+      "type": "FULL_TIME",
+      "salary": "No publicado",
+      "description": "",
+      "postedAt": "2026-06-26T10:51:38",
+      "foundAt": "2026-06-26T10:51:38",
+      "tags": [
+        "Chile",
+        "hispanic-market"
+      ],
+      "locationPriority": "onsite-latam",
+      "locationTier": 7,
+      "urlValid": true
+    },
+    {
+      "id": "83de1c2f7442",
+      "source": "computrabajo-cl",
+      "sourceUrl": "https://cl.computrabajo.com/ofertas-de-trabajo/oferta-de-trabajo-de-jefe-a-de-centro-financiero-coronel-en-coronel-ACEA27AF0CD16D8761373E686DCF3405#lc=ListOffers-Score4-8",
+      "title": "Jefe a de Centro Financiero Coronel",
+      "company": "No especificada",
+      "location": "Hace  1  hora",
+      "remote": false,
+      "type": "FULL_TIME",
+      "salary": "No publicado",
+      "description": "",
+      "postedAt": "2026-06-26T10:51:38",
+      "foundAt": "2026-06-26T10:51:38",
+      "tags": [
+        "Chile",
+        "hispanic-market"
+      ],
+      "locationPriority": "onsite-latam",
+      "locationTier": 7,
+      "urlValid": true
+    },
+    {
+      "id": "34a297cffafb",
+      "source": "computrabajo-cl",
+      "sourceUrl": "https://cl.computrabajo.com/ofertas-de-trabajo/oferta-de-trabajo-de-jefe-de-abastecimiento-manejo-avanzado-sap-y-excel-experiencia-comprobable-en-santiago-quilicura-22184869F345629761373E686DCF3405#lc=ListOffers-Score4-0",
+      "title": "Jefe de Abastecimiento",
+      "company": "No especificada",
+      "location": "Hace  2  horas",
+      "remote": false,
+      "type": "FULL_TIME",
+      "salary": "No publicado",
+      "description": "",
+      "postedAt": "2026-06-26T10:51:40",
+      "foundAt": "2026-06-26T10:51:40",
+      "tags": [
+        "Chile",
+        "hispanic-market"
+      ],
+      "locationPriority": "onsite-latam",
+      "locationTier": 7,
+      "urlValid": true
+    },
+    {
+      "id": "a2f1dbe97603",
+      "source": "computrabajo-cl",
+      "sourceUrl": "https://cl.computrabajo.com/ofertas-de-trabajo/oferta-de-trabajo-de-lider-de-tienda-colina-en-colina-DFDD5C0F323057BF61373E686DCF3405#lc=ListOffers-Score4-1",
+      "title": "Lider de tienda, Colina",
+      "company": "No especificada",
+      "location": "Hace  2  horas",
+      "remote": false,
+      "type": "FULL_TIME",
+      "salary": "No publicado",
+      "description": "",
+      "postedAt": "2026-06-26T10:51:40",
+      "foundAt": "2026-06-26T10:51:40",
+      "tags": [
+        "Chile",
+        "hispanic-market"
+      ],
+      "locationPriority": "onsite-latam",
+      "locationTier": 7,
+      "urlValid": true
+    },
+    {
+      "id": "2ed1805a1149",
+      "source": "computrabajo-cl",
+      "sourceUrl": "https://cl.computrabajo.com/ofertas-de-trabajo/oferta-de-trabajo-de-lider-de-seguridad-transversal-hsec-en-antofagasta-83F4F7FF546FBCE061373E686DCF3405#lc=ListOffers-Score4-2",
+      "title": "Líder de Seguridad Transversal HSEC",
+      "company": "No especificada",
+      "location": "$ 2.000.000,00 (Mensual)",
+      "remote": false,
+      "type": "FULL_TIME",
+      "salary": "No publicado",
+      "description": "",
+      "postedAt": "2026-06-26T10:51:40",
+      "foundAt": "2026-06-26T10:51:40",
+      "tags": [
+        "Chile",
+        "hispanic-market"
+      ],
+      "locationPriority": "onsite-latam",
+      "locationTier": 7,
+      "urlValid": true
+    },
+    {
+      "id": "41a3cc0067c2",
+      "source": "computrabajo-cl",
+      "sourceUrl": "https://cl.computrabajo.com/ofertas-de-trabajo/oferta-de-trabajo-de-jefea-de-proyectos-ti-pmo-vinavalparaiso-en-valparaiso-059A6FB5649A7F8D61373E686DCF3405#lc=ListOffers-Score4-7",
+      "title": "Jefe/a de Proyectos TI (PMO) Viña/Valparaiso",
+      "company": "No especificada",
+      "location": "Hace  2  horas",
+      "remote": false,
+      "type": "FULL_TIME",
+      "salary": "No publicado",
+      "description": "",
+      "postedAt": "2026-06-26T10:51:40",
+      "foundAt": "2026-06-26T10:51:40",
+      "tags": [
+        "Chile",
+        "hispanic-market"
+      ],
+      "locationPriority": "onsite-latam",
+      "locationTier": 7,
+      "urlValid": true
+    },
+    {
+      "id": "08cb7717e265",
+      "source": "computrabajo-cl",
+      "sourceUrl": "https://cl.computrabajo.com/ofertas-de-trabajo/oferta-de-trabajo-de-jefe-de-tripulantes-estacion-central-en-santiago-estacion-central-A30AC03E572E1BB161373E686DCF3405#lc=ListOffers-Score4-8",
+      "title": "Jefe de Tripulantes Estación Central",
+      "company": "No especificada",
+      "location": "Hace  2  horas",
+      "remote": false,
+      "type": "FULL_TIME",
+      "salary": "No publicado",
+      "description": "",
+      "postedAt": "2026-06-26T10:51:40",
+      "foundAt": "2026-06-26T10:51:40",
+      "tags": [
+        "Chile",
+        "hispanic-market"
+      ],
+      "locationPriority": "onsite-latam",
+      "locationTier": 7,
+      "urlValid": true
+    },
+    {
+      "id": "ca49a08fd9bb",
+      "source": "computrabajo-cl",
+      "sourceUrl": "https://cl.computrabajo.com/ofertas-de-trabajo/oferta-de-trabajo-de-jefe-de-produccion-puerto-montt-en-puerto-montt-4B030671E59CA8C961373E686DCF3405#lc=ListOffers-Score4-11",
+      "title": "Jefe de Producción (Puerto Montt)",
+      "company": "No especificada",
+      "location": "$ 1.500.000,00 (Mensual)",
+      "remote": false,
+      "type": "FULL_TIME",
+      "salary": "No publicado",
+      "description": "",
+      "postedAt": "2026-06-26T10:51:40",
+      "foundAt": "2026-06-26T10:51:40",
+      "tags": [
+        "Chile",
+        "hispanic-market"
+      ],
+      "locationPriority": "onsite-latam",
+      "locationTier": 7,
+      "urlValid": true
+    },
+    {
+      "id": "d9684108ef5d",
+      "source": "computrabajo-cl",
+      "sourceUrl": "https://cl.computrabajo.com/ofertas-de-trabajo/oferta-de-trabajo-de-jefe-de-parking-full-time-mall-plaza-iquique-iquique-en-iquique-C8DD102BED3AC21461373E686DCF3405#lc=ListOffers-Score4-13",
+      "title": "Jefe de Parking Full Time Mall Plaza Iquique",
+      "company": "No especificada",
+      "location": "Hace  9  horas",
+      "remote": false,
+      "type": "FULL_TIME",
+      "salary": "No publicado",
+      "description": "",
+      "postedAt": "2026-06-26T10:51:40",
+      "foundAt": "2026-06-26T10:51:40",
+      "tags": [
+        "Chile",
+        "hispanic-market"
+      ],
+      "locationPriority": "onsite-latam",
+      "locationTier": 7,
+      "urlValid": true
+    },
+    {
+      "id": "44da4a2fb5fa",
+      "source": "computrabajo-cl",
+      "sourceUrl": "https://cl.computrabajo.com/ofertas-de-trabajo/oferta-de-trabajo-de-sales-development-manager-corporate-chef-cono-sur-en-santiago-las-condes-612C91C143F77E3161373E686DCF3405#lc=ListOffers-Score4-14",
+      "title": "Sales development Manager, corporate chef",
+      "company": "No especificada",
+      "location": "$ 2.120.200,00 (Mensual)",
+      "remote": false,
+      "type": "FULL_TIME",
+      "salary": "No publicado",
+      "description": "",
+      "postedAt": "2026-06-26T10:51:40",
+      "foundAt": "2026-06-26T10:51:40",
+      "tags": [
+        "Chile",
+        "hispanic-market"
+      ],
+      "locationPriority": "onsite-latam",
+      "locationTier": 7,
+      "urlValid": true
+    },
+    {
+      "id": "9107ab5db76f",
+      "source": "computrabajo-cl",
+      "sourceUrl": "https://cl.computrabajo.com/ofertas-de-trabajo/oferta-de-trabajo-de-jefe-de-sala-turnos-rotativos-633000-diurno-sector-centro-y-oriente-de-rm-oxxo-chile-en-santiago-las-condes-32FA1AA276FE009D61373E686DCF3405#lc=ListOffers-Score4-17",
+      "title": "Jefe de Sala Turnos rotativos $633.000 Diurno, Sector Centro y Oriente de RM",
+      "company": "No especificada",
+      "location": "$ 633.000,00 (Mensual)",
+      "remote": false,
+      "type": "FULL_TIME",
+      "salary": "No publicado",
+      "description": "",
+      "postedAt": "2026-06-26T10:51:40",
+      "foundAt": "2026-06-26T10:51:40",
+      "tags": [
+        "Chile",
+        "hispanic-market"
+      ],
+      "locationPriority": "onsite-latam",
+      "locationTier": 7,
+      "urlValid": true
+    },
+    {
+      "id": "10bb4f9122d2",
+      "source": "computrabajo-cl",
+      "sourceUrl": "https://cl.computrabajo.com/ofertas-de-trabajo/oferta-de-trabajo-de-lider-de-grupo-de-aseo-no-industrial-la-union-en-la-union-1BF939E542DAE28B61373E686DCF3405#lc=ListOffers-Score4-18",
+      "title": "Lider de grupo de Aseo (No industrial)",
+      "company": "No especificada",
+      "location": "Hace  9  horas",
+      "remote": false,
+      "type": "FULL_TIME",
+      "salary": "No publicado",
+      "description": "",
+      "postedAt": "2026-06-26T10:51:40",
+      "foundAt": "2026-06-26T10:51:40",
+      "tags": [
+        "Chile",
+        "hispanic-market"
+      ],
+      "locationPriority": "onsite-latam",
+      "locationTier": 7,
+      "urlValid": true
+    },
+    {
+      "id": "d1a3eeab0b1f",
+      "source": "computrabajo-cl",
+      "sourceUrl": "https://cl.computrabajo.com/ofertas-de-trabajo/oferta-de-trabajo-de-asesor-comercial-ejecutivo-de-ventas-en-terreno--aguas-maihue-en-santiago-las-condes-7E327DB28D599B2261373E686DCF3405#lc=ListOffers-Score4-2",
+      "title": "Asesor Comercial Ejecutivo de Ventas en Terreno   Aguas Maihue",
+      "company": "No especificada",
+      "location": "Hace  1  hora",
+      "remote": false,
+      "type": "FULL_TIME",
+      "salary": "No publicado",
+      "description": "",
+      "postedAt": "2026-06-26T10:51:49",
+      "foundAt": "2026-06-26T10:51:49",
+      "tags": [
+        "Chile",
+        "hispanic-market"
+      ],
+      "locationPriority": "onsite-latam",
+      "locationTier": 7,
+      "urlValid": true
+    },
+    {
+      "id": "55224a313b30",
+      "source": "computrabajo-cl",
+      "sourceUrl": "https://cl.computrabajo.com/ofertas-de-trabajo/oferta-de-trabajo-de-ejecutivo-de-ventas-para-admision-con-nacionalidad-peruana-modalidad-presencial-en-santiago-las-condes-886CF380752BF33E61373E686DCF3405#lc=ListOffers-Score4-3",
+      "title": "Ejecutivo de Ventas para Admisión con Nacionalidad Peruana",
+      "company": "No especificada",
+      "location": "Hace  1  hora",
+      "remote": false,
+      "type": "FULL_TIME",
+      "salary": "No publicado",
+      "description": "",
+      "postedAt": "2026-06-26T10:51:49",
+      "foundAt": "2026-06-26T10:51:49",
+      "tags": [
+        "Chile",
+        "hispanic-market"
+      ],
+      "locationPriority": "onsite-latam",
+      "locationTier": 7,
+      "urlValid": true
+    },
+    {
+      "id": "30ce87cb7a64",
+      "source": "computrabajo-cl",
+      "sourceUrl": "https://cl.computrabajo.com/ofertas-de-trabajo/oferta-de-trabajo-de-ejecutivoa-de-ventas-santiago-en-santiago-centro-E897FE7060BC830061373E686DCF3405#lc=ListOffers-Score4-7",
+      "title": "Ejecutivo(a) de Ventas",
+      "company": "No especificada",
+      "location": "$ 750.000,00 (Mensual) + Comisiones",
+      "remote": false,
+      "type": "FULL_TIME",
+      "salary": "No publicado",
+      "description": "",
+      "postedAt": "2026-06-26T10:51:49",
+      "foundAt": "2026-06-26T10:51:49",
+      "tags": [
+        "Chile",
+        "hispanic-market"
+      ],
+      "locationPriority": "onsite-latam",
+      "locationTier": 7,
+      "urlValid": true
+    },
+    {
+      "id": "b47877ba2f6c",
+      "source": "computrabajo-cl",
+      "sourceUrl": "https://cl.computrabajo.com/ofertas-de-trabajo/oferta-de-trabajo-de-ingeniero-de-ventas-de-automatizacion-y-control-en-santiago-quilicura-85AD11D44847CE4F61373E686DCF3405#lc=ListOffers-Score4-8",
+      "title": "Ingeniero de Ventas de Automatización y Control",
+      "company": "No especificada",
+      "location": "$ 1.800.000,00 (Mensual) + Comisiones",
+      "remote": false,
+      "type": "FULL_TIME",
+      "salary": "No publicado",
+      "description": "",
+      "postedAt": "2026-06-26T10:51:49",
+      "foundAt": "2026-06-26T10:51:49",
+      "tags": [
+        "Chile",
+        "hispanic-market"
+      ],
+      "locationPriority": "onsite-latam",
+      "locationTier": 7,
+      "urlValid": true
+    },
+    {
+      "id": "6cd8f332c099",
+      "source": "computrabajo-cl",
+      "sourceUrl": "https://cl.computrabajo.com/ofertas-de-trabajo/oferta-de-trabajo-de-ejecutivoa-de-venta-de-seguros-trabaja-lunes-a-viernes-peak-time-30-horas-call-center-en-santiago-centro-86C3ECF3CC0A05BF61373E686DCF3405#lc=ListOffers-Score4-14",
+      "title": "Ejecutivo(a) de Venta de Seguros / Trabaja Lunes a Viernes",
+      "company": "No especificada",
+      "location": "$ 367.500,00 (Mensual)",
+      "remote": false,
+      "type": "FULL_TIME",
+      "salary": "No publicado",
+      "description": "",
+      "postedAt": "2026-06-26T10:51:49",
+      "foundAt": "2026-06-26T10:51:49",
+      "tags": [
+        "Chile",
+        "hispanic-market"
+      ],
+      "locationPriority": "onsite-latam",
+      "locationTier": 7,
+      "urlValid": true
+    },
+    {
+      "id": "d2d8974fc035",
+      "source": "computrabajo-cl",
+      "sourceUrl": "https://cl.computrabajo.com/ofertas-de-trabajo/oferta-de-trabajo-de-ejecutivo-de-ventas-sucursal-y-terreno-punitaqui-telecomunicaciones-ejecutivo-comercial-punitaqui-en-punitaqui-3DC2212B74EAC53B61373E686DCF3405#lc=ListOffers-Score4-15",
+      "title": "Ejecutivo de Ventas Sucursal y Terreno Punitaqui (Telecomunicaciones)",
+      "company": "No especificada",
+      "location": "Hace  8  horas",
+      "remote": false,
+      "type": "FULL_TIME",
+      "salary": "No publicado",
+      "description": "",
+      "postedAt": "2026-06-26T10:51:49",
+      "foundAt": "2026-06-26T10:51:49",
+      "tags": [
+        "Chile",
+        "hispanic-market"
+      ],
+      "locationPriority": "onsite-latam",
+      "locationTier": 7,
+      "urlValid": true
+    },
+    {
+      "id": "a939f127500e",
+      "source": "computrabajo-cl",
+      "sourceUrl": "https://cl.computrabajo.com/ofertas-de-trabajo/oferta-de-trabajo-de-asistente-venta-integral-ripley-plaza-oeste-en-santiago-cerrillos-0D2384B5EDD2CB1961373E686DCF3405#lc=ListOffers-Score4-16",
+      "title": "Asistente Venta Integral Ripley Plaza Oeste",
+      "company": "No especificada",
+      "location": "Hace  8  horas",
+      "remote": false,
+      "type": "FULL_TIME",
+      "salary": "No publicado",
+      "description": "",
+      "postedAt": "2026-06-26T10:51:49",
+      "foundAt": "2026-06-26T10:51:49",
+      "tags": [
+        "Chile",
+        "hispanic-market"
+      ],
+      "locationPriority": "onsite-latam",
+      "locationTier": 7,
+      "urlValid": true
+    },
+    {
+      "id": "40b0e525dff4",
+      "source": "computrabajo-cl",
+      "sourceUrl": "https://cl.computrabajo.com/ofertas-de-trabajo/oferta-de-trabajo-de-ejecutivoa-servicio-al-cliente-y-ventas-claro-ft-santiago-centro-en-santiago-centro-5E0B2AF7A31CAC9C61373E686DCF3405#lc=ListOffers-Score4-17",
+      "title": "Ejecutivo/a Servicio al Cliente y Ventas Claro FT Santiago Centro",
+      "company": "No especificada",
+      "location": "Hace  8  horas",
+      "remote": false,
+      "type": "FULL_TIME",
+      "salary": "No publicado",
+      "description": "",
+      "postedAt": "2026-06-26T10:51:49",
+      "foundAt": "2026-06-26T10:51:49",
+      "tags": [
+        "Chile",
+        "hispanic-market"
+      ],
+      "locationPriority": "onsite-latam",
+      "locationTier": 7,
+      "urlValid": true
+    },
+    {
+      "id": "61e04e29151a",
+      "source": "computrabajo-cl",
+      "sourceUrl": "https://cl.computrabajo.com/ofertas-de-trabajo/oferta-de-trabajo-de-urgente-asesor-de-venta-abcdin-42-hrs-5x2-y-6x1-villarrica-horario-rotativo-en-villarrica-9CA08B62394933F661373E686DCF3405#lc=ListOffers-Score4-18",
+      "title": "Urgente Asesor de venta abcdin 42 hrs 5x2 y 6x1",
+      "company": "No especificada",
+      "location": "$ 611.000,00 (Mensual)",
+      "remote": false,
+      "type": "FULL_TIME",
+      "salary": "No publicado",
+      "description": "",
+      "postedAt": "2026-06-26T10:51:49",
+      "foundAt": "2026-06-26T10:51:49",
+      "tags": [
+        "Chile",
+        "hispanic-market"
+      ],
+      "locationPriority": "onsite-latam",
+      "locationTier": 7,
+      "urlValid": true
+    },
+    {
+      "id": "89b080f6b340",
+      "source": "computrabajo-cl",
+      "sourceUrl": "https://cl.computrabajo.com/ofertas-de-trabajo/oferta-de-trabajo-de-ejecutivosas-de-ventas-de-seguros-oncologicos-call-center-honorarios-peak-time-30-horas-call-center-en-santiago-centro-E913C0C356EE4BFD61373E686DCF3405#lc=ListOffers-Score4-19",
+      "title": "Ejecutivos/as de Ventas de Seguros Oncológicos – Call Center / Honorarios",
+      "company": "No especificada",
+      "location": "Hace  9  horas",
+      "remote": false,
+      "type": "FULL_TIME",
+      "salary": "No publicado",
+      "description": "",
+      "postedAt": "2026-06-26T10:51:49",
+      "foundAt": "2026-06-26T10:51:49",
+      "tags": [
+        "Chile",
+        "hispanic-market"
+      ],
+      "locationPriority": "onsite-latam",
+      "locationTier": 7,
+      "urlValid": true
+    },
+    {
+      "id": "feb78c7002ca",
+      "source": "computrabajo-cl",
+      "sourceUrl": "https://cl.computrabajo.com/ofertas-de-trabajo/oferta-de-trabajo-de-asesor-de-ventas-comisiones-sin-tope-lunes-a-viernes-en-santiago-macul-6DA08C682EC81A7F61373E686DCF3405#lc=ListOffers-Score4-0",
+      "title": "Asesor de ventas  comisiones sin tope lunes a viernes",
+      "company": "No especificada",
+      "location": "Hace  9  horas",
+      "remote": false,
+      "type": "FULL_TIME",
+      "salary": "No publicado",
+      "description": "",
+      "postedAt": "2026-06-26T10:51:51",
+      "foundAt": "2026-06-26T10:51:51",
+      "tags": [
+        "Chile",
+        "hispanic-market"
+      ],
+      "locationPriority": "onsite-latam",
+      "locationTier": 7,
+      "urlValid": true
+    },
+    {
+      "id": "9164376656ec",
+      "source": "computrabajo-cl",
+      "sourceUrl": "https://cl.computrabajo.com/ofertas-de-trabajo/oferta-de-trabajo-de-consultor-de-ventas-para-calama-full-time-telefonia-con-experiencia-en-calama-0DE2E1D8AB4DE87F61373E686DCF3405#lc=ListOffers-Score4-9",
+      "title": "Consultor de ventas para Calama Full Time Telefonía / con experiencia",
+      "company": "No especificada",
+      "location": "Hace  9  horas",
+      "remote": false,
+      "type": "FULL_TIME",
+      "salary": "No publicado",
+      "description": "",
+      "postedAt": "2026-06-26T10:51:51",
+      "foundAt": "2026-06-26T10:51:51",
+      "tags": [
+        "Chile",
+        "hispanic-market"
+      ],
+      "locationPriority": "onsite-latam",
+      "locationTier": 7,
+      "urlValid": true
+    },
+    {
+      "id": "a79bc763afe3",
+      "source": "computrabajo-cl",
+      "sourceUrl": "https://cl.computrabajo.com/ofertas-de-trabajo/oferta-de-trabajo-de-ingeniero-ventas-mineria-antofagasta-en-antofagasta-696B89E091C74BC461373E686DCF3405#lc=ListOffers-Score4-10",
+      "title": "Ingeniero Ventas Mineria Antofagasta",
+      "company": "No especificada",
+      "location": "Hace  9  horas",
+      "remote": false,
+      "type": "FULL_TIME",
+      "salary": "No publicado",
+      "description": "",
+      "postedAt": "2026-06-26T10:51:51",
+      "foundAt": "2026-06-26T10:51:51",
+      "tags": [
+        "Chile",
+        "hispanic-market"
+      ],
+      "locationPriority": "onsite-latam",
+      "locationTier": 7,
+      "urlValid": true
+    },
+    {
+      "id": "0e6b106eabfc",
+      "source": "computrabajo-cl",
+      "sourceUrl": "https://cl.computrabajo.com/ofertas-de-trabajo/oferta-de-trabajo-de-ejecutivo-comercial-de-ventas-en-terreno-sin-tope-de-comision-en-chile-0801731DC51B572A61373E686DCF3405#lc=ListOffers-Score4-12",
+      "title": "Ejecutivo Comercial de ventas en terreno sin Tope de Comisión",
+      "company": "No especificada",
+      "location": "Hace  9  horas",
+      "remote": false,
+      "type": "FULL_TIME",
+      "salary": "No publicado",
+      "description": "",
+      "postedAt": "2026-06-26T10:51:51",
+      "foundAt": "2026-06-26T10:51:51",
+      "tags": [
+        "Chile",
+        "hispanic-market"
+      ],
+      "locationPriority": "onsite-latam",
+      "locationTier": 7,
+      "urlValid": true
+    },
+    {
+      "id": "c0e4b179b6e9",
+      "source": "computrabajo-cl",
+      "sourceUrl": "https://cl.computrabajo.com/ofertas-de-trabajo/oferta-de-trabajo-de-consultor-de-ventas-para-providencia-full-time-telefonia-con-experiencia-en-santiago-providencia-8DA7FA6189FD550761373E686DCF3405#lc=ListOffers-Score4-13",
+      "title": "Consultor de ventas para Providencia Full Time Telefonía / con experiencia",
+      "company": "No especificada",
+      "location": "Hace  9  horas",
+      "remote": false,
+      "type": "FULL_TIME",
+      "salary": "No publicado",
+      "description": "",
+      "postedAt": "2026-06-26T10:51:51",
+      "foundAt": "2026-06-26T10:51:51",
+      "tags": [
+        "Chile",
+        "hispanic-market"
+      ],
+      "locationPriority": "onsite-latam",
+      "locationTier": 7,
+      "urlValid": true
+    },
+    {
+      "id": "660ac1b71ee6",
+      "source": "computrabajo-cl",
+      "sourceUrl": "https://cl.computrabajo.com/ofertas-de-trabajo/oferta-de-trabajo-de-ejecutivo-de-atencion-al-cliente-ventas-intangibles-antofagasta-en-antofagasta-273A4ED4A637AD3F61373E686DCF3405#lc=ListOffers-Score4-18",
+      "title": "Ejecutivo de Atención al Cliente, ventas intangibles",
+      "company": "No especificada",
+      "location": "Hace  10  horas",
+      "remote": false,
+      "type": "FULL_TIME",
+      "salary": "No publicado",
+      "description": "",
+      "postedAt": "2026-06-26T10:51:51",
+      "foundAt": "2026-06-26T10:51:51",
+      "tags": [
+        "Chile",
+        "hispanic-market"
+      ],
+      "locationPriority": "onsite-latam",
+      "locationTier": 7,
+      "urlValid": true
+    },
+    {
+      "id": "73b1247c2686",
+      "source": "computrabajo-cl",
+      "sourceUrl": "https://cl.computrabajo.com/ofertas-de-trabajo/oferta-de-trabajo-de-asesor-comercial-colegios-en-san-bernardo-C2FC039DD764C5D961373E686DCF3405#lc=ListOffers-Score4-3",
+      "title": "Asesor Comercial Colegios",
+      "company": "No especificada",
+      "location": "$ 800.000,00 (Mensual) + Comisiones",
+      "remote": false,
+      "type": "FULL_TIME",
+      "salary": "No publicado",
+      "description": "",
+      "postedAt": "2026-06-26T10:51:54",
+      "foundAt": "2026-06-26T10:51:54",
+      "tags": [
+        "Chile",
+        "hispanic-market"
+      ],
+      "locationPriority": "onsite-latam",
+      "locationTier": 7,
+      "urlValid": true
+    },
+    {
+      "id": "df66cf42906d",
+      "source": "computrabajo-cl",
+      "sourceUrl": "https://cl.computrabajo.com/ofertas-de-trabajo/oferta-de-trabajo-de-vendedor-a-full-time-30-hrs-martes-a-sabado-en-las-tardes-mobile-outfitters-falabella-melipilla-en-melipilla-2B963A0CF91EEEB861373E686DCF3405#lc=ListOffers-Score4-5",
+      "title": "Vendedor (a) Full time 30 Hrs (martes a sábado en las tardes)",
+      "company": "No especificada",
+      "location": "Hace  56  minutos",
+      "remote": false,
+      "type": "FULL_TIME",
+      "salary": "No publicado",
+      "description": "",
+      "postedAt": "2026-06-26T10:51:54",
+      "foundAt": "2026-06-26T10:51:54",
+      "tags": [
+        "Chile",
+        "hispanic-market"
+      ],
+      "locationPriority": "onsite-latam",
+      "locationTier": 7,
+      "urlValid": true
+    },
+    {
+      "id": "d35f0efae8aa",
+      "source": "computrabajo-cl",
+      "sourceUrl": "https://cl.computrabajo.com/ofertas-de-trabajo/oferta-de-trabajo-de-vendedor-part-time-en-santiago-quilicura-ABBD26A6990781D261373E686DCF3405#lc=ListOffers-Score4-6",
+      "title": "Vendedor",
+      "company": "No especificada",
+      "location": "Hace  1  hora",
+      "remote": false,
+      "type": "FULL_TIME",
+      "salary": "No publicado",
+      "description": "",
+      "postedAt": "2026-06-26T10:51:54",
+      "foundAt": "2026-06-26T10:51:54",
+      "tags": [
+        "Chile",
+        "hispanic-market"
+      ],
+      "locationPriority": "onsite-latam",
+      "locationTier": 7,
+      "urlValid": true
+    },
+    {
+      "id": "cf99288569f5",
+      "source": "computrabajo-cl",
+      "sourceUrl": "https://cl.computrabajo.com/ofertas-de-trabajo/oferta-de-trabajo-de-vendedor-telefonia-urgente-para-santiago-en-santiago-las-condes-F3B4E2D7BFE416F861373E686DCF3405#lc=ListOffers-Score4-10",
+      "title": "vendedor telefonía",
+      "company": "No especificada",
+      "location": "$ 1.000.000,00 (Mensual) + Comisiones",
+      "remote": false,
+      "type": "FULL_TIME",
+      "salary": "No publicado",
+      "description": "",
+      "postedAt": "2026-06-26T10:51:54",
+      "foundAt": "2026-06-26T10:51:54",
+      "tags": [
+        "Chile",
+        "hispanic-market"
+      ],
+      "locationPriority": "onsite-latam",
+      "locationTier": 7,
+      "urlValid": true
+    },
+    {
+      "id": "bc90dbc598be",
+      "source": "computrabajo-cl",
+      "sourceUrl": "https://cl.computrabajo.com/ofertas-de-trabajo/oferta-de-trabajo-de-se-busca-vendedora-automotriz-autosya-talca-en-talca-A746BAE6EA3B114D61373E686DCF3405#lc=ListOffers-Score4-11",
+      "title": "Se busca Vendedor/a Automotriz – AutosYa Talca",
+      "company": "No especificada",
+      "location": "Hace  1  hora",
+      "remote": false,
+      "type": "FULL_TIME",
+      "salary": "No publicado",
+      "description": "",
+      "postedAt": "2026-06-26T10:51:54",
+      "foundAt": "2026-06-26T10:51:54",
+      "tags": [
+        "Chile",
+        "hispanic-market"
+      ],
+      "locationPriority": "onsite-latam",
+      "locationTier": 7,
+      "urlValid": true
+    },
+    {
+      "id": "236d7f7312a0",
+      "source": "computrabajo-cl",
+      "sourceUrl": "https://cl.computrabajo.com/ofertas-de-trabajo/oferta-de-trabajo-de-vendedor-ruta-lo-espejo-consumo-masivo-en-santiago-lo-espejo-D84F1F58E7448B4B61373E686DCF3405#lc=ListOffers-Score4-16",
+      "title": "Vendedor Ruta Lo Espejo",
+      "company": "No especificada",
+      "location": "Hace  1  hora",
+      "remote": false,
+      "type": "FULL_TIME",
+      "salary": "No publicado",
+      "description": "",
+      "postedAt": "2026-06-26T10:51:54",
+      "foundAt": "2026-06-26T10:51:54",
+      "tags": [
+        "Chile",
+        "hispanic-market"
+      ],
+      "locationPriority": "onsite-latam",
+      "locationTier": 7,
+      "urlValid": true
+    },
+    {
+      "id": "f1ceac8ad5a9",
+      "source": "computrabajo-cl",
+      "sourceUrl": "https://cl.computrabajo.com/ofertas-de-trabajo/oferta-de-trabajo-de-analista-de-operaciones-y-compra-quilicura-ingeniero-a-comerciales-en-santiago-quilicura-BF929480971F40E161373E686DCF3405#lc=ListOffers-Score4-17",
+      "title": "Analista de Operaciones y Compra / Quilicura/ Ingeniero (a) Comerciales",
+      "company": "No especificada",
+      "location": "$ 1.000.000,00 (Mensual)",
+      "remote": false,
+      "type": "FULL_TIME",
+      "salary": "No publicado",
+      "description": "",
+      "postedAt": "2026-06-26T10:51:54",
+      "foundAt": "2026-06-26T10:51:54",
+      "tags": [
+        "Chile",
+        "hispanic-market"
+      ],
+      "locationPriority": "onsite-latam",
+      "locationTier": 7,
+      "urlValid": true
+    },
+    {
+      "id": "b7b18748c210",
+      "source": "computrabajo-cl",
+      "sourceUrl": "https://cl.computrabajo.com/ofertas-de-trabajo/oferta-de-trabajo-de-ejecutivo-a-comercial-region-metropolitana-experiencia-en-la-industria-de-la-seguridad-en-santiago-renca-596BCFB44EAAA11561373E686DCF3405#lc=ListOffers-Score4-8",
+      "title": "Ejecutivo (a) Comercial Región Metropolitana",
+      "company": "No especificada",
+      "location": "Hace  2  horas",
+      "remote": false,
+      "type": "FULL_TIME",
+      "salary": "No publicado",
+      "description": "",
+      "postedAt": "2026-06-26T10:51:56",
+      "foundAt": "2026-06-26T10:51:56",
+      "tags": [
+        "Chile",
+        "hispanic-market"
+      ],
+      "locationPriority": "onsite-latam",
+      "locationTier": 7,
+      "urlValid": true
+    },
+    {
+      "id": "8df7c8b09bde",
+      "source": "computrabajo-cl",
+      "sourceUrl": "https://cl.computrabajo.com/ofertas-de-trabajo/oferta-de-trabajo-de-cajeroa-vendedor-cajerovendedor-en-iquique-48240537E581B26661373E686DCF3405#lc=ListOffers-Score4-9",
+      "title": "cajero/a vendedor",
+      "company": "No especificada",
+      "location": "Hace  2  horas",
+      "remote": false,
+      "type": "FULL_TIME",
+      "salary": "No publicado",
+      "description": "",
+      "postedAt": "2026-06-26T10:51:56",
+      "foundAt": "2026-06-26T10:51:56",
+      "tags": [
+        "Chile",
+        "hispanic-market"
+      ],
+      "locationPriority": "onsite-latam",
+      "locationTier": 7,
+      "urlValid": true
+    },
+    {
+      "id": "18e757c64bde",
+      "source": "computrabajo-cl",
+      "sourceUrl": "https://cl.computrabajo.com/ofertas-de-trabajo/oferta-de-trabajo-de-asistente-comercial-b2b-en-san-bernardo-2167B23C2DC9D35961373E686DCF3405#lc=ListOffers-Score4-16",
+      "title": "Asistente Comercial b2b",
+      "company": "No especificada",
+      "location": "$ 850.000,00 (Mensual) + Comisiones",
+      "remote": false,
+      "type": "FULL_TIME",
+      "salary": "No publicado",
+      "description": "",
+      "postedAt": "2026-06-26T10:51:56",
+      "foundAt": "2026-06-26T10:51:56",
+      "tags": [
+        "Chile",
+        "hispanic-market"
+      ],
+      "locationPriority": "onsite-latam",
+      "locationTier": 7,
+      "urlValid": true
+    },
+    {
+      "id": "f968423eea84",
+      "source": "computrabajo-cl",
+      "sourceUrl": "https://cl.computrabajo.com/ofertas-de-trabajo/oferta-de-trabajo-de-planificadora-de-operaciones-en-santiago-providencia-74F71C73DB2AE08461373E686DCF3405#lc=ListOffers-Score4-10",
+      "title": "Planificador(a) de Operaciones",
+      "company": "No especificada",
+      "location": "$ 1.200.000,00 (Mensual)",
+      "remote": false,
+      "type": "FULL_TIME",
+      "salary": "No publicado",
+      "description": "",
+      "postedAt": "2026-06-26T10:52:00",
+      "foundAt": "2026-06-26T10:52:00",
+      "tags": [
+        "Chile",
+        "hispanic-market"
+      ],
+      "locationPriority": "onsite-latam",
+      "locationTier": 7,
+      "urlValid": true
+    },
+    {
+      "id": "498ea9db9a30",
+      "source": "computrabajo-cl",
+      "sourceUrl": "https://cl.computrabajo.com/ofertas-de-trabajo/oferta-de-trabajo-de-rigger-operaciones-proyectos-proyecto-bhp-en-antofagasta-E2BC49FF56360B6361373E686DCF3405#lc=ListOffers-Score4-1",
+      "title": "Rigger",
+      "company": "No especificada",
+      "location": "$ 1.200.000,00 (Mensual)",
+      "remote": false,
+      "type": "FULL_TIME",
+      "salary": "No publicado",
+      "description": "",
+      "postedAt": "2026-06-26T10:52:02",
+      "foundAt": "2026-06-26T10:52:02",
+      "tags": [
+        "Chile",
+        "hispanic-market"
+      ],
+      "locationPriority": "onsite-latam",
+      "locationTier": 7,
+      "urlValid": true
+    },
+    {
+      "id": "1360da1caba5",
+      "source": "computrabajo-cl",
+      "sourceUrl": "https://cl.computrabajo.com/ofertas-de-trabajo/oferta-de-trabajo-de-ingenieroa-de-desarrollo-de-negocios-soluciones-tecnologicas-industriales-las-condes-en-santiago-las-condes-A1C32AD2A87692DC61373E686DCF3405#lc=ListOffers-Score4-4",
+      "title": "Ingeniero/a de Desarrollo de Negocios / Soluciones Tecnológicas Industriales",
+      "company": "No especificada",
+      "location": "Hace  12  horas",
+      "remote": false,
+      "type": "FULL_TIME",
+      "salary": "No publicado",
+      "description": "",
+      "postedAt": "2026-06-26T10:52:11",
+      "foundAt": "2026-06-26T10:52:11",
+      "tags": [
+        "Chile",
+        "hispanic-market"
+      ],
+      "locationPriority": "onsite-latam",
+      "locationTier": 7,
+      "urlValid": true
+    },
+    {
+      "id": "142c6014b954",
+      "source": "computrabajo-cl",
+      "sourceUrl": "https://cl.computrabajo.com/ofertas-de-trabajo/oferta-de-trabajo-de-analista-senior-desarrollo-organizacional-en-santiago-quilicura-F19EF899094EA98461373E686DCF3405#lc=ListOffers-Score4-8",
+      "title": "Analista senior Desarrollo Organizacional",
+      "company": "No especificada",
+      "location": "Hace  14  horas",
+      "remote": false,
+      "type": "FULL_TIME",
+      "salary": "No publicado",
+      "description": "",
+      "postedAt": "2026-06-26T10:52:11",
+      "foundAt": "2026-06-26T10:52:11",
+      "tags": [
+        "Chile",
+        "hispanic-market"
+      ],
+      "locationPriority": "onsite-latam",
+      "locationTier": 7,
+      "urlValid": true
+    },
+    {
       "id": "0894024e54e0",
       "source": "arbeitnow",
       "sourceUrl": "https://www.arbeitnow.com/jobs/companies/mci-deutschland-gmbh/project-director-live-communication-dusseldorf-463517",
@@ -79330,7 +80446,7 @@
       "salary": "No publicado",
       "description": "Wir treiben die Energiewende voran – und du kannst dabei sein! Bei Return entwickelst du Batteriespeicherprojekte, die darüber entscheiden, ob erneuerbare Energie wirklich im System ankommt – oder verloren geht. Wir bauen keine Konzepte. Wir bauen Infrastruktur. Return ist einer der führenden unabhängigen Anbieter von Energiespeicherlösungen in Europa. Von unserem Hauptsitz in Amsterdam sowie unseren Standorten in Hamburg, München, Berlin, Madrid und weiteren europäischen Märkten entwickeln, finanzieren, bauen, besitzen und betreiben wir großskalige Batteriespeicher (BESS). Damit schaffen wir ",
       "postedAt": "1782289825",
-      "foundAt": "2026-06-25T21:47:50.673408+00:00",
+      "foundAt": "2026-06-26T10:51:12.629513+00:00",
       "tags": [
         "Engineering"
       ],
@@ -79350,7 +80466,7 @@
       "salary": "No publicado",
       "description": "Wir sind führender internationaler Anbieter von Agentur Services und Softwarelösungen für Brands auf Amazon und anderen E-Commerce-Marktplätzen. Als Full-Service-Partner und vom ersten Tag an international ausgerichtet, unterstützen wir seit 2016 Markenunternehmen bei der Steigerung ihrer Amazon-Umsätze. Mittlerweile arbeitet unser junges und dynamisches Team mit führenden Marken an der Entwicklung und Umsetzung von Strategien auf allen wichtigen E-Commerce-Plattformen und Amazon-Märkten. Mit unserer mehrfach ausgezeichneten Software Remdash treffen Amazon-Händler und -Verkäufer datengetrieben",
       "postedAt": "1782311432",
-      "foundAt": "2026-06-25T21:47:47.494661+00:00",
+      "foundAt": "2026-06-26T10:51:09.575553+00:00",
       "tags": [
         "Online Marketing"
       ],
@@ -83692,26 +84808,6 @@
       "urlValid": true
     },
     {
-      "id": "682e0266a7bb",
-      "source": "arbeitnow",
-      "sourceUrl": "https://www.arbeitnow.com/jobs/companies/prettytelco-gmbh/technical-account-manager-b2b-m2m-mobilfunk-cologne-306153",
-      "title": "Technical Account Manager B2B  M2M-Mobilfunk (m/w/d)",
-      "company": "prettyTELCO GmbH",
-      "location": "Cologne",
-      "remote": false,
-      "type": "FULL_TIME",
-      "salary": "No publicado",
-      "description": "Was prettyTELCO von anderen Personalvermittlungen abhebt, ist unser Fokus auf die Vermittlung von Menschen, die nicht nur fachlich qualifiziert sind, sondern auch menschlich perfekt ins Unternehmen passen. 🤝🏻 Wir agieren deutschlandweit innerhalb der Telekommunikationsbranche und legen großen Wert auf einen persönlichen Ansatz. Wir nehmen uns Zeit, sowohl Unternehmen als auch Kandidaten kennenzulernen, um deren Wünsche und Anforderungen genau zu verstehen. Denn bei uns steht der Mensch im Mittelpunkt – niemand ist nur eine Nummer bei uns! 🚀 Aufgaben Du berätst und betreust unsere Geschäftskund",
-      "postedAt": "1781247630",
-      "foundAt": "2026-06-15T22:22:25.420968+00:00",
-      "tags": [
-        "IT"
-      ],
-      "locationPriority": "other",
-      "locationTier": 9,
-      "urlValid": true
-    },
-    {
       "id": "4ca11f0ea7d5",
       "source": "arbeitnow",
       "sourceUrl": "https://www.arbeitnow.com/jobs/companies/prettytelco-gmbh/technical-account-manager-b2b-mcptt-mobilfunk-cologne-239297",
@@ -83724,6 +84820,26 @@
       "description": "Was prettyTELCO von anderen Personalvermittlungen abhebt, ist unser Fokus auf die Vermittlung von Menschen, die nicht nur fachlich qualifiziert sind, sondern auch menschlich perfekt ins Unternehmen passen. 🤝🏻 Wir agieren deutschlandweit innerhalb der Telekommunikationsbranche und legen großen Wert auf einen persönlichen Ansatz. Wir nehmen uns Zeit, sowohl Unternehmen als auch Kandidaten kennenzulernen, um deren Wünsche und Anforderungen genau zu verstehen. Denn bei uns steht der Mensch im Mittelpunkt – niemand ist nur eine Nummer bei uns! 🚀 Aufgaben Du berätst und betreust unsere Geschäftskund",
       "postedAt": "1781247630",
       "foundAt": "2026-06-15T22:22:25.420314+00:00",
+      "tags": [
+        "IT"
+      ],
+      "locationPriority": "other",
+      "locationTier": 9,
+      "urlValid": true
+    },
+    {
+      "id": "682e0266a7bb",
+      "source": "arbeitnow",
+      "sourceUrl": "https://www.arbeitnow.com/jobs/companies/prettytelco-gmbh/technical-account-manager-b2b-m2m-mobilfunk-cologne-306153",
+      "title": "Technical Account Manager B2B  M2M-Mobilfunk (m/w/d)",
+      "company": "prettyTELCO GmbH",
+      "location": "Cologne",
+      "remote": false,
+      "type": "FULL_TIME",
+      "salary": "No publicado",
+      "description": "Was prettyTELCO von anderen Personalvermittlungen abhebt, ist unser Fokus auf die Vermittlung von Menschen, die nicht nur fachlich qualifiziert sind, sondern auch menschlich perfekt ins Unternehmen passen. 🤝🏻 Wir agieren deutschlandweit innerhalb der Telekommunikationsbranche und legen großen Wert auf einen persönlichen Ansatz. Wir nehmen uns Zeit, sowohl Unternehmen als auch Kandidaten kennenzulernen, um deren Wünsche und Anforderungen genau zu verstehen. Denn bei uns steht der Mensch im Mittelpunkt – niemand ist nur eine Nummer bei uns! 🚀 Aufgaben Du berätst und betreust unsere Geschäftskund",
+      "postedAt": "1781247630",
+      "foundAt": "2026-06-15T22:22:25.420968+00:00",
       "tags": [
         "IT"
       ],
@@ -85031,7 +86147,7 @@
       "salary": "No publicado",
       "description": "Ihr technisches Know-how ist gefragt! Eine neue Position in der Kalkulation im Bereich TGA wird bei einem der führenden Hochbau-Unternehmen Deutschlands geschaffen. Hier gestalten Sie aktiv mit und arbeiten dabei an einigen der berühmtesten Baustellen Berlins – mit Projektgrößen zwischen 20 und 40 Millionen Euro. Sie werden Teil eines rund 11-köpfigen Kalkulationsteams, eingebettet in eine stabile, seit Jahrzehnten etablierte Unternehmensstruktur mit insgesamt an die 140 Mitarbeitenden in der Region Ost. Dabei profitieren Sie von einem Einstiegsjahresgehalt von bis zu 90.000 €, 2 Home-Office-T",
       "postedAt": "1782226833",
-      "foundAt": "2026-06-25T21:47:53.849271+00:00",
+      "foundAt": "2026-06-26T10:51:12.649420+00:00",
       "tags": [
         "Building",
         "Supply",
@@ -85053,7 +86169,7 @@
       "salary": "No publicado",
       "description": "TenMedia ist ein erfolgreiches Softwareunternehmen im Herzen Berlins. Wir sind seit über 14 Jahren auf den Betrieb und die Entwicklung von Individualsoftware spezialisiert. Wir suchen ab sofort einen Praktikanten (m/w/d) im Bereich Fachinformatik für Anwendungsentwicklung. Wir glauben an die Stärke und das Potenzial unseres Teams und sind stets bemüht, dass Beste aus uns herauszuholen. Als Praktikant wirst du Teil dieses Teams. Dabei folgst du unserem strukturierten Ausbildungsplan, der darauf ausgerichtet ist, dich innerhalb kürzester Zeit zum Profi zu machen. Neben dem Programmieren stehen a",
       "postedAt": "1782282647",
-      "foundAt": "2026-06-25T21:47:50.679526+00:00",
+      "foundAt": "2026-06-26T10:51:12.637218+00:00",
       "tags": [
         "Software Development"
       ],
@@ -85073,7 +86189,7 @@
       "salary": "No publicado",
       "description": "Als mittelständisches Unternehmen aus dem Bereich Bau- / Land- / Forst- und Kommunaltechnik suchen wir zur Verstärkung unseres Teams im Allgäu einen Vertriebsleiter (m/w/d) . Aufgaben nationale und internationale Händlerbetreuung und Entwicklung Führung des kompletten Vertriebsbereiches strategische Planung und Umsatzverantwortung Qualifikation abgeschlossene technische oder kaufmännische Ausbildung, abgeschlossenes Studium oder vergleichbarer Abschluss mehrjährige Erfahrung im Vertrieb sowie Führungserfahrung in ähnlicher Position verhandlungssichere Kenntnisse in Englisch, weitere Fremdsprac",
       "postedAt": "1782291629",
-      "foundAt": "2026-06-25T21:47:50.672193+00:00",
+      "foundAt": "2026-06-26T10:51:12.627956+00:00",
       "tags": [
         "Management",
         "Team Leader"
@@ -85094,7 +86210,7 @@
       "salary": "No publicado",
       "description": "Seit 1999 - also nunmehr über 25 Jahre - sind wir kompetenter und etablierter Personalpartner der Branche Architektur / Ingenieurwesen, Immobilien und Bauwirtschaft, wenn es um die erfolgreiche Besetzung von Positionen für kaufmännische und technische Fachspezialisten und Führungskräfte geht. Unsere ausgeschriebenen Stellenangebote sind allesamt Festanstellungen bei unseren privaten und öffentlichen Mandanten, zu denen wir meist langjährige Geschäftsbeziehungen pflegen. Systemplaner / Fachplaner (w/m/d) Technische Gebäudeausrüstung (Heizungs-, Sanitär-, Klima- oder Lüftungstechnik) Hybrides Ar",
       "postedAt": "1782300627",
-      "foundAt": "2026-06-25T21:47:50.666657+00:00",
+      "foundAt": "2026-06-26T10:51:09.588625+00:00",
       "tags": [
         "Building",
         "Supply",
@@ -85116,7 +86232,7 @@
       "salary": "No publicado",
       "description": "Du begeisterst Dich für IT-Infrastrukturen, Server und Netzwerke und möchtest dafür sorgen, dass verteilte Systeme zuverlässig und sicher laufen? Wir suchen Verstärkung für unser Team – egal ob Berufseinsteiger:in oder mit Berufserfahrung – mit Interesse an moderner IT-Administration und Systemintegration. Aufgaben Als Teil unseres IT-Teams erwarten Dich folgende Aufgaben: Administration, Wartung und Überwachung unserer Server- und Systemlandschaften Betreuung und Weiterentwicklung von Windows- und Linux-Systemen Installation, Konfiguration und Pflege von IT-Systemen und Infrastrukturkomponent",
       "postedAt": "1782306026",
-      "foundAt": "2026-06-25T21:47:50.661277+00:00",
+      "foundAt": "2026-06-26T10:51:09.581867+00:00",
       "tags": [
         "IT"
       ],
@@ -85136,7 +86252,7 @@
       "salary": "No publicado",
       "description": "Projektbeschreibung: Technologie begeistert Sie? Uns auch! Zur Verstärkung unseres Expertenteams bei unserem Kunden aus der Funk- und Kommunikationsbranche suchen wir einen Test & Integration Engineer (m/w/x) Radio Framework Festanstellung bei K-tronik. Wir freuen uns darauf, Sie persönlich kennen zu lernen - und gemeinsam mit Leidenschaft und Teamgeist an spannenden Projekten und zukunftsweisenden Technologien zu arbeiten. Aufgaben: Die Konzeption und Implementierung von CI/CT/CD-Pipelines mit GitLab gehört zu deinen Aufgaben - Messgeräte wie Oszilloskope, Signalgeneratoren oder Spektrumanaly",
       "postedAt": "1782311430",
-      "foundAt": "2026-06-25T21:47:47.495213+00:00",
+      "foundAt": "2026-06-26T10:51:09.576282+00:00",
       "tags": [
         "Software Development"
       ],
@@ -85176,7 +86292,7 @@
       "salary": "No publicado",
       "description": "IBV ist spezialisiert auf High-End Software-Dienstleistungen im technischen Markt. Wir bringen eine breite Expertise in den Bereichen Embedded-Systeme und Echtzeit-Anwendungen mit. Unsere Dienstleistungen und Produkte werden u. a. in den Branchen Industrieautomation, Medizintechnik, IoT, Telekommunikation und Messtechnik eingesetzt. Dabei decken wir den gesamten Software-Entwicklungsprozess ab – von der Produktidee bis zur Lieferung serienreifer Software. Eigene Softwareprodukte, speziell im Bereich Industrial Ethernet, runden unser Spektrum ab. IBV unterstützt seine Kunden dabei oft gerade da",
       "postedAt": "1782374440",
-      "foundAt": "2026-06-25T21:47:47.476833+00:00",
+      "foundAt": "2026-06-26T10:51:06.527557+00:00",
       "tags": [
         "Embedded Systems",
         "Firmware Development"
@@ -85197,7 +86313,7 @@
       "salary": "No publicado",
       "description": "Wir sind ein traditionsreiches mittelständisches Handelsunternehmen für Dachstoffe und suchen für unseren Standort in der Wilhelmstraße 12, 21640 Horneburg einen Marketingmitarbeiter (m/w/d) in Teil- oder Vollzeit. Aufgaben Weiterentwicklung und Verantwortung des unternehmensweiten Marketingkonzeptes Grafische Gestaltung von Print- und Digitalprodukten wie Flyer, Präsentationen, Broschüren, Glückwunschkarten, Grafiken, Videos, Werbematerialien etc. Gestaltung unseres Online-Marketings (Social-Media Kanäle, Webseite, Intranet, Onlineshop) Planung und Durchführung von Kunden- und Firmenevents Or",
       "postedAt": "1782376234",
-      "foundAt": "2026-06-25T21:47:47.472883+00:00",
+      "foundAt": "2026-06-26T10:51:06.522645+00:00",
       "tags": [
         "Marketing and Communication"
       ],
@@ -85217,7 +86333,7 @@
       "salary": "No publicado",
       "description": "30 Urlaubstage, 38,5-Stunden-Woche mit frühem Feierabend am Freitag, Firmenfahrzeug, zusätzliches Urlaubs- und Weihnachtsgeld sowie ein fester Einsatzort in Abstatt oder Weissach ohne Reisetätigkeit – hier übernehmen Sie eigenverantwortlich die Baustellenkoordination direkt bei namhaften Kunden wie Porsche. Wer Baustellen nicht vom Schreibtisch aus verwalten, sondern als zentraler Ansprechpartner bei namhaften Kunden wie Bosch Verantwortung übernehmen möchte, findet hier die passende Aufgabe. Sie steuern SHK-Projekte direkt am Kundenstandort in Abstatt, koordinieren Monteure und Nachunternehme",
       "postedAt": "1782385232",
-      "foundAt": "2026-06-25T21:47:44.314227+00:00",
+      "foundAt": "2026-06-26T10:51:06.511044+00:00",
       "tags": [
         "Building",
         "Supply",
@@ -85239,9 +86355,29 @@
       "salary": "No publicado",
       "description": "Projektbeschreibung: Technologie begeistert Sie? Uns auch! Zur Verstärkung unseres Expertenteams bei unserem Kunden aus dem Bereich Defense & Security in Ottobrunn suchen wir einen Software Engineer (m/w/x) – Distributed Simulation & Interoperability in Festanstellung bei K-tronik. Wir freuen uns darauf, Sie persönlich kennen zu lernen - und gemeinsam mit Leidenschaft und Teamgeist an spannenden Projekten und zukunftsweisenden Technologien zu arbeiten. Aufgaben: Entwicklung und Integration von Komponenten verteilter Simulationssysteme - Konzeption und Umsetzung von Schnittstellen zwischen vers",
       "postedAt": "1782389438",
-      "foundAt": "2026-06-25T21:47:44.309455+00:00",
+      "foundAt": "2026-06-26T10:51:06.505186+00:00",
       "tags": [
         "Software Development"
+      ],
+      "locationPriority": "other",
+      "locationTier": 9,
+      "urlValid": true
+    },
+    {
+      "id": "bdd2b1a3806b",
+      "source": "arbeitnow",
+      "sourceUrl": "https://www.arbeitnow.com/jobs/companies/rutgers-gmbh-co-kg/leitung-marketing-head-of-marketing-growth-mannheim-67284",
+      "title": "Leitung Marketing / Head of Marketing & Growth (m/w/d)",
+      "company": "Rütgers GmbH & Co. KG",
+      "location": "Mannheim",
+      "remote": false,
+      "type": "FULL_TIME",
+      "salary": "No publicado",
+      "description": "Wir sind ein mittelständisches Familienunternehmen der Kälte-, Klima- und Wärmetechnik mit rund 160 Mitarbeitenden, einem Jahresumsatz von ca. 30 Mio. Euro und neun Standorten in Deutschland. Das Fachhandwerk prägt unsere Unternehmenskultur ebenso wie unser Anspruch an technische Kompetenz, Verlässlichkeit und Kundennähe. Mit unseren Leistungen in den Bereichen Service, Wartung, technische Abwicklung, Neuanlagen und Vertrieb begleiten wir Kunden im B2B- und B2C-Umfeld. Für die nächste Entwicklungsphase unseres Unternehmens suchen wir eine erfahrene Führungspersönlichkeit, die den Marketingbere",
+      "postedAt": "1782466248",
+      "foundAt": "2026-06-26T10:51:03.430473+00:00",
+      "tags": [
+        "Marketing and Communication"
       ],
       "locationPriority": "other",
       "locationTier": 9,
