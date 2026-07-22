@@ -2,29 +2,6 @@
   {
     "status": "complete",
     "progress": 100,
-    "syncId": "20260607-104030",
-    "lastSync": "2026-06-07T10:40:30.930536+00:00",
-    "batchSize": 500,
-    "maxAgeDays": 30,
-    "processed": 234,
-    "added": 38,
-    "updated": 57,
-    "deduped": 139,
-    "removed": 162,
-    "keptExisting": 5282,
-    "totalInDb": 5516,
-    "sources": [
-      "arbeitnow",
-      "computrabajo-cl",
-      "computrabajo-mx",
-      "infojobs",
-      "remotive"
-    ],
-    "message": "+38 nuevos, ~57 actualizados, =139 duplicados, -162 expirados → 5516 total"
-  },
-  {
-    "status": "complete",
-    "progress": 100,
     "syncId": "20260607-212817",
     "lastSync": "2026-06-07T21:28:17.369976+00:00",
     "batchSize": 500,
@@ -2032,5 +2009,27 @@
       "remotive"
     ],
     "message": "+73 nuevos, ~61 actualizados, =159 duplicados, -117 expirados → 3761 total"
+  },
+  {
+    "status": "complete",
+    "progress": 100,
+    "syncId": "20260722-103607",
+    "lastSync": "2026-07-22T10:36:07.378578+00:00",
+    "batchSize": 500,
+    "maxAgeDays": 30,
+    "processed": 265,
+    "added": 56,
+    "updated": 60,
+    "deduped": 149,
+    "removed": 1,
+    "keptExisting": 3551,
+    "totalInDb": 3816,
+    "sources": [
+      "arbeitnow",
+      "computrabajo-cl",
+      "infojobs",
+      "remotive"
+    ],
+    "message": "+56 nuevos, ~60 actualizados, =149 duplicados, -1 expirados → 3816 total"
   }
 ]
